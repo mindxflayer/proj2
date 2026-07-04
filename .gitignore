@@ -1,0 +1,48 @@
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── ML / data science ─────────────────────────────────
+# Keep classifier_model.joblib (current model) but ignore old versions
+data/classifier_model_v*.joblib
+
+# Regenerable outputs — run error_analysis.py to recreate
+data/misclassified_examples.json
+
+# Large generated train/test splits — regenerate with prepare_dataset.py
+# (comment out the lines below if you want to track them in git)
+# data/train.json
+# data/test.json
+
+# ── OS / editor artefacts ─────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ── IDEs ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── Node (if a build step is ever added) ──────────────
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# ── Chrome extension packaging ────────────────────────
+*.crx
+*.pem
+*.zip

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PasteGuard — Security Dashboard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #111827;
+            color: #e5e7eb;
+            font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+            padding: 16px;
+            width: 480px;
+            min-height: 200px;
+        }
+
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 18px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid #1f2937;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+        }
+
+        h1 {
+            color: #f9fafb;
+            font-size: 1.05rem;
+            font-weight: 700;
+            letter-spacing: 0.01em;
+        }
+
+        h1 span {
+            color: #00d4b4;
+        }
+
+
+        .summary-cards {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+
+        .card {
+            background: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 10px;
+            padding: 14px 12px;
+            flex: 1;
+            text-align: center;
+            transition: border-color 0.2s;
+        }
+
+        .card:hover { border-color: #4b5563; }
+
+        .card.warning { border-color: #d97706; }
+        .card.block   { border-color: #ef4444; }
+
+        .card-value {
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1;
+            margin: 6px 0 4px;
+        }
+
+        .card-label {
+            font-size: 0.72rem;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            font-weight: 600;
+        }
+
+
+        .section-title {
+            font-size: 0.72rem;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            font-weight: 600;
+            margin-bottom: 8px;
+            margin-top: 2px;
+        }
+
+
+        .breakdown-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+
+        .breakdown-box {
+            background: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        .breakdown-box .section-title {
+            margin-bottom: 10px;
+        }
+
+        .breakdown-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 0;
+            border-bottom: 1px solid #1f2937;
+            font-size: 0.82rem;
+            gap: 8px;
+        }
+
+        .breakdown-row:last-child { border-bottom: none; }
+
+        .breakdown-name {
+            color: #d1d5db;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex: 1;
+        }
+
+        .breakdown-count {
+            color: #fff;
+            font-weight: 600;
+            flex-shrink: 0;
+            background: #374151;
+            padding: 1px 7px;
+            border-radius: 99px;
+            font-size: 0.75rem;
+        }
+
+
+        .table-wrapper {
+            margin-bottom: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.82rem;
+            background: #1f2937;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px 10px;
+            border-bottom: 1px solid #111827;
+        }
+
+        th {
+            background: #111827;
+            color: #6b7280;
+            font-weight: 600;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        tr:last-child td { border-bottom: none; }
+
+        td { color: #d1d5db; vertical-align: top; }
+
+        .category-tag {
+            display: inline-block;
+            background: #374151;
+            color: #9ca3af;
+            font-size: 0.68rem;
+            padding: 1px 5px;
+            border-radius: 4px;
+            margin-top: 2px;
+        }
+
+
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            color: #fff;
+            white-space: nowrap;
+        }
+
+        .tag-warn  { background: #d97706; }
+        .tag-block { background: #ef4444; }
+
+
+        .footer {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        #clearLogBtn {
+            background: #1f2937;
+            border: 1px solid #374151;
+            color: #9ca3af;
+            font-size: 0.78rem;
+            font-family: inherit;
+            padding: 6px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: border-color 0.18s, color 0.18s, background 0.18s;
+        }
+
+        #clearLogBtn:hover {
+            border-color: #ef4444;
+            color: #ef4444;
+            background: #1f1215;
+        }
+
+
+        .empty-state {
+            text-align: center;
+            color: #4b5563;
+            padding: 20px 0;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-left">
+            <span class="logo">🛡️</span>
+            <h1>Paste<span>Guard</span></h1>
+        </div>
+    </div>
+
+
+    <div class="summary-cards">
+        <div class="card">
+            <div class="card-label">Total</div>
+            <div class="card-value" id="totalCount">0</div>
+        </div>
+        <div class="card warning">
+            <div class="card-label">Warnings</div>
+            <div class="card-value" id="warnCount">0</div>
+        </div>
+        <div class="card block">
+            <div class="card-label">Blocked</div>
+            <div class="card-value" id="blockCount">0</div>
+        </div>
+    </div>
+
+
+    <div class="breakdown-grid">
+        <div class="breakdown-box">
+            <div class="section-title">Intent Categories</div>
+            <div id="intentBreakdown"></div>
+        </div>
+        <div class="breakdown-box">
+            <div class="section-title">Data Categories</div>
+            <div id="categoryBreakdown"></div>
+        </div>
+    </div>
+
+
+    <div class="section-title">Recent Detections (Last 10)</div>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Intent (Score)</th>
+                    <th>Detected</th>
+                    <th>Risk</th>
+                </tr>
+            </thead>
+            <tbody id="recentTableBody"></tbody>
+        </table>
+    </div>
+
+
+    <div class="footer">
+        <button id="clearLogBtn">Clear Log</button>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "sens_fin_001",
+    "text": "Quarter,Product Line,Region,Revenue USD,COGS USD,Gross Margin %,New Logos\nQ1-2026,Enterprise SaaS,NAM,4250000,850000,80.0%,14\nQ1-2026,Professional Services,NAM,620000,450000,27.4%,3\nQ1-2026,SMB self-serve,EMEA,1850000,120000,93.5%,87\nQ1-2026,Enterprise SaaS,EMEA,2100000,410000,80.5%,8\nQ1-2026,Professional Services,EMEA,310000,220000,29.0%,1\nQ1-2026,SMB self-serve,APAC,920000,75000,91.8%,45\nQ1-2026,Enterprise SaaS,APAC,1050000,210000,80.0%,4\nQ1-2026,Professional Services,APAC,150000,110000,26.7%,0\nTOTAL,All Lines,Global,11250000,2440000,78.3%,162",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_002",
+    "text": "Slack message from @cfo to @head-of-people:\n\"Hey, for the new VP of Engineering offer at BioCrest, let's cap the base at $245,000. If we need to sweeten the deal to close them, we can increase the equity sign-on grant by 15,000 shares but we can't push the cash base any higher without board approval.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_003",
+    "text": "CloudPulse Budget Review Notes - FY2026 Q2\nDate: Feb 10, 2026 | Attendees: Mark (CEO), Sandra (CFO), Priya (CTO)\n\nKey Takeaways & Forecast Updates:\n- Infra hosting expenses: Pacing at $120k/month against the $100k budget due to high database compute load on new analytics tier. Priya is looking to optimize database queries by end of March.\n- Marketing budget: Approved addition of $30,000 for the April developer conference sponsorship, offset by cutting $30,000 from digital search ads.\n- Headcount: Approved hiring 2 Senior Devs and 1 Technical Writer in Q3. Paused the proposed hiring of the QA specialist until Q4.\n- Travel & Entertainment: Q1 was over-budget by $12,000 due to offsite expenses. Explicit approval is now required for travel over $1,500.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_004",
+    "text": "| target | arr | asking | status |\n|---|---|---|---|\n| TechCorp | $3.4M | $18M | Active negotiations |\n| DevStudio | $1.2M | $5M | Initial proposal sent |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_005",
+    "text": "Excerpt from EcoSphere Annual Investor Report:\nDuring the fiscal year ended December 31, 2025, the company successfully raised $15 million in a Series B round of financing, bringing total capital raised to date to $24.2 million. The proceeds are being deployed to accelerate the development of our enterprise ledger technology and expand our field sales force in North America. Cash and cash equivalents at the end of the year were $11.8 million, compared to $4.2 million in the prior year. Revenue grew to $14.1 million, an increase of 52%, while our net operating loss expanded slightly from $3.2 million to $3.8 million, in line with our growth plans.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_006",
+    "text": "Metric,Actual Q1,Forecast Q2\nMonthly Gross Burn,$820,000,$910,000\nMonthly Net Burn,$430,000,$480,000\nCash Runway (Months),14.2,12.8",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_007",
+    "text": "To: tech-leads@geogrid.com\nFrom: cto@geogrid.com\nSubject: Cost Optimization: AWS and SaaS Spend Audit\n\nHey Team,\n\nWe need to trim our infrastructure and tools spend. Last month's AWS bill hit $58,000, up from our $42,000 average. This is primarily due to unoptimized S3 storage access patterns and idle QA environments.\n\nAction items for the next two weeks:\n1. Spin down all staging database replicas when not in active use.\n2. Audit our software subscriptions. Do we really need both Datadog ($8k/mo) and New Relic ($4k/mo)? Let's consolidate onto Datadog and terminate the New Relic subscription.\n3. Slack licenses: Please deactivate any guest accounts that have been inactive for over 30 days ($12/user adds up).\n\nLet's review these optimizations during our engineering meeting on Tuesday.\n\nThanks,\nPriya",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_008",
+    "text": "Notes from Weekly Revenue Sync:\n- HelixWeb current ARR is $18.4M, targeting $20M by Q3.\n- Expansion bookings are up 12%, but new logo velocity slowed by 8%.\n- Focus for next week: Unblocking the $200k Pipeline deals.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_009",
+    "text": "### IntelSync Q1 Salary Adjustments & Promotion Log\n\n| Name | Previous Title | New Title | Old Base | New Base | Equity Refresh |\n|---|---|---|---|---|---|\n| Marcus Vance | Engineering Mgr | Director of Engineering | $185,000 | $215,000 | 12,000 options |\n| Emily Wong | Product Designer I | Product Designer II | $105,000 | $120,000 | 4,000 options |\n| Sam Harris | Customer Support | Support Team Lead | $72,000 | $84,000 | 2,000 options |\n| Fiona Gallagher | Senior Software Eng | Staff Software Eng | $160,000 | $182,000 | 8,000 options |\n| Tony Stark | Research Fellow | Lead Scientist | $200,000 | $230,000 | 15,000 options |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_010",
+    "text": "Excerpt from Internal Budget Statement:\nThe projected SG&A expenses for JoltLogistics in Q4 are $1.12M, compared to $980k in Q3. The increase is driven by seasonal sales commission payouts and end-of-year audit and consulting fees.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_011",
+    "text": "Target Company,Status,Proposed Valuation,Multiple (LTM Revenue),Cash Portion %,Stock Portion %\nNovaTech,Under LOI,18500000,5.8x,60%,40%\nAetherSoft,Due Diligence,12000000,4.2x,50%,50%\nWebCore,Initial Outreach,6500000,3.5x,100%,0%\nSaaSLink,Declined Offer,24000000,7.1x,40%,60%\nDevFlow,Negotiations,8800000,4.0x,70%,30%",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_012",
+    "text": "Slack message from @cfo to @ceo:\n\"Here are the updated investor deck numbers for LuminaTech. We have updated slide 8 to show our LTM ARR of $12.4M and net burn reduced to $250k. These metrics look significantly cleaner for the venture partners we are pitching next week.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_013",
+    "text": "MatrixCloud Exec Meeting Notes: Runway & Capital Raise Strategy\nDate: Nov 12, 2025 | Attendees: Jack (CEO), Ellen (CFO), Dave (VP Sales)\n\nKey Discussion Points:\n- Ellen presented the runway forecast. Current cash balance is $3.2M. With a net burn of $280k/month, our cash runway extends to October 2026 (11 months remaining).\n- The executive team agreed that we must launch fundraising for our Series A by March 2026 to ensure we close the round before our cash balance falls below $1.5M (the standard 6-month safety margin).\n- Sales targets: If Dave's team can close the $80k pipeline deals by January, net burn will drop to $220k, extending runway by an additional 2 months.\n- Decisions: Approved $15k cost reduction in software subscription tools.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_014",
+    "text": "| Vendor | Purpose | Monthly Cost |\n|---|---|---|\n| GCP | Firebase databases | $12,500 |\n| Zoom | Virtual meetings | $2,100 |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_015",
+    "text": "Excerpt from OmniLogic Q3 FY2025 Financial Performance Report:\nOur core subscription revenue grew by $1.2M, or 8.4%, compared to the previous quarter. The primary driver was strong adoption of our multi-cloud deployment option, which accounted for 64% of all new bookings. However, our professional services revenue declined by 11.2% as we transitioned more customer onboarding to certified third-party channel partners. This shift has successfully improved our overall gross margin from 72.5% to 75.8%, offsetting the slight decline in services billing. We project Q4 GAAP revenue will be between $15.5M and $16.2M.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_016",
+    "text": "Name,Role,Monthly Base Salary,Equity RSUs\nSarah Jenkins,Lead Frontend Dev,12500,4500\nMark Zuckerberg,Backend Eng II,10500,1800\nDavid Lee,DevOps Specialist,11500,3200",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_017",
+    "text": "To: department-leads@quantumfin.com\nFrom: cfo@quantumfin.com\nSubject: Urgent: FY2026 Q3 Budget Adjustments & Headcount Freeze\n\nHi Everyone,\n\nFollowing our Board meeting last week, we are adjusting our Q3 forecast. Because our Q2 subscription revenue missed targets by 8%, we must reduce operational expenditures by $600k overall to maintain our cash runway targets. \n\nEffective immediately:\n1. We are instituting a selective headcount freeze on all non-engineering roles. All open sales and marketing requisitions are paused.\n2. Engineering travel budgets are reduced by 50% for the rest of the year.\n3. All software subscription purchases above $5,000 require CFO sign-off.\n\nPlease review your department sheets and send me your revised expense forecasts by Friday 4 PM.\n\nBest,\nRobert Vance",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_018",
+    "text": "M&A Update (Project Phoenix):\n- Board approved proceeding with Project Phoenix LOI.\n- Bid price: $14.2M (40% cash, 60% equity).\n- Due diligence period set for 45 days starting Monday.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_019",
+    "text": "### SolarNexus Cap Table (Post Series B Share Class Breakdown)\n\n| Shareholder Class | Share Count | Price per Share | Total Capital Raised | Ownership % |\n|---|---|---|---|---|\n| Founders Common | 8,000,000 | $0.01 | $80,000 | 44.4% |\n| Seed Preferred | 2,500,000 | $1.20 | $3,000,000 | 13.9% |\n| Series A Preferred | 4,200,000 | $2.85 | $11,970,000 | 23.3% |\n| Series B Preferred | 2,100,000 | $7.15 | $15,015,000 | 11.7% |\n| Allocated Options | 850,000 | - | - | 4.7% |\n| Unallocated Option Pool | 350,000 | - | - | 2.0% |\n| **Total** | **18,000,000** | - | **$30,065,000** | **100.0%** |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_020",
+    "text": "Excerpt from Treasury Management Review:\nBased on current projections, TerraByte will reach a cash-critical stage (less than 3 months of runway) in September 2026 unless operating expenses are reduced by 20% or a capital injection is secured.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_021",
+    "text": "Cost Category,Sub-category,Vendor,Monthly Cost USD,Billing Frequency,Owner\nInfrastructure,Cloud Hosting,AWS,45000,Monthly,Priya (CTO)\nInfrastructure,Database,MongoDB Atlas,12000,Monthly,Priya (CTO)\nSaaS Tools,CRM,Salesforce,18000,Annual,Dave (VP Sales)\nSaaS Tools,HRIS,Rippling,3500,Monthly,Linda (HR)\nSaaS Tools,Product Analytics,Mixpanel,6200,Monthly,Elena (Product)\nSaaS Tools,Error Monitoring,Sentry,1800,Monthly,Priya (CTO)\nOperations,Office Rent,WeWork SF,15000,Monthly,Robert (CFO)\nOperations,Legal Fees,Cooley LLP,22000,Hourly,Robert (CFO)",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_022",
+    "text": "Slack message from @dave (Sales VP) to @leadership:\n\"Quick heads up: We just closed the WaveLength deal at $145k ARR! This brings our Q2 total to $3.45M, pushing us past our stretch target of $3.3M with 3 days left in the quarter. Awesome push team!\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_023",
+    "text": "XenonSoft Compensation Committee Notes - March 18, 2026\nParticipants: Jane Doe (CEO), Robert Chen (CFO), Linda Blair (Head of HR)\n\nDecisions & Actions:\n- Approved standard 4.2% cost-of-living adjustment (COLA) across all staff, effective next payroll cycle.\n- Discussed retention risk for senior engineering staff. Resolved to issue a secondary equity refresh grant of 5,000 options to all Senior and Staff Engineers who have been at the company for >2 years.\n- Approved target bonus payouts for Q4: Product team at 95% achievement, Engineering at 100%, and Marketing at 85%.\n- Compensation adjustment for CTO: Base increased from $260,000 to $285,000; equity grant of 40,000 RSUs approved.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_024",
+    "text": "| Expense Type | Q3 Allocation | Notes |\n|---|---|---|\n| Payroll | $1.85M | Primary cash driver |\n| Server Costs | $320k | Fixed + Variable load |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_025",
+    "text": "Excerpt from ApexCore Corporate Development Strategy Document:\nTo accelerate our entry into the enterprise database management segment, we evaluated three potential acquisition candidates. The leading candidate, ApexData, has a strong presence in the financial services sector with 42 enterprise accounts. Their current financial position shows an ARR of $5.4M with a gross margin of 78%. Operating margins are negative due to high sales expenses. Acquiring ApexData at a projected valuation of $28M would give us immediate access to their sales channel and enable cost synergies of approximately $1.5M in annual redundant G&A expenses. The transaction would be accretive to cash flow within 18 months.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_026",
+    "text": "Round,Capital Raised,Post-Money Valuation,Date\nSeed,$1,200,000,$6,000,000,Jun-23\nSeries A,$8,500,000,$35,000,000,Dec-24\nSeries B,$15,000,000,$85,000,000,Mar-26",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_027",
+    "text": "From: CFO Office <finance@coralnet.com>\nTo: Board Executive Committee <board-exec@coralnet.com>\nSubject: Cash Runway and Burn Rate Analysis - Q2 Update\n\nDear Board Members,\n\nWe have updated our cash forecast modeling based on our current net burn. As of May 31, our bank cash balance stands at $4,850,000. \n\nAnalysis details:\n- Average Gross Burn (L3M): $620k/month (primarily payroll of $450k and hosting of $90k)\n- Average Net Burn (L3M): $380k/month\n- Implied Runway: 12.8 months (Cash Zero date: mid-June 2027)\n\nWe are monitoring cash reserves closely. If sales bookings in June fall below the $400k target, we will trigger our Tier 1 contingency plan, reducing monthly software spend by $25k and freezing open support engineer headcount to stretch runway to 14.5 months.\n\nBest regards,\nSarah Jenkins",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_028",
+    "text": "Cost Sync Snippet:\n- Total monthly SaaS tools bill for DeltaPhase is $78,500.\n- Top 3 vendors: Salesforce ($22k), Snowflake ($18k), Datadog ($11k).\n- Target: Reduce total SaaS spend by 10% by Q3.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_029",
+    "text": "### EchoWeb Revenue Projections FY2026\n\n| Category | Q1 (Actual) | Q2 (Forecast) | Q3 (Forecast) | Q4 (Forecast) | Full Year |\n|---|---|---|---|---|---|\n| Core SaaS ARR | $12,450,000 | $13,800,000 | $15,100,000 | $16,900,000 | $16,900,000 |\n| Transaction Fees | $450,000 | $490,000 | $530,000 | $580,000 | $2,050,000 |\n| Custom Integrations | $300,000 | $250,000 | $200,000 | $150,000 | $900,000 |\n| **Gross Revenue** | **$13,200,000** | **$14,540,000** | **$15,830,000** | **$17,630,000** | **$61,200,000** |\n| Cost of Revenue | $2,100,000 | $2,300,000 | $2,450,000 | $2,600,000 | $9,450,000 |\n| **Net Revenue** | **$11,100,000** | **$12,240,000** | **$13,380,000** | **$15,030,000** | **$51,750,000** |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_030",
+    "text": "Excerpt from Compensation Benchmark Analysis:\nCompared to tech peers, FrontierBio median base salaries are in the 65th percentile, with engineers receiving an average base of $162,000. Executive base compensation is slightly below peer averages but carries higher variable equity performance multipliers.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_031",
+    "text": "Department,Q1 Budget,Q1 Actual,Q2 Budget,Q2 Forecast,Q3 Target,Q4 Target\nEngineering,1850000,1920000,2100000,2150000,2300000,2500000\nProduct & Design,450000,430000,500000,480000,520000,550000\nSales & Marketing,1200000,1280000,1450000,1520000,1600000,1800000\nGeneral & Admin,650000,620000,700000,680000,720000,750000\nHosting & Infra,850000,910000,980000,1050000,1100000,1200000\nTOTAL,5000000,5160000,5730000,5880000,6240000,6800000",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_032",
+    "text": "Slack message from @cfo to @ceo:\n\"Due diligence on the ByteSize team is progressing well. However, their debt level is higher than they initially disclosed \u2014 they have $1.2M in outstanding venture debt. We should adjust our cash purchase price down to reflect this liability.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_033",
+    "text": "IgnitePay Board of Directors Meeting Notes\nDate: January 20, 2026 | Location: Zoom\n\nSummary of Board Resolutions:\n1. Series B Closing: Officially closed $12M Series B round led by Sequoia Capital, with participation from Founders Fund. Post-money valuation is set at $72M.\n2. Option Pool Expansion: Approved expanding the employee stock option pool by 1,200,000 shares (equivalent to 4.5% of outstanding shares) to cover engineering hiring targets.\n3. 2026 Financial Plan: Approved CFO's operating budget of $22M with a net cash burn limit of $5.2M for the year.\n4. Next Board Call: Scheduled for April 22, 2026.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_034",
+    "text": "| Metric | Value | Comment |\n|---|---|---|\n| Cash Balance | $8.9M | Healthy runway |\n| Monthly Burn | $450k | Mainly personnel spend |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_035",
+    "text": "Excerpt from KineticIT Q1 Expense and Vendor Audit Report:\nTotal non-personnel operating expenses for the quarter ended March 31, 2026, were $1,840,000. Infrastructure hosting represented the single largest vendor category, accounting for 38% of total non-personnel spend ($700,000), followed by marketing technology tools at 22% ($405,000). Legal and professional consulting fees increased by 15% due to the pending intellectual property audit. The optimization efforts initiated in January resulted in a $42,000 reduction in monthly software utility overhead, primarily through the elimination of redundant project management tools. We will continue our review of database hosting environments in Q2.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_036",
+    "text": "Month,SaaS Revenue,Growth Rate,Churn Rate\nJan-26,$890,450,+4.2%,1.2%\nFeb-26,$924,180,+3.8%,1.1%\nMar-26,$965,300,+4.5%,0.9%",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_037",
+    "text": "Hi HR Team,\n\nPlease prepare the offer letter packages for the following candidates joining MicroSync next month. All figures have been pre-approved by the compensation committee:\n\n1. Candidate: Michael Chang\n   - Role: Principal Security Engineer\n   - Base Salary: $195,000/year (exempt)\n   - Sign-on Bonus: $15,000 cash\n   - Equity: 22,000 stock options (4-year vesting, 1-year cliff)\n\n2. Candidate: Jessica Moreno\n   - Role: Senior Product Marketing Manager\n   - Base Salary: $160,000/year\n   - Target Bonus: 12% annual performance-based\n   - Equity: 10,000 stock options\n\nPlease send out via DocuSign today.\n\nThanks,\nAlice Vance, VP People",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_038",
+    "text": "Budget Committee Meeting Summary:\n- NebulaNet Q3 operating budget finalized at $2.4M.\n- AWS hosting cap set to $85k/month.\n- Discretionary spending cut by 15% across all teams.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_039",
+    "text": "### OrbitData Strategic Targets Pipeline (FY2026)\n\n| Target Project | LTM ARR | Asking Price | Proposed Multiple | Current Stage | Notes |\n|---|---|---|---|---|---|\n| Project Alpha | $1,800,000 | $9,000,000 | 5.0x | Under LOI | Technical diligence begins |\n| Project Gamma | $4,500,000 | $25,000,000 | 5.5x | Discussion | Valuation mismatch |\n| Project Delta | $850,000 | $3,500,000 | 4.1x | Due Diligence | Checking customer churn |\n| Project Beta | $2,400,000 | $11,000,000 | 4.6x | Initial Outreach | Founder open to merger |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_040",
+    "text": "Excerpt from Internal Deck Notes:\nThe cap table shows that PrismPay founders retain a combined 52.4% voting control of the company on a fully-diluted basis, maintaining veto rights on any acquisition bid under $100M.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_041",
+    "text": "Month,Beginning Cash USD,Gross Burn USD,Monthly Revenue USD,Net Burn USD,Ending Cash USD,Runway Months\nJan-26,8250000,750000,410000,340000,7910000,23.3\nFeb-26,7910000,770000,430000,340000,7570000,22.3\nMar-26,7570000,820000,420000,400000,7170000,17.9\nApr-26,7170000,800000,450000,350000,6820000,19.5\nMay-26,6820000,840000,480000,360000,6460000,17.9\nJun-26,6460000,880000,510000,370000,6090000,16.5",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_042",
+    "text": "Slack message from @cfo to @it-lead:\n\"Hey, please check our Salesforce contract billing. The invoice for Q2 came in at $48,000, which is $10k higher than Q1. Did we add new seat licenses, or did our promotional discount expire? We need to verify before paying this invoice.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_043",
+    "text": "StellarLabs Internal Meeting Notes: Q2 Revenue Review\nDate: May 12, 2026 | Facilitator: John Smith (CEO)\n\nDiscussion Highlights:\n1. Revenue Performance: We are pacing at $4.2M GAAP revenue for the quarter. This is a 5% deficit against the plan of $4.42M. The main deficit is in EMEA sales, which missed target by 18%.\n2. Renewal Pipeline: Core customer net retention is at 104% (down from 106% last quarter). Enterprise renewals for Q3 look solid except for ApexCorp, which is consolidating vendors.\n3. ASP (Average Selling Price): ASP rose to $24,500/year, up from $22,000, helped by the new advanced analytics add-on module.\n4. Action Items:\n   - Sales team to run an expansion campaign for accounts paying <$10k/yr.\n   - Dev team to fix the Enterprise single-sign-on bug that delayed the $300k contract closing.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_044",
+    "text": "| Level | Base Salary Range | Target Equity Grant |\n|---|---|---|\n| IC4 (Senior Eng) | $150k - $180k | 12,000 - 20,000 units |\n| IC5 (Staff Eng) | $185k - $210k | 25,000 - 38,000 units |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_045",
+    "text": "Excerpt from UnityFin FY2026 Strategic Plan & Budgetary Forecast:\nFor the upcoming fiscal year, our operating model assumes a base-case revenue growth of 30%, which allows for an operational expense budget of $18.5M. In this scenario, we maintain positive cash flow from operations by Q3. Under the pessimistic case (15% growth), we will implement a trigger-based expense reduction program to shave $2.2M off the budget. This will involve delaying our planned physical office expansion in London and moving support functions to a contractor model. The R&D budget is prioritized and will remain at a minimum of $4.5M to ensure key product milestones are met.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_046",
+    "text": "Target,Valuation Range,Tech Fit,Lead Negotiator\nVoxelSoft,$12M - $15M,High,Mark Adams\nPulseEng,$4M - $6M,Medium,Sarah Connor",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_047",
+    "text": "To: series-b-investors@warpspeed.com\nFrom: ceo@warpspeed.com\nSubject: CONFIDENTIAL: WarpSpeed Q1 2026 Investor Update & Board Pack\n\nDear Investors,\n\nPlease find attached our Q1 Board Package and Cap Table update ahead of our meeting on April 15th.\n\nKey Metrics Overview:\n- Net New ARR: Added $1.4M in Q1, ending the quarter at $16.2M ARR (up 38% YoY).\n- Burn Rate: Gross burn was $850k/month, net burn was $420k/month. Cash on hand is $14.2M, giving us 33 months of runway.\n- Net Retention Rate (NRR): Stabilized at 108%, up from 105% in Q4.\n\nWe are initiating discussions for our Series C financing round in late Q3, targeting a raise of $25M at a target post-money valuation of $180M. We would love to get your initial feedback on this plan.\n\nBest regards,\nArthur Pendragon, CEO",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_048",
+    "text": "Runway Meeting Snippet:\n- XyloMedia cash on hand: $2.4M.\n- Net burn: $210k/month.\n- Zero-cash date: May 2027.\n- Plan: Initiate fundraising pitches in November.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_049",
+    "text": "### ZephyrCloud Infrastructure and Tools Monthly Spend Breakdown\n\n| Category | Service Provider | Monthly Cost | Owner | Action Item |\n|---|---|---|---|---|\n| Cloud Hosting | AWS | $42,500 | VP Engineering | Move to reserved instances |\n| Monitoring | Datadog | $9,200 | DevOps Lead | Optimize custom metrics load |\n| Version Control | GitHub | $3,100 | VP Engineering | Audit unused seat accounts |\n| Marketing CRM | HubSpot | $12,400 | VP Marketing | Contract renewal in August |\n| Collaboration | Slack | $4,800 | IT Administrator | Remove guest accounts |\n| Office Internet | Comcast Business | $850 | Office Manager | Standard billing |\n| **Total Software/Infra** | - | **$72,850** | - | - |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_050",
+    "text": "Financial Report Excerpt (Confidential):\nTotal Revenue for AlterraBio in FY2025 rose to $24.85M, compared with $19.40M in FY2024. This growth was driven by a 34% increase in active accounts, partially offset by a 3% contraction in net dollar retention.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_051",
+    "text": "Employee ID,Name,Title,Department,Base Salary,Target Bonus %,Equity Grant (Options),Location\nEMP-092,Rachel Adams,Director of Engineering,Engineering,215000,15,45000,San Francisco\nEMP-104,Vijay Patel,Staff Software Engineer,Engineering,185000,10,25000,Remote US\nEMP-115,Clara Oswald,Senior Product Designer,Product,155000,10,18000,New York\nEMP-143,Leo Fitz,VP Product Management,Product,235000,20,75000,San Francisco\nEMP-021,Grant Ward,VP Global Sales,Sales,165000,100,50000,Chicago\nEMP-088,Melinda May,Senior Account Executive,Sales,110000,100,15000,Boston\nEMP-302,Jemma Simmons,Principal Scientist,R&D,195000,12,35000,Seattle\nEMP-111,Phil Coulson,Chief Operations Officer,Ops,245000,25,120000,San Francisco",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_052",
+    "text": "Slack from @robert (CFO) to @vp-marketing:\n\"Hey, our Google Ads spend target for next quarter is capped at $45,000/month. We cannot approve the extra $15k requested because our customer acquisition cost (CAC) payback period is stretching beyond 14 months, which the Board wants us to compress.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_053",
+    "text": "DuoLogic M&A Steering Committee Meeting Notes\nDate: April 3, 2026 | Project Code: Project Crimson\n\nMeeting Notes & Actions:\n- Due Diligence updates: Tech audit of Target was positive; their codebase is modern React/Node.js with clean API docs. However, their security compliance is lacking SOC 2, which will take us ~6 months to remediate post-acquisition.\n- Financial Audit: Target revenue is verified at $2.1M ARR. However, customer churn is high (15% annual), primarily due to poor customer success coverage. We believe we can plug this into our customer success engine to stabilize retention.\n- Integration Plan: Target's 14 developers will report to VP of Engineering. Founders will stay on for a 12-month transition period.\n- Next Steps: Robert to draft formal Letter of Intent (LOI) at $9.5M total valuation.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_054",
+    "text": "| Investor Group | Round | Capital | Ownership |\n|---|---|---|---|\n| Matrix Capital | Series A | $6.2M | 18.5% |\n| Founders Fund | Series B | $4.0M | 5.2% |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_055",
+    "text": "Excerpt from FutureForge Q4 Audit & Liquidity Report:\nAs of December 31, 2025, our liquid assets consisted of cash in operating banks and highly liquid cash-equivalents totaling $9,420,000. In 2025, the company's average monthly cash outflow was $840,000, offset by customer receipts of $490,000, resulting in an average monthly net cash consumption of $350,000. Under our current operating model, which includes the onboarding of 6 additional engineers in Q1, we expect the net monthly burn rate to increase to $410,000, resulting in a cash runway of approximately 23 months. Capital management continues to prioritize maintaining a minimum 12-month runway.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_056",
+    "text": "Vendor,Services,Cost,Owner\nAmazon AWS,Hosting,$38,000,VP Eng\nGoogle Workspace,Email/Docs,$4,200,IT Admin\nSlack,Communication,$3,800,IT Admin",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_057",
+    "text": "From: CFO Office <cfo@hydranet.com>\nTo: Board of Directors <board@hydranet.com>\nSubject: Q4 Revenue Recon and Preliminary FY2025 Close\n\nDear Board Members,\n\nWe have finalized our preliminary revenue reconciliation for Q4 2025. Total revenue came in at $8.95M, representing a 14% increase year-over-year. Here is the segment breakdown:\n- Subscription Software: $7.20M (ARR now stands at $28.8M)\n- Professional Implementation: $1.15M\n- Managed Security Add-on: $600k (growth of 35% QoQ)\n\nOperating margins expanded to 22.4%, driven by lower hosting optimization costs. Note that the $450k deferred revenue from the Zenith contract has been pushed to Q1 2026 due to delivery milestone delays.\n\nPlease let me know if you have any questions ahead of our board call on Thursday.\n\nBest regards,\nMelissa Vance, VP Finance",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_058",
+    "text": "Meeting Minutes Snippet (Promo Board):\nApproved promotion of Alan Turing to Principal Data Scientist at InfinityData.\n- New base salary: $210,000 (representing a 12% increase)\n- Additional equity: 8,000 stock options\n- Effective date: July 1, 2026.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_059",
+    "text": "### KodiakSystems Department Cost Projections (H2 FY2026)\n\n| Cost Center | Q3 Forecast | Q3 Actuals | Q4 Forecast | Variance |\n|---|---|---|---|---|\n| Engineering Salaries | $1,250,000 | $1,242,000 | $1,380,000 | -$8,000 |\n| Contractor Fees | $210,000 | $235,000 | $180,000 | +$25,000 |\n| SaaS Subscriptions | $85,000 | $92,000 | $88,000 | +$7,000 |\n| Cloud Hosting | $290,000 | $315,000 | $330,000 | +$25,000 |\n| Office Expenses | $45,000 | $40,000 | $45,000 | -$5,000 |\n| **Total Ops Spend** | **$1,880,000** | **$1,924,000** | **$2,023,000** | **+$44,000** |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_060",
+    "text": "Excerpt from M&A Feasibility Report:\nAn acquisition of CloudLabs by LunarFin at the proposed $11.5M valuation is expected to add $2.8M in ARR and bring 15 senior staff members. Synergies include consolidating AWS hosting environments.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_061",
+    "text": "Investor,Share Type,Shares Held,Investment Cost USD,Current Value USD,Ownership %\nVanguard Capital,Series A Preferred,4200000,6000000,18900000,21.5%\nHorizon Ventures,Series B Preferred,3100000,9000000,13950000,15.8%\nJane Doe (Founder),Common Stock,6500000,65000,29250000,33.2%\nSam Smith (Co-founder),Common Stock,4500000,45000,20250000,23.0%\nEmployee Option Pool,Common Pool,1250000,-,5625000,6.5%\nTOTAL,All Shares,19550000,15110000,87975000,100.0%",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_062",
+    "text": "Slack message from @cfo to @ceo:\n\"Our net burn for March was $420k, which is slightly above our $380k target due to that one-time payment for the office lease security deposit. Cash balance is $6.1M, giving us about 14.5 months of runway. We need to watch hiring speed next month.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_063",
+    "text": "OctaneCore SaaS Tools and Infrastructure Audit Notes\nDate: March 5, 2026 | Facilitator: CFO Robert Chen\n\nDiscussion Summary:\n- AWS bill review: The monthly cost rose to $52,000, driven by the new machine learning training cluster. It was agreed that training jobs must only run on Spot instances, which will reduce costs by 60%.\n- Customer Success software: Reevaluated Zendesk vs Intercom. Decided to consolidate support on Zendesk, saving $2,200/month in licensing fees by cancelling Intercom.\n- Office space costs: Discussed subletting 30% of our SF office space since 40% of our local employees are now hybrid/remote, targeting $8,000 in monthly rent savings.\n- Travel budget: Q1 sales travel came in at $45,000. Re-emphasized that internal client meetings should be virtual where possible.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_064",
+    "text": "| Segment | Revenue | Growth QoQ |\n|---|---|---|\n| North America SaaS | $3.2M | +12.4% |\n| International SaaS | $1.4M | +4.1% |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_065",
+    "text": "Excerpt from QuartzLink Q2 HR Audit and Payroll Reconciliation Report:\nTotal salaries and wages expense for the quarter was $4,850,200, an increase of 14% over Q1. This was primarily driven by the hiring of 12 new engineers in the Lisbon hub and 3 enterprise sales representatives in the US. Average fully-loaded cost per employee (including health benefits, employer payroll taxes, and office equipment) has increased to $165,000 annually. Equity compensation expense under ASC 718 was calculated at $890,000 for the quarter, reflecting the new option grants issued during the January hiring cycle. We expect payroll cost growth to moderate to 3% in Q3.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_066",
+    "text": "Expense Category,FY2026 Budget,FY2026 Forecast\nPersonnel Salaries,14800000,15200000\nAWS Hosting,3200000,3650000\nOffice Rentals,840000,810000",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_067",
+    "text": "Subject: CONFIDENTIAL: Acquisition Term Sheet Review - SynapseSoft & NovaLink\nFrom: CEO Office <ceo@synapsesoft.com>\nTo: Board Strategic Committee <strat-board@synapsesoft.com>\n\nHi Everyone,\n\nWe have received the revised term sheet from NovaLink's bankers. They have rejected our initial offer of $14.5M and are holding firm at a $16.8M valuation, which represents a 5.2x multiple on their LTM ARR of $3.2M.\n\nKey deal components under discussion:\n- $10.0M cash at close (funded from our Series B treasury)\n- $6.8M in SynapseSoft common stock (valued at our last valuation price of $14.20/share)\n- 15% earn-out over 2 years for the founders, tied to renewing 90% of their current Enterprise book.\n\nWe need to decide if we want to stretch our valuation by $2.3M or walk away. Let's schedule a call for tomorrow at 9 AM to finalize our stance.\n\nRegards,\nDavid Lee, CEO",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_068",
+    "text": "Board Meeting Snippet (Series B prep):\n- Discussed capital requirements. Resolved to target $15M raise at $80M pre-money.\n- Set investor pitch dates for mid-September.\n- CFO to prepare cap table scenarios showing 15-20% dilution.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_069",
+    "text": "### UltimaHealth Net Burn and Cash Runway Projections (2026)\n\n| Month | Beginning Cash | Revenue | Gross Expenses | Net Burn | Ending Cash | Runway (Months) |\n|---|---|---|---|---|---|---|\n| Jan 2026 | $5,200,000 | $220,000 | $580,000 | $360,000 | $4,840,000 | 13.4 |\n| Feb 2026 | $4,840,000 | $240,000 | $590,000 | $350,000 | $4,490,000 | 12.8 |\n| Mar 2026 | $4,490,000 | $260,000 | $610,000 | $350,000 | $4,140,000 | 11.8 |\n| Apr 2026 | $4,140,000 | $290,000 | $640,000 | $350,000 | $3,790,000 | 10.8 |\n| May 2026 | $3,790,000 | $310,000 | $650,000 | $340,000 | $3,450,000 | 10.1 |\n| Jun 2026 | $3,450,000 | $340,000 | $680,000 | $340,000 | $3,110,000 | 9.1 |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_070",
+    "text": "Excerpt from Expense Policy Review:\nThe audit reveals that travel expenses at VelocityPay account for 12% of total operational burn, exceeding the board guidelines. A revised travel pre-approval workflow will be implemented starting next week.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_071",
+    "text": "MRR Segment,Basic Plan ($29/mo),Pro Plan ($99/mo),Enterprise Plan ($499/mo)\nSelf-Serve (Global),124500,285600,0\nSales Assisted (NAM),1200,45800,685000\nSales Assisted (EMEA),500,21200,412000\nPartner Referrals,8400,18500,124000\nGross MRR,134600,371100,1221000\nLTM Growth,12.4%,28.1%,44.8%",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_072",
+    "text": "Slack message from @jessica (Sales Coordinator):\n\"FYI leadership team, the final invoice for the Zetabyte Enterprise pilot has been paid. The total amount was $45,800, which includes the $15k one-time migration fee. This will be booked as Q3 revenue.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_073",
+    "text": "AgileFlow Executive Meeting Minutes - Expansion Revenue Analysis\nWe reviewed the migration program of legacy users on the $19/mo plan. As of March 1st, 450 accounts migrated to the new $39/mo plan, representing a net MRR expansion of $9,000. However, 42 accounts churned during the migration, causing a churn offset of $798. Overall, the migration program is highly successful with a Net ARR gain of $98,400 annualized.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_074",
+    "text": "### BeaconBio Five-Year ARR Projections (Target Cases)\n\n| Growth Scenario | FY2026 | FY2027 | FY2028 | FY2029 | FY2030 |\n|---|---|---|---|---|---|\n| Base Growth (35% CAGR) | $16.5M | $22.2M | $30.0M | $40.5M | $54.7M |\n| Aggressive (50% CAGR) | $18.3M | $27.5M | $41.2M | $61.8M | $92.7M |\n| Conservative (20% CAGR) | $14.6M | $17.5M | $21.0M | $25.2M | $30.2M |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_075",
+    "text": "Confidential Extract - Professional Services Margin Impact:\nOur professional implementation services segment generated $1.42M in revenue in H1 FY2026. However, the delivery costs (subcontractor hours and partner fees) totaled $1.28M, resulting in a very low gross margin of 9.8%. While services help close enterprise deals, they drag down the company's blended margin from 84.5% (SaaS-only) to 76.2% (blended).",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_076",
+    "text": "From: derek.vance@driftwoodit.com\nTo: audit-leads@firm.com\nSubject: Support with Deferred Revenue Audit Reconciliations\n\nHi Team,\n\nCan you review the deferred revenue schedule for the multi-year contract with Apex Global? They paid $360,000 upfront for a 36-month term starting November 1, 2025. We recognized $20,000 in Q4, and the remaining $340,000 was moved to deferred liabilities. The auditors are asking for our delivery milestones documentation to verify this treatment. I've attached the contract and acceptance certificates here.\n\nBest,\nDerek",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_077",
+    "text": "Channel Partner,Gross Transaction Volume,Commission Rate,Partner Fee Revenue,Contract End Date\nStripe Connect,$18.42M,0.25%,$46050,12-May-2027\nAdyen Gateway,$12.10M,0.30%,$36300,18-Jan-2028\nPayPal Commerce,$8.45M,0.40%,$33800,05-Nov-2026\nBraintree Int,$4.12M,0.35%,$14420,30-Jun-2027\nTOTAL,$43.09M,-,$130570,-",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_078",
+    "text": "FalconScale Customer Success Sync:\nL3M Churn Analysis showed that core account cancellations totaled $28,400 in MRR. The biggest driver of churn (52%) was budget reductions at the client companies, followed by feature gaps in the team permission controls (28%). We need product focus here.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_079",
+    "text": "CONFIDENTIAL EXTERNAL AUDIT REPORT EXCERPT (FY2025):\nBased on our inspection, GenesisNet recognized $1.2M in licensing revenue from the OEM contract with TitanCorp. We noted that the contract includes a right of return and future product SLA clauses that have not yet been satisfied. Under ASC 606, revenue recognition should have been deferred until the SLA testing phase completed in Q2 2026. This requires a restatement of the FY2025 Q4 GAAP numbers.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_080",
+    "text": "### HorizonSaaS Expansion ARR by Account Size (Q1)\n\n| Account Size | Starting ARR | Expansion ARR | Expansion Rate |\n|---|---|---|---|\n| Large Enterprise (>$50k) | $8.45M | $940,000 | 11.1% |\n| Mid-Market ($10k - $50k) | $4.22M | $280,000 | 6.6% |\n| SMB (<$10k) | $1.85M | $45,000 | 2.4% |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_081",
+    "text": "Slack message from @alice (Sales Executive):\n\"Good news on the Apex deal! We final-signed the agreement for $240,000 ARR. The pricing includes a base of $180,000 for 1,000 seats plus an add-on of $60,000 for the priority support package. Billing will be handled annually in advance, and the invoice goes out tomorrow. Let's update the Salesforce pipeline.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "revenue"
+  },
+  {
+    "id": "sens_fin_082",
+    "text": "Contractor Name,Role,Hourly Rate USD,Hours Worked (May),Total Invoiced,Department\nJane Doe,Senior React Developer,95,160,15200,Engineering\nBob Smith,DevOps Architect,120,84,10080,Engineering\nClara Jones,Copywriter,65,45,2925,Marketing\nSam Wilson,Technical Recruiter,80,120,9600,HR\nElena Carter,UI Designer,75,90,6750,Product\nTOTAL,-,-,499,44555,-",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_083",
+    "text": "Slack from @ceo to @people-leads:\n\"I've approved the exception for the Principal DevOps Candidate. Let's offer a base of $205,000 plus a sign-on bonus of $20,000. For equity, grant them 18,000 options. This should secure the hire.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_084",
+    "text": "MindVortex HR meeting notes - Annual Equity Refresh Cycle:\nWe reviewed the employee option pool balance, which currently has 850,000 unallocated shares. It was resolved to allocate 320,000 shares for our mid-year refresh grants. Each senior developer will receive a top-up of 4,000 options, and staff developers will receive 8,000 options, vesting monthly over 36 months starting July 1, 2026.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_085",
+    "text": "### NextGenPay Management Team Compensations FY2026\n\n| Title | Employee | Base Salary | Target Bonus % | Options Granted | Benefits Tier |\n|---|---|---|---|---|---|\n| Chief Executive Officer | John Doe | $320,000 | 40% | 150,000 | Platinum |\n| Chief Technology Officer | Priya Nair | $265,000 | 20% | 85,000 | Gold |\n| VP of Sales | Dave Miller | $185,000 | 100% | 60,000 | Gold |\n| General Counsel | Sarah Vance | $210,000 | 15% | 30,000 | Silver |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_086",
+    "text": "Confidential Excerpt - Lisbon Relocation Expense Summary:\nTotal relocation assistance fees paid for the engineering transfers to the new Portugal office amounted to $84,200. This includes visa sponsor fees ($14,500), temporary corporate housing ($42,000 for 5 team members), moving stipends ($22,000), and flight expenses ($5,700).",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_087",
+    "text": "From: Board Search Committee <search-committee@pivotlabs.com>\nTo: finance-leads@pivotlabs.com\nSubject: Proposed CFO Offer Package - Review & Board Sign-off\n\nHi All,\n\nWe have finalized details for the CFO candidate, Richard Vance. Below is the proposed package ready for board vote:\n- Annual Base Salary: $280,000 (paid semi-monthly)\n- Performance Bonus: Up to 35% of base, dependent on achieving Net Burn targets\n- Equity Allocation: 1.8% of fully diluted common stock (approx. 220,000 options) vesting over 4 years with a 12-month cliff.\n- Sign-on relocation cash: $25,000\n\nPlease review and reply with your vote by tomorrow morning.\n\nRegards,\nBoard Search Chair",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_088",
+    "text": "Sales Rep,Q1 Bookings,Base Rate %,Commission Due,Accelerator Earned,Total Commission Paid\nMark Davis,$420000,5.0%,$21000,$4200,$25200\nSarah Connor,$310000,5.0%,$15500,$0,$15500\nAlex Mercer,$620000,5.0%,$31000,$9300,$40300\nElena Rostova,$180000,5.0%,$9000,$0,$9000\nTOTAL,$1.53M,-,$76500,$13500,$90000",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_089",
+    "text": "Minutes of Executive Compensation Meeting:\nApproved salary increases for Support Team leads at RiseDigital. The new salary base ranges will be $78,000 to $85,000 depending on seniority, replacing the current range of $68,000 to $74,000. Changes will be visible in the ADP portal starting the next pay cycle.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_090",
+    "text": "CONFIDENTIAL AUDIT OF EXECUTIVE PERFORMANCE BONUSES (FY2025):\nWe inspected the bonus calculations for the VP of Marketing. The dashboard metrics showed organic lead volume grew by 24% against a target of 30%. Under the terms of the executive bonus plan, this triggers a payout multiplier of 80% on the marketing performance bonus pool. The final cash bonus due is calculated at $24,000 instead of the maximum target of $30,000.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_091",
+    "text": "### TitanWeb Engineering Intern Stipends (Summer 2026)\n\n| Location Hub | Monthly Stipend | Housing Allowance | Count |\n|---|---|---|---|\n| San Francisco | $7,500 | $1,500 | 4 interns |\n| Seattle | $7,200 | $1,200 | 2 interns |\n| Remote US | $6,000 | - | 5 interns |\n| Lisbon Office | \u20ac3,200 | \u20ac800 | 3 interns |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_092",
+    "text": "Slack message from @linda (Compensation Analyst):\n\"Hi team, for the upcoming promotions in the Product team, here is the equity valuation: Senior PMs will get an extra 6,000 options (valued at $8.40/share according to our recent 409A). This brings their total equity holding to an average of 18,000 shares each. I will upload the lists to Shareworks once approved.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "salary"
+  },
+  {
+    "id": "sens_fin_093",
+    "text": "Project Name,Capital Expenditure,Hardware Cost,Vendor Contract Cost,Delivery Timeline\nProject Apollo (GPU servers),$350000,$120000,$230000,Q3 FY26\nOffice Network Upgrade,$85000,$45000,$40000,Q4 FY26\nSecurity Storage Area Network,$140000,$80000,$60000,Q2 FY26\nTOTAL,$575000,$245000,$330000,-",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_094",
+    "text": "Slack message from @cfo to @devops-lead:\n\"The database cloud hosting spend is trending way higher than budgeted. We must cap database cloud compute spending at $45,000 next month. Please pause the migration of archive logs until we have the budget approved in Q4.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_095",
+    "text": "XenithBio Q3 Marketing Budget Review notes:\nWe discussed the conversion performance of digital search advertisements. Paid ad acquisition cost increased to $112 per lead. Consequently, we are reducing paid search ad allocations by $40k/month and redirecting $25k of that capital into organic SEO content production and developer events, which yield a lower CPA.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_096",
+    "text": "### ZodiacNet Office Extension Cost Projections\n\n| Item Description | Estimated Cost | Vendor Contract | Contingency Allocation |\n|---|---|---|---|\n| Leasehold improvements | $245,000 | DPR Construction | $25,000 |\n| Office Furniture | $85,000 | Steelcase Inc | $8,500 |\n| Audio/Visual and Networking | $62,000 | Cisco Systems | $6,000 |\n| Permitting & Fees | $18,000 | City of SF | - |\n| **Total Build-out Budget** | **$410,000** | - | **$39,500** |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_097",
+    "text": "Confidential Excerpt - Inflation Impact on Operational Budget:\nDue to the 4.8% inflation adjustment in software SaaS vendor renewals, our software license forecast for FY2026 has been increased by $145,000. Our primary contracts (Hubspot, Salesforce, and Datadog) have revised pricing structures. We must negotiate multi-year contract caps to limit future exposures.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_098",
+    "text": "From: engineering-finance@bridgesoft.com\nTo: vp-eng@bridgesoft.com\nSubject: Cloud Database Migration Cost Projections\n\nHi Sarah,\n\nHere are the estimated costs for migrating our customer databases to GCP. During the 3-month migration phase, we will experience double-run costs of approximately $35,000/month. The final steady-state cost is projected at $48,000/month (down from our current $62,000/month on AWS). This project will pay for itself within 9 months of implementation. I need your confirmation on the migration timeline to include this in the Q4 budget.\n\nBest,\nDavid",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_099",
+    "text": "Consultant Firm,Service Scope,Hourly Rate,Estimated Hours,Total Forecast cost\nPWC LLP,Tax Audit and Advisory,350,180,63000\nOrrick Herrington,IP Legal Advisory,480,90,43200\nHays Recruiting,Executive Search (COO),-,-,35000\nSecuritas Corp,SOC 2 Audit Readiness,220,120,26400\nTOTAL,-,-,-,167600",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_100",
+    "text": "Summary of IT Budget Rationalization meeting at DynastyIT:\n- Approved cutting the Jira Align tool subscription ($18,000 annual saving).\n- Approved migrating 45 team members from Zoom Pro to Google Meet, saving $8,100 annually.\n- Set desktop computer replacement cycle to 4 years instead of 3 years.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_101",
+    "text": "EXCERPT FROM INTERNAL LONG-TERM FINANCIAL PLANNING ASSUMPTIONS:\nThe base forecast model assumes a headcount increase of 15 FTEs in H2 FY28, with hiring concentrated in research and development. In the event that organic growth drops below 18% QoQ, the corporate development department will delay product localization in the APAC region, reducing forecasted cash expenses by $450,000 over the next four quarters.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_102",
+    "text": "### FluxMedia Hiring Budget Allocations (H2)\n\n| Department | Approved headcount | Q3 Spend | Q4 Spend |\n|---|---|---|---|\n| Engineering | 4 FTEs | $220,000 | $280,000 |\n| Customer Success | 2 FTEs | $65,000 | $85,000 |\n| Sales (AEs) | 3 FTEs | $120,000 | $180,000 |\n| G&A | 1 FTE | $45,000 | $55,000 |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_103",
+    "text": "Slack message from @steve (Infrastructure Manager):\n\"Hi guys, here is the budget breakdown for scaling our API clusters in Q4. At our current user growth rate (+8% monthly), our infrastructure cost will cross $95k/month by December. We need to allocate an extra $15k in the Q4 budget \"\n\"to avoid server capacity issues.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_104",
+    "text": "From: head-of-support@helixpulse.com\nTo: finance-review@helixpulse.com\nSubject: Support Department Budget Variance Report\n\nHi Robert, our Q2 budget variance was +$18,400. This was driven by using external contractor agents to handle the backlog of tickets during the database migration outage in May. We paid Zendesk support consultants $12k for emergency onboarding assistance.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "budget_forecast"
+  },
+  {
+    "id": "sens_fin_105",
+    "text": "Competitor,LTM Revenue,Estimated Valuation,Funding Round,Tech Stack,Strategic Value\nDataFlow Ltd,$4.2M,$25.0M,Series A,Python/React,High database acceleration IP\nSaaSLogic,$2.8M,$12.5M,Seed,Go/Angular,Mid-market sales channel\nAuraSecure,$1.5M,$8.0M,Seed,Java/AWS,SOC 2 automated logging IP\nCloudSphere,$6.8M,$38.0M,Series B,Ruby/React,Enterprise integrations book",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_106",
+    "text": "Slack from @m-and-a-lead to @leadership:\n\"Rumors in the market indicate that target company CoreData is raising a down round at a valuation of $15M (down from $30M). This makes them a highly attractive acquisition target for us. Let's schedule an outreach call to the lead investor.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_107",
+    "text": "KeystoneLog M&A Steering Notes - Post-Merger Operational Integration:\nDiscussion focused on consolidating support functions of the acquired entity. We will integrate their 8 customer success reps into our support team, enabling us to terminate their Freshdesk contract ($2,400/month saving). Their engineering team will remain in Vancouver under a unified dev manager.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_108",
+    "text": "### LuminaBio Cost Synergy Estimates (Proposed Merger)\n\n| Synergy Category | Implementation Cost | Annual Savings | Realization Timeline |\n|---|---|---|---|\n| Server Consolidation | $45,000 | $180,000 | 6 months |\n| G&A (Software licenses) | - | $72,000 | 3 months |\n| Support Center Merger | $20,000 | $94,000 | 6 months |\n| Marketing tool overlap | - | $36,000 | 2 months |\n| **Total Synergies** | **$65,000** | **$382,000** | **12 months** |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_109",
+    "text": "Confidential Excerpt - Strategic Rationale for IP Acquisition:\nAcquiring the intellectual property of VoxelLab for the proposed price of $2.4M allows MetroForge to secure key database query patents. Integrating this tech will cut our query processing latency by 40% and save approximately $180,000 in monthly AWS database capacity fees.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_110",
+    "text": "From: corpdev@northstarsaas.com\nTo: board@northstarsaas.com\nSubject: Strategic Valuation Review - Target Project Hydra\n\nDear Board Members,\n\nWe have completed a preliminary valuation of Project Hydra. Based on their audited books, their LTM ARR is $2.4M, with a gross margin of 72%. They are asking for a $14.5M purchase price, representing a 6.0x multiple. We believe a fair offer is $11.8M (4.9x multiple) with 50% paid in cash and 50% in NorthStarSaaS stock options. We believe this structure aligns incentives and protects our cash reserves. Please review the attached model ahead of Friday's call.\n\nBest,\nAlistair",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_111",
+    "text": "Pre-Acquisition Cap Table Simulation (Project Hydra):\nShareholder Class,Shares Held (Current),Ownership %,Proposed shares (Post-merger),Ownership % (Post)\nFounders Stock,10000000,52.6%,10000000,47.6%\nSeries A Preferred,5000000,26.3%,5000000,23.8%\nSeries B Preferred,3000000,15.8%,3000000,14.3%\nTarget Shareholders Stock,-,0.0%,1500000,7.1%\nEmployee Option Pool,1000000,5.3%,1500000,7.1%\nTOTAL,19000000,100.0%,21000000,100.0%",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_112",
+    "text": "Weekly Strategic Sync: Project Hydra LOI Draft Review:\n- Set valuation boundary to $12.5M maximum.\n- Term sheet lock-up clause: 60 days exclusivity period.\n- Key risk identified: Pending IP infringement claims by competitor.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_113",
+    "text": "CONFIDENTIAL INVESTMENT COMMITTEE MEMO - PROJECT ZEPHYR:\nThe acquisition of ZephyrSoft for $8.9M represents a significant opportunity to consolidate our position in the logistics vertical. The target has 21 active logistics enterprise accounts. The purchase price of $8.9M will be funded by drawing down $5.0M from our existing SVB credit line and issuing $3.9M in preferred Series B stock.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_114",
+    "text": "### RapidRidge Key M&A Targets Evaluation\n\n| Target Name | Core Technology | ARR Size | Asking price | Team Fit |\n|---|---|---|---|---|\n| NexusLog | Cloud Routing IP | $1.2M | $5.5M | Strong |\n| ApexCore | Enterprise Security | $3.1M | $18.0M | Weak (Culture mismatch) |\n| AeroSoft | Database Engine | $800k | $4.0M | Strong |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_115",
+    "text": "Slack message from @alex (Corp Dev Analyst):\n\"Hi leadership, for the earn-out details on the upcoming deal, we have structured it so the target founders receive an additional $1.5M in cash only if they hit $4.2M ARR within 18 months of close. This structure reduces our upfront cash risk and ensures they focus on renewals.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "m_and_a"
+  },
+  {
+    "id": "sens_fin_116",
+    "text": "Round Name,Capital Raised USD,Target share price USD,Pre-money Valuation USD,Investor Lead\nSeed round,1500000,0.45,5500000,Apex Ventures\nSeries A,7500000,1.85,28000000,Horizon Equity\nSeries B,16000000,5.12,75000000,Sequoia Capital",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_117",
+    "text": "Slack message from @ceo to @cfo:\n\"Hey, please check slide 11 of the investor deck. We need to make sure the CAC payback graph matches our updated sales numbers. Show that CAC payback decreased from 16 months to 11.5 months due to increased self-serve signups. This will build confidence for our Pitch session on Monday.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_118",
+    "text": "VaporCloud Investor Relations Meeting Notes:\nDiscussion centered on prep questions for the Series C roadshow. We expect investors to drill down on our high net retention variation in EMEA. Robert will prepare a deck addendum showing the enterprise expansion curves, highlighting that EMEA accounts grow 20% faster than US accounts once fully onboarded.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_119",
+    "text": "### WhiteboardIT Post-Money Valuation Sensitivity Table\n\n| Target Raise | Dilution percentage | Post-money Valuation | Share Price Target | Implied Multiple |\n|---|---|---|---|---|\n| $15.0M | 15.0% | $100.0M | $8.40 | 8.2x ARR |\n| $18.0M | 18.0% | $100.0M | $8.40 | 8.2x ARR |\n| $20.0M | 18.2% | $110.0M | $9.20 | 9.0x ARR |\n| $25.0M | 20.8% | $120.0M | $10.00 | 9.8x ARR |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_120",
+    "text": "Confidential Excerpt - Unit Economics Summary (FY2026):\nOur LTV/CAC ratio currently stands at 4.2x, based on a customer lifetime value of $98,000 and an average customer acquisition cost of $23,000. Blended CAC includes $15,000 in direct marketing ads and $8,000 in sales rep commissions. Payback period is stabilized at 11.2 months.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_121",
+    "text": "From: venture-partner@equityfirm.com\nTo: arthur.ceo@aerolink.com\nSubject: Follow-up from AeroLink Pitch Presentation\n\nHi Arthur,\n\nThanks for walking us through the investor deck yesterday. The partners were impressed by your ARR growth (+45% YoY) and the customer retention metrics (108% NRR). However, we have concerns about your high customer acquisition cost ($23k CAC) and the competitive landscape in the Enterprise segment. Before we issue a term sheet, we would like to see a cohort analysis of your 2024 customers showing their net expansion over the last 18 months. Let us know if we can set up a follow-up call.\n\nBest,\nMarcus",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_122",
+    "text": "Series B Cap Table - Lead Syndicate Allocations:\nInvestor Name,Capital Invested USD,Shares Purchased,Price per Share,Post-Round Ownership %\nSequoia Capital,10.00M,1953125,5.12,12.5%\nFounders Fund,4.00M,781250,5.12,5.0%\nIndex Ventures,2.00M,390625,5.12,2.5%\nTOTAL,16.00M,3125000,-,20.0%",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_123",
+    "text": "Executive Board Meeting: Liquidation Preference Review:\n- Approved 1x non-participating liquidation preference for Series B shares.\n- Discussed anti-dilution protection: Standard broad-based weighted average dilution protection approved.\n- Agreed to restrict board representation rights to investors holding >5% ownership.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_124",
+    "text": "CONFIDENTIAL BOARD UPDATE - SECONDARY SHARE SALE OFFERING:\nTo reduce employee dilution concerns, the board approved a secondary share sale transaction. Early employees and founders will be permitted to sell a total of up to 450,000 common shares to our Series B lead investor at the current price of $5.12/share, representing a total liquidity event of $2.3M. This secondary transaction will close concurrently with the primary financing round.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_125",
+    "text": "### EdgeCompute Key Investor Milestone Checklist\n\n| Goal Description | Target Date | Current Status | Milestone Payment |\n|---|---|---|---|\n| Hit $15.0M ARR | 31-Dec-2026 | On Track | Series B Tranche 2 release ($4M) |\n| SOC 2 Type II Audited | 31-Mar-2027 | Diligence phase | Required for enterprise push |\n| Launch APAC hub | 30-Jun-2027 | Paused | Board approval pending |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_126",
+    "text": "Slack message from @arthur (CEO):\n\"Hi leadership, several partners on the investor call asked why our logo churn ticked up to 2.4% in Q1. Let's make sure our slides highlight that the churn was isolated to the legacy SMB tier and didn't affect our enterprise cohorts, where net retention remains at 112%.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_127",
+    "text": "From: legal@glasshouse.com\nTo: stock-admin@glasshouse.com\nSubject: Cap Table Adjustment - Options Exercise Log\n\nHi, please update the cap table for the following options exercises completed on June 15th:\n- Sam Harris: exercised 15,000 options at strike price $0.45/share. Paid $6,750 cash.\n- David Lee: exercised 8,500 options at strike price $1.20/share. Paid $10,200 cash.\nPlease issue the common stock certificates today.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "investor_data"
+  },
+  {
+    "id": "sens_fin_128",
+    "text": "Date,Operating Cash USD,Monthly Gross Burn USD,Monthly Net Burn USD,Implied Runway Months\n31-Dec-2025,8450000,680000,340000,24.8\n31-Jan-2026,8110000,720000,380000,21.3\n28-Feb-2026,7730000,750000,390000,19.8\n31-Mar-2026,7340000,790000,420000,17.5",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_129",
+    "text": "Slack message from @cfo to @leadership:\n\"Urgent alert: Our cash outflow for this month was $820k, which is $120k above our gross burn limit. This was driven by frontloading our marketing event prep fees. We need to freeze all discretionary travel for next month to compensate.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_130",
+    "text": "LinearLogic Restructuring Plan Notes - Runway Extension:\nWe discussed cost containment actions to push our Cash Zero date past December 2027. By moving customer support to a contractor model in APAC and stopping marketing spend in Europe, we will reduce our monthly net burn from $380,000 to $290,000, extending our runway from 11 months to 15.5 months. Board approval for this plan is expected next Tuesday.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_131",
+    "text": "### MeridianWeb Runway Scenarios (Based on Headcount Spend)\n\n| Scenario Case | Net Monthly Burn | Projected Runway | Cash Zero Date | Action Required |\n|---|---|---|---|---|\n| Plan A (No new hires) | $260,000 | 18.2 months | November 2027 | Base operations |\n| Plan B (Engineering growth) | $320,000 | 14.8 months | July 2027 | Hire 4 devs |\n| Plan C (Aggressive hiring) | $410,000 | 11.5 months | April 2027 | Board review required |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_132",
+    "text": "Confidential Excerpt - Going Concern Assessment:\nAs of December 31, 2025, our cash balance of $3.12M combined with a net cash burn of $280k/month provides a runway of 11.1 months. If we fail to secure the Series A funding by October 2026, the company will lack sufficient capital to support operations. The board is evaluating contingent credit options to mitigate this liquidity risk.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_133",
+    "text": "From: finance-controller@outpostit.com\nTo: ceo-office@outpostit.com\nSubject: Update: Debt Facility Drawdown Complete\n\nHi Arthur, we have successfully drawn down the second tranche of our venture debt line from TriplePoint. The total transfer of $2,500,000 was received in our SVB operating account today. This cash injection increases our total reserves to $7.12M, extending our runway from 12 months to 19.5 months based on our current net burn rate of $360k/month.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_134",
+    "text": "Cash Runway Analysis - Growth Scenario Modeling:\nMonthly growth rate %,Monthly Revenue USD,Monthly Expenses USD,Monthly Net Burn USD,Runway Months (Cash=$4M)\n2.0%,350000,680000,330000,12.1\n4.0%,370000,690000,320000,12.5\n6.0%,395000,705000,310000,12.9\n8.0%,425000,720000,295000,13.5",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_135",
+    "text": "CFO Warning to Engineering Managers:\nDue to the database latency incident, cloud server fees spike to $94k in May. This pushes our operating burn past our safety thresholds. We must restrict database compute usage immediately to bring net burn back to $240k/month.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_136",
+    "text": "CONFIDENTIAL AUDIT REPORT - SVB DEBT COVENANT COMPLIANCE:\nWe reviewed the company's financial covenant compliance under the Series A Debt agreement. Section 4.2 requires SkylineFin to maintain a minimum cash balance of $1,500,000 or a minimum liquidity ratio of 1.25x. Our current cash of $2,420,000 satisfies this requirement. However, due to our high net burn rate, we project that cash reserves will drop below the threshold by Q4 unless the pending $5M equity round closes.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_137",
+    "text": "### TerraGrid Key Burn Metrics (Q3 Forecast)\n\n| Cost Category | Forecasted Monthly Cost | % of Total Spend | Trend |\n|---|---|---|---|\n| Payroll & Benefits | $410,000 | 63.0% | Increasing (+4% QoQ) |\n| Hosting & Servers | $98,000 | 15.0% | Stable |\n| Marketing Tools | $62,000 | 9.5% | Decreasing (-12% QoQ) |\n| Office & Rent | $45,000 | 6.9% | Stable |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_138",
+    "text": "Slack message from @sarah (VP Finance):\n\"Hi leadership, we just finalized the runway impact sheet for the new hires. Adding 6 senior engineers in Q3 will increase our monthly net burn from $280k to $345k. This pulls our Cash Zero date forward by 2.5 months (from November 2027 to August 2027). We need to review this headcount plan again tomorrow.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "burn_rate"
+  },
+  {
+    "id": "sens_fin_139",
+    "text": "Office Address,Square Footage,Monthly Rent USD,Lease End Date,Security Deposit USD\n101 Mission St (SF),4500,18500,31-Oct-2028,37000\n82 Broadway (NY),2200,12400,15-May-2027,24800\nAv. da Liberdade (Lisbon),3100,7500,31-Dec-2029,15000\nTOTAL,-,38400,-,76800",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_140",
+    "text": "Slack message from @robert (IT Lead):\n\"Hi team, our company mobile plan invoice came in at $4,850. This is due to high roaming charges from our sales reps visiting clients in London. Please ensure everyone activates international data passes before traveling.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_141",
+    "text": "ApexBio Vendor Review notes:\nWe discussed the negotiations with Datadog. Our current contract expires in November, and they proposed a 15% increase ($115k/year total). Priya will lead the negotiation to secure a multi-year commit at $98k/year, offset by reducing custom log retention from 30 days to 15 days.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_142",
+    "text": "### CrestView AWS Service Spend Breakdown (April)\n\n| AWS Service Center | Monthly Cost | % of Hosting Bill | Action Plan |\n|---|---|---|---|\n| EC2 Compute Instance | $24,500 | 45.4% | Migrate to Graviton processors |\n| RDS Database Clusters | $14,200 | 26.3% | Terminate idle staging databases |\n| S3 Storage buckets | $8,500 | 15.7% | Implement lifecycle archive rules |\n| CloudFront CDN | $3,800 | 7.0% | Cache optimization |\n| **Total Hosting Cost** | **$54,000** | **100.0%** | - |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_143",
+    "text": "Confidential Excerpt - Travel and Entertainment Expense Audit:\nT&E spend for Q1 hit $124,500, representing a 28% increase over Q4. The primary drivers were flights and meals for the annual Sales Kick-off event in Las Vegas ($84,000) and executive travel for client pitches ($22,000). A revised expense policy will be sent out next week.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_144",
+    "text": "From: product-operations@epicenter.com\nTo: finance@epicenter.com\nSubject: Internal Software Tools Licensing Inventory\n\nHi Robert,\n\nAs requested, here is the current seating count and monthly cost for our core software tools:\n- Salesforce CRM: 45 seats @ $135/mo = $6,075/month\n- HubSpot Marketing: Enterprise Tier = $4,200/month\n- GitHub Enterprise: 120 seats @ $21/mo = $2,520/month\n- Slack Pro: 145 seats @ $12.50/mo = $1,812/month\n- Figma Design: 12 seats @ $45/mo = $540/month\nPlease review if we can downgrade inactive seat accounts.\n\nBest,\nElena",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_145",
+    "text": "Laptop Brand,Allocated Staff,Purchase Price USD,Warranty Months,Inventory Location\nMacBook Pro 16,Engineering,2800,36,San Francisco\nMacBook Air 13,Sales,1300,36,New York\nLenovo ThinkPad,Finance,1600,24,Lisbon\nDell XPS 15,Product,2100,24,San Francisco\nTOTAL,-,7800,-,-",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_146",
+    "text": "IT Asset Optimization meeting summary at Hyperion:\n- Moving our staging environment off AWS to self-hosted servers will save $8,500/month.\n- We will terminate the unused Miro whiteboards contract, saving $1,200 annually.\n- Office printers lease will be reduced by 50% as office paper use decreased.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_147",
+    "text": "EXCERPT FROM REAL ESTATE PORTFOLIO LEASE REVIEW:\nThe lease for our San Francisco headquarters at 101 Mission St is set to expire in October 2026. We currently pay $18,500/month. The landlord has offered a 3-year extension at $19,200/month. Due to hybrid work policies, we are considering downsizing our space by 40%, which would reduce monthly rent expenses to $11,500/month at a nearby coworking hub.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_148",
+    "text": "### Momentum SaaS Tools Cost Savings Plan\n\n| Vendor Tool | Current Spend | Target Spend | Projected Annual Savings | Action Required |\n|---|---|---|---|---|\n| Zendesk Support | $4,500/mo | $3,800/mo | $8,400 | Remove unused agent seats |\n| Notion Wiki | $1,200/mo | $900/mo | $3,600 | Downgrade guest accounts |\n| Mixpanel Analytics | $6,200/mo | $4,500/mo | $20,400 | Optimize custom event tracking |\n| DocuSign | $850/mo | $600/mo | $3,000 | Renegotiate volume plan |",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_149",
+    "text": "Slack message from @amit (Lead DevOps):\n\"Hey guys, we had a major cloud network transfer cost spike last night. A dev script loop caused 14TB of data transfer out of S3 to an external IP, resulting in a $1,800 charge in a single day. We need to implement billing alerts for data egress.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  },
+  {
+    "id": "sens_fin_150",
+    "text": "From: office-ops@pinnaclesoft.com\nTo: finance-approval@pinnaclesoft.com\nSubject: Office Refreshments and Snacking Budget Increase\n\nHi Robert, I'm requesting approval to increase the monthly office kitchen budget from $1,800 to $2,500. We have had a higher number of team members coming into the SF office on Tuesdays and Thursdays, and our current supply contract doesn't cover the snacks and drinks usage. Please let me know.",
+    "category": "clearly_sensitive",
+    "subcategory": "financial_data",
+    "data_type": "cost_breakdown"
+  }
+]

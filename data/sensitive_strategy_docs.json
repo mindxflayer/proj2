@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "sens_strat_001",
+    "text": "Product Development Timeline - Q3/Q4\n- July: Core authentication refactor to support OAuth2 login.\n- August: Launch beta of the drag-and-drop dashboard builder for enterprise users.\n- September: Database migration to Aurora PostgreSQL to resolve scaling issues.\n- October: AI-assisted text summary integration (OpenAI API connection).\n- November: Automated report exporting (PDF and CSV support).",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_002",
+    "text": "Subject: Revised Product Roadmap for H2 FY2026\nFrom: sarah.jenkins@nexatech.io\nTo: product-team@nexatech.io\n\nHi Team, based on our feedback from the client advisory board, we are swapping the priority of the billing portal update and the multi-region sync module. Multi-region sync is now scheduled for Q3 launch to unblock the European banking pipeline. The billing portal update will move to early Q4.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_003",
+    "text": "Slack from @david-pm:\n\"Hey engineering leads, here is the tentative release schedule for the mobile app redesign. We want to submit to the App Store by October 15th, which means feature freeze on September 22nd. We need to cut the offline mode feature from this release to hit the deadline. Let's discuss in the morning.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_004",
+    "text": "### CloudFront Solutions: Platform Feature Backlog\n\n| Epic Name | Priority | Target Release | Assigned Team | Current Status |\n|---|---|---|---|---|\n| SOC 2 Reporting Module | P0 | Q3 2026 | Security Team | In Progress |\n| Multi-tenant isolation | P1 | Q4 2026 | Infra Core | Planning |\n| Slack Integration Webhook | P2 | Q4 2026 | Integrations | Backlog |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_005",
+    "text": "Confidential Product Strategy Update:\nWe are prioritizing the deprecation of our legacy API (v1.2) by December 31. This will free up three developers to focus on the new real-time collaboration engine. Customers still on v1.2 will receive migration notifications starting next week.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_006",
+    "text": "Meeting notes: Q4 Feature Planning\n- Discussed the Android app release date. We will target November 1st for public beta.\n- Decided to delay the dark mode support feature to focus on database load balancing.\n- Next milestone check: August 14th.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_007",
+    "text": "{\n  \"product_roadmap_milestones\": {\n    \"v2.0_beta\": \"2026-09-01\",\n    \"v2.0_general_availability\": \"2026-11-15\",\n    \"enterprise_single_sign_on\": \"2026-12-10\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_008",
+    "text": "Weekly Product Sync Agenda:\n1. Review of the beta user feedback on the analytics portal.\n2. Deciding whether to build or buy the notification dispatch engine. (CTO recommends building in-house).\n3. Planning migration of user configurations to version 4 format.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_009",
+    "text": "Sprint Board Feature Backlog:\n* Item #102: Stripe billing integration for custom invoices (Est: 8 story points, Target: Sprint 14)\n* Item #103: API keys creation dashboard for developer users (Est: 5 story points, Target: Sprint 15)",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_010",
+    "text": "From: vp-product@cybergrid.com\nSubject: Engineering allocation for Q3 projects\n\nHello, for the upcoming quarter, we are assigning 60% of our frontend resources to the e-commerce checkout redesign. The remaining 40% will be allocated to standard bug fixes and maintenance. The mobile app development is temporarily paused.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_011",
+    "text": "Slack message from @jessica (Director of Product):\n\"Can someone update the roadmap document on Notion? We agreed to merge the billing dashboard and user settings dashboard into a single epic named Account Hub. The target release is set for early October.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_012",
+    "text": "Platform Development Milestones - Apex Systems\n1. Phase 1: API security enhancement (Completed in May)\n2. Phase 2: Live chat widget deployment (Scheduled for August 1)\n3. Phase 3: Machine learning dashboard recommendation engine (Scheduled for October 15)",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_013",
+    "text": "### Core Web App Road Map H2\n\n| Quarter | Epic | Target Delivery | Tech Lead | Dependencies |\n|---|---|---|---|---|\n| Q3 | Kubernetes cluster migration | Aug 30 | David Miller | DevOps infrastructure |\n| Q4 | Enterprise PDF Generator | Nov 15 | Linda Taylor | None |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_014",
+    "text": "Product Plan: Integrations Framework\nWe will release the Zapier connector first, followed by HubSpot in Q1 2027. This allows us to capture the SMB marketing user cohort who require automated leads synchronization.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_015",
+    "text": "From: marcus.davis@datashield.net\nTo: exec-committee@datashield.net\nSubject: Strategic Product Decision: API First Strategy\n\nHi All, we are proposing a pivot to an API-first platform structure. Instead of building out our own mobile interfaces, we will publish comprehensive API documentation and SDKs in Python and JavaScript, allowing clients to build custom wrappers. This reduces our UI maintenance cost.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_016",
+    "text": "Feature Proposal: Automated Data Backups\n- User Story: As an enterprise administrator, I want to schedule daily database dumps to my S3 bucket.\n- Technical Scope: Implement cron job manager in Go with IAM role delegation.\n- Target Release: Q4 release 2.4.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_017",
+    "text": "Slack from @engineering-coordinator:\n\"Milestone warning: The database clustering release is delayed by two weeks due to replication errors detected in the staging environment. New target date is September 12th.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_018",
+    "text": "Product Feature Map - Helix Solutions\n- Core Ledger Module: V2 release scheduled for August 15th\n- Reporting Dashboard: Beta launch September 1st\n- Bank Transfer integration: Scheduled for October 1st",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_019",
+    "text": "JSON roadmap configurations:\n{\n  \"releases\": [\n    { \"version\": \"1.8.0\", \"date\": \"2026-08-15\", \"features\": [\"dark_mode\", \"email_verify\"] },\n    { \"version\": \"1.9.0\", \"date\": \"2026-10-01\", \"features\": [\"salesforce_sync\"] }\n  ]\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "product_roadmap"
+  },
+  {
+    "id": "sens_strat_020",
+    "text": "Competitive Breakdown: CloudCorp vs PeakSaaS\n1. Pricing Model: PeakSaaS pricing starts at $49/user, while CloudCorp is user-capped at $299 flat rate. This makes us more expensive for small teams but highly cost-effective for large enterprises.\n2. Key Gaps: PeakSaaS has superior Slack notification controls. CloudCorp lacks custom workflow webhooks.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_021",
+    "text": "Subject: Competitive threat from LogiTech's new release\nFrom: research@cloudforge.io\nTo: sales-leads@cloudforge.io\n\nHi Team, LogiTech launched their automated onboarding feature yesterday. This addresses our primary feature advantage. To counter this, we should highlight our SOC 2 compliance and data sovereignty guarantees for European customers during client calls.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_022",
+    "text": "Slack message from @market-analyst:\n\"Hey everyone, our competitor AppVantage is offering a 20% discount on annual plans for customers migrating from our platform. We need to alert customer success to monitor accounts with renewal dates in the next 60 days and offer retention incentives where appropriate.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_023",
+    "text": "### Competitor Feature Matrix (Security Vertical)\n\n| Security Feature | Our Platform | SecureCorp | VaultSystems |\n|---|---|---|---|\n| SAML SSO | Yes | Yes | Yes |\n| Customer Managed Keys | Yes | No | Yes (Premium) |\n| IP Whitelisting | Yes | Yes | No |\n| Session Timeout Controls | Yes | No | No |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_024",
+    "text": "Competitive Analysis - Core Observations:\nOur competitor, AlphaBits, is shifting their sales efforts from mid-market to enterprise. They have doubled their sales headcount in the US and are offering custom integration services for free to close deals >$100k ACV. We must expect more competitive bids in our key enterprise accounts.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_025",
+    "text": "Meeting notes: Competitor Review Session\n- Discussed VaultLink's pricing adjustment. They removed their free tier to improve margins.\n- We plan to launch a marketing campaign targeting displaced free users from VaultLink.\n- Action: Marketing to create dedicated landing page.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_026",
+    "text": "{\n  \"competitor_comparison\": {\n    \"competitor_name\": \"OptimaData\",\n    \"strengths\": [\"fast query speeds\", \"cheap storage cost\"],\n    \"weaknesses\": [\"complex setup process\", \"no mobile web view\"]\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_027",
+    "text": "Competitive Response Strategy - Core Pillars:\n1. Emphasize our superior customer support and 99.99% SLA guarantee.\n2. Offer a migration utility tool to make moving data from SecureNet painless for developers.\n3. Position our platform as the only developer-friendly option with open API endpoints.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_028",
+    "text": "Competitive Lead Analysis:\n* Target: VectorCorp\n* LTM Revenue: ~$12.5M\n* Pricing Strategy: Under-cutting on base price, charging heavily for integrations support.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_029",
+    "text": "From: sales-support@matrixit.com\nTo: sales-reps@matrixit.com\nSubject: Battlecard Update: Defeating CloudSync in pitches\n\nHello, we have updated our sales battlecard. When pitching against CloudSync, focus on their history of outages (4 major incidents in H1) and highlight our multi-region redundancy. Do not enter into a pricing discount war.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_030",
+    "text": "Slack from @sales-ops:\n\"We just lost a $45k deal at BioCrest to CompetitorX. The feedback was that CompetitorX has a native integration with Jira Service Management, which our platform lacks. We need to surface this to the product team as a priority feature.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_031",
+    "text": "Competitor Matrix - Analytics Platform\n1. Competitor: CoreAnalytics\n   - Pricing: $150/month flat\n   - Advantages: Highly customized charts\n   - Disadvantages: Slow data loads on large datasets (>10M rows)",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_032",
+    "text": "### Competitive Win/Loss Summary Q2\n\n| Competitor | Wins | Losses | Primary Win Reason | Primary Loss Reason |\n|---|---|---|---|---|\n| CloudWorks | 12 | 4 | Better pricing flexibility | Missing advanced analytics module |\n| DataVortex | 8 | 9 | SOC 2 Compliance | Customer CS team preference |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_033",
+    "text": "Competitor Analysis - Support SLA comparison:\nOur competitor, SysNet, offers a 24-hour response SLA on their standard plan. By offering a guaranteed 4-hour response time for all customers on our pro tier, we can differentiate our service quality and justify our 20% price premium.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_034",
+    "text": "From: market-intelligence@nexusdata.com\nTo: sales-enablement@nexusdata.com\nSubject: Analysis of competitor pricing change\n\nHi, Competitor BioTech has raised their pricing by 15% across all SaaS tiers. This gives us an opportunity to run an outbound sales campaign targeting their mid-market customers with an 'inflation-free pricing' guarantee if they switch to us before the end of the quarter.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_035",
+    "text": "Competitor Review: Security Analysis\n- Competitor: FortressSec\n- Data Hosting: Hosted solely in US-East-1 AWS region. No multi-cloud support.\n- Vulnerability: European clients have GDPR compliance concerns due to lack of local hosting options.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_036",
+    "text": "Slack message from @research-coordinator:\n\"Competitor news: TechGlobal has acquired WebFlow. This means they will integrate WebFlow's web builder into their enterprise suite. We need to accelerate our custom page designer project.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_037",
+    "text": "Competitive Analysis - ApexCore\n- Competitor: ZenithSystems\n- Weakness: They charge $10k upfront setup fee for enterprise clients.\n- Action: We will waive our setup fee for clients moving from Zenith to win their business.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_038",
+    "text": "JSON competitive analysis summary:\n{\n  \"competitor\": \"AeroVibe\",\n  \"pricing_tier_gaps\": {\n    \"basic\": \"missing team permissions\",\n    \"pro\": \"missing custom domain support\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "competitive_analysis"
+  },
+  {
+    "id": "sens_strat_039",
+    "text": "Go-To-Market Plan: Developer Platform Launch\n1. Target Audience: Senior Frontend Developers and DevOps Engineers.\n2. Channel Strategy: Technical content blogs on Hackernoon and sponsor local JavaScript meetups.\n3. Key Message: Deploy high-performance React wrappers in less than 5 minutes. No database setup needed.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_040",
+    "text": "Subject: GTM Launch Checklist - Analytics Dashboard\nFrom: emily.wilson@ignitepay.com\nTo: marketing-team@ignitepay.com\n\nHi Team, please verify the timeline for our launch on Product Hunt next Tuesday. We need the video walkthrough finalized by Friday, and our developer advocate team should have social posts scheduled starting at 12:01 AM PST.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_041",
+    "text": "Slack message from @marketing-director:\n\"Hey sales team, the sales enablement deck for the new Enterprise Security package is uploaded to Google Drive. This package includes custom SSO and audit logs, targeting buyers at >$50M revenue. Use this deck for all outbound enterprise pitches starting Monday.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_042",
+    "text": "### GTM Campaign Schedule: H2 Product Launch\n\n| Launch Phase | Target Date | Marketing Channels | Success Metric | Budget |\n|---|---|---|---|---|\n| Developer Beta | Aug 15 | Discord & Twitter | 500 active beta accounts | $5,000 |\n| Public Launch | Sep 20 | Product Hunt & Tech Press | 2,000 signups in week 1 | $15,000 |\n| Enterprise Push | Oct 10 | LinkedIn Outbound | 50 qualified sales leads | $10,000 |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_043",
+    "text": "Go-To-Market Strategy: European Expansion\nWe are launching our localized EU platform hosted in Frankfurt on October 1st. Our marketing campaign will focus heavily on GDPR compliance and local data residency. We have hired two local sales reps in London to handle outbound inquiries.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_044",
+    "text": "Meeting notes: H2 Marketing Strategy\n- Discussed focusing on vertical-specific landing pages for healthcare and finance.\n- Decided to discontinue Google search ads for generic terms due to high cost-per-click ($14/click).\n- Action: Focus on SEO content marketing.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_045",
+    "text": "{\n  \"gtm_strategy\": {\n    \"launch_date\": \"2026-10-01\",\n    \"target_verticals\": [\"healthcare\", \"fintech\"],\n    \"acquisition_channels\": [\"SEO\", \"outbound sales\"]\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_046",
+    "text": "GTM Pricing Launch Plan:\n1. Introduce a free developer tier with 1,000 free monthly API requests.\n2. Charge a flat $0.05 per 100 requests past the limit.\n3. Enterprise tier requires custom quote with annual minimums starting at $12k.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_047",
+    "text": "Campaign Setup: Developer Advocate Program\n* Launch: July 15th\n* Goal: Recruit 25 developer advocates to build open source integrations on our API.\n* Reward: $500 monthly stipend plus cloud hosting credits.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_048",
+    "text": "From: sales-enablement@corenexus.io\nTo: sales-all@corenexus.io\nSubject: Marketing assets for the new API security release\n\nHello, the marketing team has created a new case study showing how client AcmeCorp saved 25% on database latency by switching to our routing protocol. Share this document with any prospective clients who are looking to optimize performance.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_049",
+    "text": "Slack from @marketing-ops:\n\"We just finalized the landing page copy for the mobile beta. Please review the sign-up workflow on staging. We want to ensure users are redirected to the Discord invite immediately after registration.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_050",
+    "text": "GTM Strategy Notes - Target Demographics\nOur launch will prioritize VP of Engineering at companies with 50-200 staff. These decision makers have budget authority and are actively looking to outsource database scaling tasks.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_051",
+    "text": "### Launch Promotion Metrics\n\n| Channel | CAC Target | Estimated Leads | conversion rate goal |\n|---|---|---|---|\n| LinkedIn Ads | $45 | 300 | 2.5% |\n| Google Search Ads | $35 | 500 | 4.0% |\n| Dev Newsletters | $20 | 1,000 | 1.8% |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_052",
+    "text": "GTM Positioning - Key Pillar:\nWe must position our platform as the 'simple, self-serve alternative' to heavy enterprise databases. The core metric we focus on in marketing is 'Time to First API Call', target under 3 minutes.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_053",
+    "text": "From: gtm-review@javelintech.com\nTo: leadership@javelintech.com\nSubject: Strategic Launch Date Change - Project Odin\n\nHi All, to ensure our customer success team has completed onboarding training, we are pushing the public launch of Project Odin from September 1st to September 15th. The developer preview will remain accessible.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_054",
+    "text": "Marketing Campaign: Technical Content Hub\n- Action: Publish 4 high-quality technical guides on database sharding and scaling.\n- Goal: Increase monthly search impressions by 30% by end of Q4.\n- Budget: $12k for freelance developer writers.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_055",
+    "text": "Slack message from @gtm-analyst:\n\"Launch metrics review: The Product Hunt campaign resulted in 850 signups. Average cost per signup was $4.50. High engagement observed in the developer community.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_056",
+    "text": "GTM Strategy Map - TractionWeb\n- Target Geography: North America and Western Europe\n- Key Competitor: SysNet Cloud\n- Primary Differentiation: Zero-config deployment model",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_057",
+    "text": "JSON GTM campaign details:\n{\n  \"campaign_id\": \"launch_q3\",\n  \"budget\": 25000,\n  \"channels\": [\"developer_newsletters\", \"retargeting_ads\"]\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "gtm_plan"
+  },
+  {
+    "id": "sens_strat_058",
+    "text": "Engineering OKRs - Q3 FY2026\nObjective: Improve database performance and reduce cloud hosting costs.\n- KR 1: Optimize database query execution time by 30% on top 10 slow endpoints.\n- KR 2: Migrate database staging replicas to spot instances, saving $12k/month.\n- KR 3: Achieve 99.95% API uptime during business hours.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_059",
+    "text": "Subject: Proposed OKRs for Product Design Q4\nFrom: jessica.davis@alterrabio.com\nTo: okr-review@alterrabio.com\n\nHi Leadership, here are our Q4 product design OKRs for review:\n- Objective: Enhance user self-serve onboarding metrics.\n  - KR 1: Redesign signup screen to reduce drop-offs by 15%.\n  - KR 2: Complete usability testing with 20 new developer users by November 1.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_060",
+    "text": "Slack from @cfo (OKR Coordinator):\n\"Reminder to all department heads: Q2 OKR ratings are due in the lattice portal by Friday. We will review alignment and key results achievement during the executive meeting next Monday.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_061",
+    "text": "### Company Strategic OKRs FY2026 (Board Plan)\n\n| Objective | Key Result | Target | Current Status | Owner |\n|---|---|---|---|---|\n| Accelerate ARR Growth | Hit $18.5M ending ARR | $18.5M ($16.2M current) | On Track | CFO |\n| Improve Retention | Reduce gross logo churn to <1.2% | 1.1% (L3M) | On Track | VP Support |\n| Expand Product Line | Launch mobile app beta | Oct 15 | Delayed (Nov 1) | VP Engineering |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_062",
+    "text": "Corporate Goals - Key Alignment:\nOur primary company objective for the next three quarters is to reach cash-flow positivity. Every department must align their OKRs to reflect this. Marketing will focus on low-cost organic user acquisition channels, while engineering will pause research initiatives to optimize database spend.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_063",
+    "text": "Meeting notes: OKR Planning Session\n- Discussed the sales team OKR: Hit $2.4M new bookings in Q3.\n- Agreed that sales hiring must be frozen if bookings drop below 85% of target in July.\n- Action: Sales managers to update individual quotas.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_064",
+    "text": "{\n  \"department_okrs\": {\n    \"objective\": \"Reduce customer churn\",\n    \"key_results\": [\n      { \"id\": 1, \"description\": \"Launch automated customer success warning signals\", \"target_date\": \"2026-08-30\" },\n      { \"id\": 2, \"description\": \"Conduct exit interviews for 100% of cancelled accounts\", \"target_date\": \"2026-09-30\" }\n    ]\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_065",
+    "text": "Marketing OKR Objective - Lead Generation:\n1. Objective: Increase qualified lead pipeline for sales team.\n- KR 1: Generate 1,500 new MQLs from inbound search campaigns.\n- KR 2: Achieve a lead-to-opportunity conversion rate of 12%.\n- KR 3: Publish 3 comprehensive customer success case studies.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_066",
+    "text": "Engineering Team Key Metrics:\n* Objective: Product Security Hardening\n* KR: Remediate 100% of high-severity vulnerabilities found in our security audit by September 15th.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_067",
+    "text": "From: head-of-people@swiftlog.io\nTo: staff-list@swiftlog.io\nSubject: HR Department OKRs Q3\n\nHello, the HR department is focusing on employee retention and training for the next quarter. Our KRs include: 1) Complete onboarding flow update to reduce new-hire time-to-first-commit to 4 days. 2) Achieve employee NPS score >45 in our monthly survey.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_068",
+    "text": "Slack message from @okr-sync:\n\"Quick review of customer success OKRs: We have achieved KR 1 (reduce support ticket first response time to under 15 minutes) for three consecutive weeks. Good job team! Let's lock this in.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_069",
+    "text": "Strategic Objective: Enterprise Readiness\n- Objective: Prepare platform database structure to support large corporate clients.\n- KR 1: Complete database isolation framework testing.\n- KR 2: Deploy custom database backup scripts to staging.\n- KR 3: Document platform security controls for SOC 2 compliance.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_070",
+    "text": "### Sales Department OKRs Q4\n\n| Sales Team | Objective | Key Result | Target | Current |\n|---|---|---|---|---|\n| Mid-Market | Expand customer bookings | Close $850k ARR | $620k | $410k |\n| Enterprise | Secure major agreements | Close 4 accounts >$50k ARR | 4 | 2 |\n| SDR Team | Generate qualified pipeline | Deliver 45 opportunities | 45 | 32 |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_071",
+    "text": "Product OKR Pillar: Mobile Performance\nObjective: Improve mobile app stability and user rating.\n- KR 1: Reduce app crash rate to <0.05% of all active user sessions.\n- KR 2: Achieve App Store rating of 4.6 (currently 4.3).",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_072",
+    "text": "From: arthur.ceo@keystonelog.com\nTo: department-heads@keystonelog.com\nSubject: Reviewing Q3 Corporate Objectives\n\nHi All, our corporate objectives for Q3 have been finalized. The key metrics we need to align on are: 1) Hit $12.4M ending ARR. 2) Reduce AWS hosting burn by $15k/month. Let's make sure your department-level OKRs reflect these targets.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_073",
+    "text": "Engineering Team OKR Goal Sheet:\n- Objective: Infrastructure Modernization\n- KR 1: Complete containerization of core processing microservices by August 30.\n- KR 2: Set up automated autoscaling rules for API clusters to manage load surges.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_074",
+    "text": "Slack message from @okr-analyst:\n\"Marketing target review: KR 2 (increase organic website traffic by 25%) has been achieved, primarily driven by our technical blog posts on sharding databases. Let's replicate this style.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_075",
+    "text": "OKR Goals Checklist - PulseVibe\n- Product Team: Redesign checkout experience (Target: Sep 30)\n- Dev Team: Implement Stripe billing API upgrade (Target: Aug 15)\n- Support Team: Complete training on the new billing portal (Target: Aug 30)",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_076",
+    "text": "JSON OKRs representation:\n{\n  \"objective\": \"Product Localization\",\n  \"key_results\": [\n    { \"metric\": \"EU_server_setup\", \"target\": \"completed\", \"due\": \"2026-08-30\" },\n    { \"metric\": \"localized_documentation\", \"target\": \"French_German\", \"due\": \"2026-09-15\" }\n  ]\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "okrs"
+  },
+  {
+    "id": "sens_strat_077",
+    "text": "Layoff Planning Document: Confidential HR/Ops Update\n- Target layoff percentage: 12% of total staff (approx. 18 FTEs).\n- Affected departments: Customer Success, Recruiting, and Product Design.\n- Separation terms: 4 weeks base severance plus health benefits coverage through August 31st.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_078",
+    "text": "Subject: CONFIDENTIAL: Corporate Restructuring Proposal\nFrom: executive-office@bluehorizon.io\nTo: board-members@bluehorizon.io\n\nDear Board Members, to preserve cash runway in light of our Q2 revenue miss, we are proposing a consolidation of our sales hubs. We will close the Chicago office and move all sales operations to our SF office, affecting 6 staff members. Detailed severance calculations are attached.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_079",
+    "text": "Slack from @hr-director-confidential:\n\"Can someone update the offboarding roster for the upcoming reduction in force? We need the final list of engineering managers who will be notified on Wednesday morning. Ensure all active laptop wipe scripts are scheduled in the IT portal.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_080",
+    "text": "### Redundancy & Cost Rationalization Log\n\n| Employee Title | Location Hub | Severance Weeks | Health Benefit Extension | Equipment Return Status |\n|---|---|---|---|---|\n| Recruiting Manager | San Francisco | 8 weeks | 2 months | Scheduled |\n| QA Analyst II | Lisbon Office | 6 weeks | 1 month | Completed |\n| Support Specialist | Chicago Hub | 4 weeks | 1 month | Scheduled |\n| Marketing Lead | New York Hub | 8 weeks | 2 months | Completed |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_081",
+    "text": "Confidential Excerpt - Reduction in Force Schedule:\nThe planned layoff execution date is set for July 12th. All affected employees will receive notices via email at 9:00 AM, followed by 15-minute Zoom check-ins with their department leads and HR. IT access to GitHub, Slack, and corporate emails will be terminated at 9:30 AM.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_082",
+    "text": "Meeting notes: Restructuring Strategy\n- Reviewed the consolidation of product and engineering departments into a unified tech division.\n- Resolved that the position of VP Product is redundant. The CEO will assume product direction.\n- Action: HR to prepare termination agreement for VP Product.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_083",
+    "text": "{\n  \"restructuring_summary\": {\n    \"total_affected_staff\": 14,\n    \"severance_budget\": 145000,\n    \"execution_date\": \"2026-07-15\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_084",
+    "text": "Layoff Strategy: IT Access Control Plan\n1. Identify active systems accessed by affected staff (AWS, GitHub, Salesforce).\n2. Coordinate with IT manager to revoke credentials concurrently with HR notification.\n3. Ship prepaid return boxes for company laptops on the notification date.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_085",
+    "text": "Staff reduction checklist:\n* Date of Notification: Wednesday, June 24th\n* Affected Count: 8 engineers, 3 marketing leads, 1 recruiter\n* Severance Cost: $112,000 cash payout",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_086",
+    "text": "From: legal-review@ignitesoft.net\nTo: leadership@ignitesoft.net\nSubject: Legal review of severance packages\n\nHi All, we have reviewed the severance agreement packages for the UK staff affected by the upcoming consolidation. Due to UK statutory requirements, we must extend the consultation period to 30 days before terminating contracts, meaning their final termination date will be August 1st.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_087",
+    "text": "Slack from @peoples-ops-manager:\n\"Please double check the salary calculations for the affected team members in the New York hub. We need to ensure all accrued but unused PTO is paid out in their final paycheck as required by state law.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_088",
+    "text": "Restructuring Plan Notes - Support Team\nWe are outsourcing our level 1 support desk to a third-party agency in Manila. This will result in the elimination of 5 in-house support roles, saving $18k/month in operating cost. Outsourcing setup begins on August 1st.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_089",
+    "text": "### Restructuring Severance Cost Simulation\n\n| Department | Headcount Reduced | Avg Monthly Salary | Severance Package Cost | Expected Annual Savings |\n|---|---|---|---|---|\n| Sales & Marketing | 6 FTEs | $8,500 | $51,000 | $612,000 |\n| Customer Support | 4 FTEs | $5,200 | $20,800 | $249,600 |\n| Recruiting | 2 FTEs | $6,800 | $13,600 | $163,200 |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_090",
+    "text": "Restructuring Goal: Cost Rationalization\nObjective: Reduce monthly G&A burn by $110,000. Under this plan, we will terminate 12 employee contracts across marketing, HR, and office operations. Severance packages are finalized.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_091",
+    "text": "From: head-of-people@glasshouse.io\nTo: exec-list@glasshouse.io\nSubject: Internal communications draft for upcoming layoff announcement\n\nHi Team, attached is the draft announcement letter for the company-wide layoff scheduled for next Thursday. The messaging focuses on the challenging macro-environment and the strategic necessity of extending our runway. Please provide feedback on the tone and wording.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_092",
+    "text": "Reduction in Force Process Checklist:\n- Prep separation packets for 15 employees.\n- Coordinate laptop recovery shipments.\n- Setup direct support hotline for alumni job placement services.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_093",
+    "text": "Slack message from @hr-onboarding-ops:\n\"IT warning: Ensure that the administrator credentials for our production database are updated as soon as the engineering manager offboarding is completed. Safety priority.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_094",
+    "text": "Restructuring Plan Map - DeepLogic\n- Team Consolidation: Merge DevOps and Site Reliability Engineering into a single Core Infra team.\n- Staff Reduction: 3 positions eliminated in the QA automation team.\n- Date of execution: September 15th",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_095",
+    "text": "JSON restructuring execution parameters:\n{\n  \"layoff_parameters\": {\n    \"impacted_roles_count\": 18,\n    \"total_cost_payout\": 165000,\n    \"systems_disable_timestamp\": \"2026-07-15T09:30:00Z\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "restructuring"
+  },
+  {
+    "id": "sens_strat_096",
+    "text": "Pricing Strategy Update: H2 Plan\n- Current Price: $49/month per user (Seat-based model).\n- Proposed Price: $29/month base + $0.05 per API transaction (Usage-based model).\n- Rationale: Usage-based pricing aligns cost with customer usage volume and drives expansion ARR.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_097",
+    "text": "Subject: Revised Enterprise Pricing Tier - Board Proposal\nFrom: robert.johnson@wave-length.io\nTo: board-pricing@wave-length.io\n\nHi All, we are proposing the introduction of an Enterprise Minimum Tier. Any contract involving custom SAML SSO and audit logs will carry a minimum pricing boundary of $15,000/year. This addresses our high cost of custom integrations maintenance.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_098",
+    "text": "Slack from @billing-lead:\n\"Hey everyone, our billing metrics analysis shows that 42% of our customers on the Pro tier are utilizing less than 10% of their allocation. We are planning a pricing change to a lower base fee with add-on feature packages. This should reduce churn in our lower cohorts.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_099",
+    "text": "### Proposed Pricing Tiers (Usage Model)\n\n| Tier Name | Base Monthly Price | Included Users | Additional User Fee | Data Storage Limit |\n|---|---|---|---|---|\n| Developer | $0 | 1 user | - | 5 GB |\n| Professional | $89 | 5 users | $15/user | 50 GB |\n| Business | $299 | 15 users | $12/user | 200 GB |\n| Enterprise | Custom | Unlimited | Custom | 1 TB |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_100",
+    "text": "Pricing Strategy Analysis: competitor discount match:\nSales team requests the authority to offer up to a 35% discount for three-year contract commitments to win deals against CloudSync. We recommend capping sales-level discounts at 20% to avoid eroding our gross margin, requiring VP approval for anything higher.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_101",
+    "text": "Meeting notes: Subscription Pricing Update\n- Discussed raising prices on our legacy plans by 15% to offset high AWS compute costs.\n- Decided to grandfather in current users for 6 months, applying changes to new signups immediately.\n- Action: Update Stripe pricing IDs.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_102",
+    "text": "{\n  \"pricing_strategy_simulation\": {\n    \"base_price_increase\": 0.15,\n    \"estimated_churn_impact\": 0.03,\n    \"projected_net_arr_gain\": 245000\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_103",
+    "text": "Pricing Launch Strategy: Expansion Modules\n1. Move Advanced PDF Export feature out of the Pro plan and package it as a $25/month add-on.\n2. Charge a flat $50/month fee for custom domain SSL support.\n3. Set enterprise priority queue support to $200/month.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_104",
+    "text": "Pricing Review: Grandfathered Accounts\n* Legacy customers: 240 active accounts paying $19/mo (average modern rate is $49/mo).\n* Plan: Migrate these users to the modern pricing tier with a 20% discount code for 12 months.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_105",
+    "text": "From: sales-vp@quasartech.net\nTo: finance-ops@quasartech.net\nSubject: Approval for pricing model exception - Large Prospect\n\nHello, I need approval for a custom pricing structure for the Global Retail Corp deal. They are requesting a flat rate of $120,000/year for unlimited users, instead of our standard seat price of $15/user (which would total $180k/yr). This deal is strategic for our retail push.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_106",
+    "text": "Slack from @pricing-committee:\n\"We just finalized the pricing update for our new security add-on. It will be marketed as a $99/month module for Pro users and included in the Enterprise plan. Please update the website marketing copy.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_107",
+    "text": "Pricing Analysis Notes - Customer Segments\nOur analysis shows that healthcare clients have a 30% higher willingness to pay for data encryption. We should structure a specialized 'Healthcare Security' bundle priced at $499/month, targeting compliance managers.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_108",
+    "text": "### Pricing Tier Comparison Matrix\n\n| Feature Included | Developer ($0) | Growth ($49) | Enterprise (Custom) |\n|---|---|---|---|\n| API Access | Basic (1k req) | Full (50k req) | Unlimited |\n| SSO Integration | No | No | Yes (SAML) |\n| Custom Branding | No | Yes | Yes |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_109",
+    "text": "Pricing Model Positioning:\nWe must emphasize the 'pay as you grow' nature of our transaction fees. By tying our revenue directly to user checkouts, we align our financial success with the value the customer receives from our billing APIs.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_110",
+    "text": "From: finance-leads@stella-labs.com\nTo: sales-enablement@stella-labs.com\nSubject: Important Update: Pricing changes for new sales contracts\n\nHi All, effective July 1st, we are discontinuing monthly billing options for new enterprise accounts. All future enterprise agreements must be billed annually in advance. This pricing change is necessary to accelerate cash inflows.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_111",
+    "text": "Subscription Pricing Optimization Plan:\n- Action: Run a price sensitivity survey among current users.\n- Objective: Identify if raising our core plan to $59/mo causes significant churn.\n- Date of Survey: September 15th",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_112",
+    "text": "Slack message from @pricing-analyst:\n\"Stripe metrics review: The transition to annual billing for new accounts resulted in an initial 8% drop in conversion volume, offset by a 35% increase in upfront cash reserves. We will maintain this strategy.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_113",
+    "text": "Pricing Model Map - TractionWeb\n- Free Tier: 500 active contacts limit\n- Pro Tier: $29/mo for up to 5,000 contacts\n- Enterprise Tier: Custom quotes for >10,000 contacts",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "pricing_strategy"
+  },
+  {
+    "id": "sens_strat_114",
+    "text": "Partnership Negotiation Notes: System Integrators Corp\n- Proposed revenue share: 20% commission on first-year contract value for all referred enterprise clients.\n- Technical scope: System Integrators Corp to build custom connectors for Oracle databases.\n- Next milestone: Review the draft reseller agreement on Tuesday.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_115",
+    "text": "Subject: Strategic Partnership Proposal with CloudCorp\nFrom: linda.martinez@alterra-bio.com\nTo: bd-leads@alterra-bio.com\n\nHi BD Team, we had a successful initial call with CloudCorp's VP of Partnerships. They are interested in a co-marketing agreement where our SDK is recommended to their developer community in exchange for a 15% revenue share on referred users.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_116",
+    "text": "Slack from @partnership-manager:\n\"Can someone update the partnership status tracker? The API integration with BankGlobal has passed security review, and we are ready to sign the formal data sharing agreement. The launch is set for late Q3.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_117",
+    "text": "### Strategic Reseller Pipeline Q3\n\n| Partner Name | Core Tech Fit | Proposed Rev Share | Current Status | Next Step |\n|---|---|---|---|---|\n| TechConsultants | System Integration | 15% on referrals | Negotiations | Review contract |\n| CloudFlow | SaaS CRM | 20% on licensing | Under Review | Technical check |\n| DatabasePro | Cloud Database | 10% co-sell commission | Active | Launch marketing |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_118",
+    "text": "Partnership Strategy Update:\nWe are prioritizing our integration partnership with Salesforce. This integration will allow sales reps to sync customer database logs directly from our interface, opening up a sales channel targeting Salesforce enterprise users. Launch is scheduled for October 1st.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_119",
+    "text": "Meeting notes: Strategic Alliance Review\n- Discussed co-development project with SecureNet. They will build the encryption wrapper.\n- Resolved that both companies will split the engineering cost of the connector (estimated $45k each).\n- Next Step: Finalize joint engineering roadmap.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_120",
+    "text": "{\n  \"partnership_details\": {\n    \"partner_name\": \"ApexSystems\",\n    \"commission_rate\": 0.18,\n    \"contract_term_months\": 24\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_121",
+    "text": "Partnership Agreement Framework:\n1. Mutual non-disclosure agreement (NDA) signed.\n2. Standard referral commission of 15% for any lead that converts within 90 days.\n3. Co-branded landing page hosted by the partner site.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_122",
+    "text": "Strategic Partner Lead Analysis:\n* Target: GlobalConsulting Corp\n* Opportunity: Access to their 45 enterprise database clients.\n* Status: Preliminary discussion completed. Technical validation begins Monday.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_123",
+    "text": "From: partnerships@matrix-it.com\nTo: sales-leads@matrix-it.com\nSubject: New referral program launch with DevStudio\n\nHello, we have officially launched our referral program with DevStudio. They will refer their custom development clients to our database hosting platform. Reps should use the dedicated referral link to ensure commissions are tracked.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_124",
+    "text": "Slack from @partnership-ops:\n\"We just signed the co-marketing agreement with TechGlobal. They will feature our database tool in their developer newsletter next week. Please verify the landing page tracking codes are working.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_125",
+    "text": "Partnership Sync Notes - BankGlobal Integration\nWe discussed the compliance review for the BankGlobal partnership. BankGlobal requires a formal data processing agreement (DPA) specifying that all client database logs remain in local region EU-Central-1. Legal is drafting the document.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_126",
+    "text": "### Reseller Partner Commission Schedule\n\n| Partner Class | Quarterly Lead Count | Commission Rate | Payout Schedule |\n|---|---|---|---|\n| Bronze Reseller | 1 - 5 leads | 10% base | Net 30 |\n| Silver Reseller | 6 - 15 leads | 15% tier | Net 30 |\n| Gold Reseller | >15 leads | 20% premium | Net 15 |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_127",
+    "text": "Partnership Strategy - Product Positioning:\nOur partnership with CloudSphere positions us as the default database option for their low-code app builder. This integration reduces friction for developers and allows us to capture user signups before they evaluate competitor databases.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_128",
+    "text": "From: alliance-management@javelintech.com\nTo: execs@javelintech.com\nSubject: Strategic Partnership Negotiations - AWS Marketplace\n\nHi All, we are in final negotiations to list our product on the AWS Marketplace. Listing on the marketplace allows clients to purchase our software using their existing AWS enterprise discounts. AWS will charge a 3% transaction fee, which we will absorb.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_129",
+    "text": "Reseller Partner Onboarding Plan:\n- Action: Conduct product demo training sessions for 12 sales engineers at PartnerCorp.\n- Goal: Enable partner sales team to conduct independent client pitches by end of Q4.\n- Date of Training: September 15th",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_130",
+    "text": "Slack message from @partnership-leads:\n\"The joint integration with Slack has officially launched. Users can now trigger database alerts directly inside their Slack channels. Initial developer feedback is highly positive with over 200 integrations active in 48 hours.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_131",
+    "text": "Partnership Map - TractionWeb\n- Technology Partner: Auth0 (Identity Verification)\n- Integration Level: Native Auth0 integration wrapper\n- Status: Active and documented",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_132",
+    "text": "JSON partnership details:\n{\n  \"partner_id\": \"salesforce_reseller\",\n  \"active_contracts\": 12,\n  \"referred_arr_total\": 145000\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "partnership_notes"
+  },
+  {
+    "id": "sens_strat_133",
+    "text": "European Expansion Strategy - FY2026\nTo support our growing client base in the EU, we will launch a dedicated hosting region in Ireland (eu-west-1) by October 1st. This will resolve data sovereignty and GDPR compliance requirements that have blocked four enterprise deals in our sales pipeline.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_134",
+    "text": "Subject: Proposed expansion plan for London sales office\nFrom: david.smith@stella-labs.com\nTo: board-members@stella-labs.com\n\nDear Board Members, we are proposing a physical expansion into the UK market. By opening a London hub and hiring 2 local enterprise sales representatives, we can better address the European fintech sector. The estimated setup cost is $120,000 for H2.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_135",
+    "text": "Slack from @expansion-coordinator:\n\"Can someone review the office setup checklist for the new Portugal hub? We need the broadband connection and local server hardware delivered by August 15th to ensure the engineering team can transition on schedule.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_136",
+    "text": "### APAC Regional Expansion Plan\n\n| Country Target | Local Office | Regulatory Compliance | Estimated Setup Cost | Launch Date |\n|---|---|---|---|---|\n| Australia | Sydney Coworking | APRA Compliance | $45,000 | Oct 1 2026 |\n| Singapore | WeWork SG | MAS Framework | $62,000 | Nov 15 2026 |\n| Japan | Tokyo Hub | FSC Regulations | $85,000 | Q1 2027 |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_137",
+    "text": "Expansion Plan: Local Product Translations\nTo accelerate organic user signups in Latin America, we are translating our platform interface and API documentation into Spanish and Portuguese. The translation project will launch on August 1st using localized support documentation.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_138",
+    "text": "Meeting notes: Infrastructure Scaling Strategy\n- Discussed our server scaling requirements for the Japanese expansion.\n- Resolved to deploy a database proxy cluster in Tokyo to reduce latency for local users.\n- Action: Infra team to estimate AWS cost.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_139",
+    "text": "{\n  \"expansion_parameters\": {\n    \"target_market\": \"Latin America\",\n    \"hosting_provider\": \"AWS Sao Paulo\",\n    \"compliance_framework\": \"LGPD\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_140",
+    "text": "US Market Penetration Plan:\n1. Open a sales office in New York to target Wall Street financial clients.\n2. Recruit a VP of Sales with extensive experience in the financial sector.\n3. Sponsor the annual FinTech Summit in October.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_141",
+    "text": "Regulatory Onboarding Checklist - Germany:\n* Launch: September 1st\n* Requirement: BaFin clearance for cloud-hosted database ledger tools.\n* Status: Compliance documentation submitted for review.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_142",
+    "text": "From: vp-global-ops@matrix-it.com\nTo: leadership@matrix-it.com\nSubject: Feasibility study: Opening a Dublin entity\n\nHello, our legal consultants have completed the review for establishing an Irish subsidiary. Setting up Dublin operations will allow us to leverage local research grants and optimize our European tax exposure. The setup process is estimated to take 90 days.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_143",
+    "text": "Slack from @expansion-ops:\n\"The Sydney server deployment passed latency testing. Average response time for local users dropped from 220ms to 42ms. We are ready for the public launch on Monday.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_144",
+    "text": "Global Operations Review - Multi-currency support:\nWe are implementing multi-currency payment processing (EUR, GBP, AUD) in our billing dashboard. This pricing change will reduce transaction fee drag for international clients and increase international signup volumes by 15%.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_145",
+    "text": "### Global Data Hub Deployment Schedule\n\n| Data Hub Region | Hosting Provider | Compliance Certified | Launch Status |\n|---|---|---|---|\n| Frankfurt (EU-Central) | AWS | GDPR / BaFin | Active |\n| Dublin (EU-West) | GCP | GDPR | Planning (Target: Sep 30) |\n| Sydney (AP-Southeast) | Azure | APRA | Diligence phase |",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_146",
+    "text": "US East Coast Expansion Strategy:\nWe are shifting our primary sales team alignment to focus on Boston and New York. These hubs contain a high density of biotech and financial enterprise prospects who require custom database compliance.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_147",
+    "text": "From: compliance-officer@javelintech.com\nTo: leadership@javelintech.com\nSubject: SOC 2 audit readiness for new hosting hubs\n\nHi All, to ensure our new hosting regions in London and Singapore are covered under our existing SOC 2 compliance certification, our auditors must conduct on-site remote audits. Audits are scheduled for mid-August.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_148",
+    "text": "European Marketing Strategy:\n- Action: Launch localized developer advertising campaigns in Germany and France.\n- Goal: Secure 100 new trial accounts from European developer organizations.\n- Budget: $15,000 for translation and local search ads.",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_149",
+    "text": "Slack from @expansion-lead:\n\"Singapore office setup is complete. We have finalized contracts with WeWork and our local sales representatives are starting onboarding. First local pitches are scheduled for next Tuesday.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  },
+  {
+    "id": "sens_strat_150",
+    "text": "Regulatory Mapping - Latin America\n- Target Market: Brazil\n- Focus: Compliance with LGPD data storage regulations\n- Status: Database encryption audit passed",
+    "category": "clearly_sensitive",
+    "subcategory": "strategy_docs",
+    "data_type": "expansion_plan"
+  }
+]

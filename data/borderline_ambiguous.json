@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "border_001",
+    "text": "def calculate_tier_price(base_rate, count, factor):\n    if count > 5000:\n        return base_rate * count * factor * 0.85\n    elif count > 1000:\n        return base_rate * count * factor * 0.92\n    return base_rate * count",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Contains proprietary tier multiplier pricing logic with no hardcoded credentials."
+  },
+  {
+    "id": "border_002",
+    "text": "const ageToken = (timestamp, halfLife) => {\n  const delta = Date.now() - timestamp;\n  return Math.pow(0.5, delta / halfLife);\n};",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard algorithm for token aging that mirrors general computer science principles."
+  },
+  {
+    "id": "border_003",
+    "text": "class ServiceCreditCalculator:\n    def __init__(self, raw_downtime_minutes):\n        self.minutes = max(0, raw_downtime_minutes - 15)\n    def compute_refund_percentage(self):\n        return min(100, (self.minutes // 30) * 5)",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes internal SLA billing buffer metrics for enterprise accounts."
+  },
+  {
+    "id": "border_004",
+    "text": "function parseInputRow(line) {\n    const parts = line.split(',');\n    return { id: parts[0], rank: parseFloat(parts[1]) || 0 };\n}",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic utility for parsing csv payloads without company-specific references."
+  },
+  {
+    "id": "border_005",
+    "text": "def assess_risk(score, velocity_count, country_match):\n    risk_base = score * 0.4\n    if velocity_count > 10:\n        risk_base += 30\n    if not country_match:\n        risk_base += 20\n    return risk_base > 75",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Contains proprietary fraud detection scoring weights for transaction verification."
+  },
+  {
+    "id": "border_006",
+    "text": "public List<Item> filterItems(List<Item> input) {\n    return input.stream()\n        .filter(i -> i.getAge() < 30)\n        .collect(Collectors.toList());\n}",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic list processing logic that could be found in any open-source tool."
+  },
+  {
+    "id": "border_007",
+    "text": "const getSamplingRate = (loadPercentage) => {\n  if (loadPercentage > 90) return 0.01;\n  if (loadPercentage > 70) return 0.1;\n  return 1.0;\n};",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes proprietary telemetry sampling rates and server buffer calculations."
+  },
+  {
+    "id": "border_008",
+    "text": "class CreateMainRecords < ActiveRecord::Migration[7.0]\n  def change\n    create_table :records do |t|\n      t.string :name, null: false\n      t.integer :status, default: 0\n    end\n  end\nend",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard database migration template logic with placeholder columns."
+  },
+  {
+    "id": "border_009",
+    "text": "def get_routing_queue(customer_tier, priority):\n    if customer_tier == 'premium' and priority == 'high':\n        return 'fast-path-queue'\n    return 'standard-worker-queue'",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Reveals proprietary priority routing latency benchmarks for queue handling."
+  },
+  {
+    "id": "border_010",
+    "text": "const extractExt = (filename) => {\n  const match = /\\.([a-zA-Z0-9]+)$/.exec(filename);\n  return match ? match[1] : null;\n};",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic regular expression filter for extracting file extensions."
+  },
+  {
+    "id": "border_011",
+    "text": "def calculate_retention_risk(days_inactive, support_tickets_open):\n    score = days_inactive * 1.5 + support_tickets_open * 10.0\n    return score > 50",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes proprietary churn risk threshold weight values."
+  },
+  {
+    "id": "border_012",
+    "text": "import re\ndef validate_ip(ip_str):\n    pattern = r'^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$'\n    return bool(re.match(pattern, ip_str))",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard implementation of an IP address validation routine."
+  },
+  {
+    "id": "border_013",
+    "text": "const selectShard = (userId) => {\n  const hash = userId % 100;\n  return hash < 15 ? 'shard_a' : 'shard_b';\n};",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes proprietary database partitioning logic based on custom hash keys."
+  },
+  {
+    "id": "border_014",
+    "text": "function bytesToSize(bytes) {\n   const sizes = ['Bytes', 'KB', 'MB', 'GB'];\n   if (bytes === 0) return '0 Byte';\n   const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));\n   return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];\n}",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic file size conversion helper function."
+  },
+  {
+    "id": "border_015",
+    "text": "def check_coupon_validity(code, discount_val):\n    if code.startswith('VIP_') and discount_val > 50.0:\n        raise ValueError('Discount limit exceeded')\n    return True",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes custom coupon validation validation boundaries."
+  },
+  {
+    "id": "border_016",
+    "text": "According to the tech blog VentureVibe, Novatek is rumored to be close to acquiring SaaSLogic for $12M. The report suggests the deal could close by early next week.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Quotes public blog discussion of a fictional competitor's acquisition rumor."
+  },
+  {
+    "id": "border_017",
+    "text": "Confidential draft: BioCrest expects Q3 earnings per share to exceed street consensus by 14%, driven by stronger-than-expected adoption of the new drug delivery module.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Details internal, pre-announcement financial earnings projections for a fictional firm."
+  },
+  {
+    "id": "border_018",
+    "text": "HelixWeb announced the pricing of its initial public offering of 5,000,000 shares of common stock at a public offering price of $12.00 per share.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Public news summary of a fictional company listing on the stock exchange."
+  },
+  {
+    "id": "border_019",
+    "text": "To be released Tuesday: The board of CloudPulse has approved a $10M share repurchase program, scheduled to commence after the next quarterly earnings release.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses pre-announcement board decisions regarding a stock buyback program."
+  },
+  {
+    "id": "border_020",
+    "text": "Industry reports show that GeoGrid experienced a 12% drop in transaction volume during Q1, likely due to seasonality and market contraction.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard market analysis of fictional company performance based on historical public records."
+  },
+  {
+    "id": "border_021",
+    "text": "Our intelligence source reports that ApexCore is negotiating a $4.5M settlement with federal regulators over their recent compliance violation.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes internal notes on a fictional competitor's confidential settlement discussions."
+  },
+  {
+    "id": "border_022",
+    "text": "TritonWeb has officially released its annual report, showing total revenue of $18.4M and net income of $1.2M, in line with prior company estimates.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard recap of a fictional competitor's public press release."
+  },
+  {
+    "id": "border_023",
+    "text": "For review: NovaSphere's final Q2 booking numbers came in at $4.2M, which is 15% lower than the numbers they shared with us in the preliminary deck.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses pre-release financial performance metrics of a fictional target."
+  },
+  {
+    "id": "border_024",
+    "text": "Market analysts have updated their ratings: KestrelTech has been upgraded to 'Buy', while VanguardData remains at 'Hold' due to competitive pressures.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "General market comparison of fictional companies listed in public articles."
+  },
+  {
+    "id": "border_025",
+    "text": "Internal draft: We are pricing the acquisition of RippleSec at an enterprise value range of $18M - $22M, depending on their verified churn through June 30.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Details internal valuation model parameters for a pending fictional buyout."
+  },
+  {
+    "id": "border_026",
+    "text": "On yesterday's TechTalk podcast, the hosts speculated that OrbitData might merge with FluxMedia to counter competitor growth in APAC.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Quotes a public podcast discussion about fictional company mergers."
+  },
+  {
+    "id": "border_027",
+    "text": "Board update: SVB has agreed to waive the liquidity ratio covenant for MatrixCloud until Q3, subject to the closing of our next equity round.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses confidential changes to a fictional company's credit line terms."
+  },
+  {
+    "id": "border_028",
+    "text": "ApexCore announced yesterday that its current Chief Operating Officer, Linda Taylor, will step down effective August 1st to pursue other opportunities.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Quotes public industry news about executive changes at a fictional company."
+  },
+  {
+    "id": "border_029",
+    "text": "CFO note: Due to the delayed launch of the enterprise module, our cash-flow positive target date has been moved from October 2026 to January 2027.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Details internal CFO projections regarding cash-flow positive date adjustments."
+  },
+  {
+    "id": "border_030",
+    "text": "Technical indicators show that QuantumFin is trading near its 200-day moving average, suggesting a period of consolidation before the next major breakout.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard analysis of public stock charts for a fictional competitor."
+  },
+  {
+    "id": "border_031",
+    "text": "Hi team, we need to finalize the migration timeline for the target company. The legal team wants everything signed by Friday, so please make sure the data transfer scripts are fully tested and ready to execute.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Vague project update that reveals a pending acquisition deal timeline."
+  },
+  {
+    "id": "border_032",
+    "text": "For the upcoming sprint, we should allocate two developers to help the new client onboard their staff. They are struggling with the basic setup process.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic project planning text discussing resources with no proprietary details."
+  },
+  {
+    "id": "border_033",
+    "text": "We have a critical meeting with our largest client tomorrow afternoon. They are experiencing database latency spikes on the production server. We need to present a remediation plan during the call.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses high-priority issues for an unnamed major client account."
+  },
+  {
+    "id": "border_034",
+    "text": "Hi all, please make sure your status slides are updated before the weekly sync. I want to make sure we cover the upcoming milestones.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic status check about scheduling with no sensitive context."
+  },
+  {
+    "id": "border_035",
+    "text": "We need to watch the renewal status of the large enterprise account in Europe. They have been asking about our termination clause and are evaluating competitors.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses potential contract cancellation risks for a major contract."
+  },
+  {
+    "id": "border_036",
+    "text": "Is there a central folder where we store the public training materials? I need to send the link to a partner coordinator.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "General question about organizing documents in shared drives."
+  },
+  {
+    "id": "border_037",
+    "text": "Leadership meeting update: We are currently pacing $100k over our burn budget. If we don't bring this down by next month, we will have to freeze all planned hires for the rest of the year.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Reveals executive team concerns regarding cash reserves and burn targets."
+  },
+  {
+    "id": "border_038",
+    "text": "Please make sure all tickets in the active sprint are assigned to a developer and have estimated points. We want to check team velocity.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic discussion of sprint task allocations."
+  },
+  {
+    "id": "border_039",
+    "text": "Confidential schedule: The developer preview for our new cloud product will launch on August 15th, followed by public announcement on September 1st.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Reveals unannounced beta release launch dates for our core tool."
+  },
+  {
+    "id": "border_040",
+    "text": "Hi all, please suggest some times for our post-project recap session next week. We need about 45 minutes to review what worked well.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "General request for meeting availability."
+  },
+  {
+    "id": "border_041",
+    "text": "We are modeling a transition to usage-based pricing for our mid-market users. The proposal is to introduce a base fee of $29/mo plus a per-transaction rate. We need to estimate the revenue impact.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses potential pricing model restructuring adjustments."
+  },
+  {
+    "id": "border_042",
+    "text": "The feedback on the new API documentation has been positive. Users like the simplified setup guides. We should add more code examples.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic feedback discussion on user documentation."
+  },
+  {
+    "id": "border_043",
+    "text": "We are renegotiating our contract with our main monitoring provider. They want to raise the price by 15%, but we are pushing to keep the flat rate by reducing custom metric storage.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Details negotiations with a vendor about reducing tooling costs."
+  },
+  {
+    "id": "border_044",
+    "text": "Can someone check if the landing page illustrations have been updated? The current graphics look a bit outdated.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic request for a designer's input on website graphics."
+  },
+  {
+    "id": "border_045",
+    "text": "Confidential: We are considering closing our regional office and transitioning all sales staff to remote roles. This will save approximately $15k in monthly rent.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes sensitive discussion on closing our Midwest regional sales hub."
+  },
+  {
+    "id": "border_046",
+    "text": "145,000\n185,000\n210,000\n78,000\n115,000",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Raw numbers list that matches our internal payroll payout ledger."
+  },
+  {
+    "id": "border_047",
+    "text": "45.8392, -122.3821\n45.8412, -122.3789\n45.8354, -122.3912",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Fictional data coordinates representing mock map location pins."
+  },
+  {
+    "id": "border_048",
+    "text": "8,450,000\n8,110,000\n7,730,000\n7,340,000\n6,920,000",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "List of monthly values matching our cash reserves progression."
+  },
+  {
+    "id": "border_049",
+    "text": "5432\n3306\n6379\n27017\n8080",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic database system ports list used in server setup templates."
+  },
+  {
+    "id": "border_050",
+    "text": "Engineering: 5%\nMarketing: 15%\nSupport: 25%\nRecruiting: 50%",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "List of percentages matching our department layoff targets."
+  },
+  {
+    "id": "border_051",
+    "text": "Page 12: Intro\nPage 45: Setup\nPage 82: Configuration\nPage 115: Troubleshooting",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "List of standard documentation page indices."
+  },
+  {
+    "id": "border_052",
+    "text": "$14.5M\n$11.8M\n$9.5M\n$6.2M",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "List of values matching our competitor acquisition valuation bids."
+  },
+  {
+    "id": "border_053",
+    "text": "#FF5733\n#33COFF\n#9B59B6\n#2ECC71",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "List of standard color codes used in UI layout styling."
+  },
+  {
+    "id": "border_054",
+    "text": "Candidate A: 195,000\nCandidate B: 160,000\nCandidate C: 135,000",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "List of values matching candidate salary offer base values."
+  },
+  {
+    "id": "border_055",
+    "text": "< 5 MB\n5 - 50 MB\n50 - 200 MB\n> 200 MB",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "List of file size bounds used in media uploading guides."
+  },
+  {
+    "id": "border_056",
+    "text": "16.5M\n22.2M\n30.0M\n40.5M\n54.7M",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "List of numbers matching our internal ARR goals for next year."
+  },
+  {
+    "id": "border_057",
+    "text": "9.8 m/s^2\n3.0 x 10^8 m/s\n6.67 x 10^-11 N m^2/kg^2",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard measurements list in physics homework tutorial."
+  },
+  {
+    "id": "border_058",
+    "text": "45,000\n58,000\n52,000\n42,000\n64,000",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "List of dollar figures matching monthly cloud hosting billing history."
+  },
+  {
+    "id": "border_059",
+    "text": "Errors: 12\nWarnings: 45\nInfo: 812\nDebug: 2043",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic list of system error status counts."
+  },
+  {
+    "id": "border_060",
+    "text": "CEO: 150,000\nCTO: 85,000\nVP: 60,000\nDirector: 22,000",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "List of numbers matching options grants for executive packages."
+  },
+  {
+    "id": "border_061",
+    "text": "Hi [Redacted], please prepare the offboarding package for [Employee Name Redacted] in Engineering. Their last day will be July 15th. Severance will be set to 4 weeks base pay.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Redacted email thread that still reveals employee termination timeline."
+  },
+  {
+    "id": "border_062",
+    "text": "Survey Response #842:\n- Role: [Anonymized]\n- Feedback: The new office kitchen layout is great, but we need more coffee options.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Anonymized survey results database for general workplace feedback."
+  },
+  {
+    "id": "border_063",
+    "text": "The contract value for [Client X] is [Redacted] ARR, billed annually in advance. This account represents approximately 8% of our total platform revenue.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Redacted contract metrics that still reveal a high-value client deal volume."
+  },
+  {
+    "id": "border_064",
+    "text": "User reports error when uploading profile image.\nLog: User [ID REDACTED] failed to upload image to path /users/[REDACTED]/avatar.png.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic bug report transcript with anonymized log paths."
+  },
+  {
+    "id": "border_065",
+    "text": "We are adjusting the compensation for [Executive Name Redacted]. Base salary will increase from $[Redacted] to $265,000, plus [Redacted] options.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Redacted compensation file that still exposes executive salary increments."
+  },
+  {
+    "id": "border_066",
+    "text": "A user from [Partner Organization] reported that their API webhook is returning 502. Please check the proxy logs for webhook target domain [Redacted].",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic technical support request with client info masked."
+  },
+  {
+    "id": "border_067",
+    "text": "During the [Date Redacted] board meeting, the directors approved the plan to target a raise of $[Redacted] million for our Series C round at a target valuation of $180M.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Redacted board presentation notes that reveal upcoming funding round targets."
+  },
+  {
+    "id": "border_068",
+    "text": "Website traffic metrics:\n- Country [Masked]: 42,500 visits\n- Country [Masked]: 18,400 visits",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Anonymized website visitor country distribution dataset."
+  },
+  {
+    "id": "border_069",
+    "text": "The acquisition target [Project Crimson] has a verified LTM ARR of $2.4M. We have submitted our Letter of Intent (LOI) at a purchase price of $[Redacted] million.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Redacted competitor audit report that details specific acquisition valuations."
+  },
+  {
+    "id": "border_070",
+    "text": "Student ID [Redacted]: Math (A), English (B+), Science (A-)\nStudent ID [Redacted]: Math (B), English (A), Science (B)",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic student evaluation grades report with student names removed."
+  },
+  {
+    "id": "border_071",
+    "text": "Our monthly spend with [Hosting Provider Redacted] reached $45,000. This represents a $[Redacted] increase over our Q1 average due to server load.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Redacted cost audit that exposes specific hosting spend levels."
+  },
+  {
+    "id": "border_072",
+    "text": "Database error at 12:04:12 UTC:\nConnection failed for user [MASKED] on database [MASKED] at IP 10.150.2.14.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic error log with database username fields masked."
+  },
+  {
+    "id": "border_073",
+    "text": "[Founder A] holds 8,000,000 shares of common stock, representing [Redacted]% ownership. [Founder B] holds 4,500,000 shares, representing [Redacted]%.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Redacted cap table ledger that still reveals founder equity proportions."
+  },
+  {
+    "id": "border_074",
+    "text": "Downloads log:\n- Version [Redacted]: 12,450 downloads\n- Version [Redacted]: 8,920 downloads",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Anonymized software download metrics list by release version."
+  },
+  {
+    "id": "border_075",
+    "text": "Compliance status checklist for [Product Code Redacted]:\n- SOC 2 reporting audit: In Progress\n- EU local server deployment: Completed\n- Target launch date: [Date Redacted]",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Redacted compliance checklist that reveals unannounced product launches."
+  },
+  {
+    "id": "border_076",
+    "text": "We are seeking a Lead Mobile Engineer. The ideal candidate will spearhead our transition from native applications to a unified React Native platform, launching our first mobile app in late Q3.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Job posting listing experience with unannounced mobile framework migration."
+  },
+  {
+    "id": "border_077",
+    "text": "Hiring: Senior Full Stack Engineer. Experience with React, Node.js, and MongoDB required. Must be comfortable working in a fast-paced agile team.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard job description listing standard, widely used tech stack requirements."
+  },
+  {
+    "id": "border_078",
+    "text": "We are recruiting a DevOps Specialist in Tokyo. You will lead the deployment of our new local database cluster to comply with Japanese regulatory frameworks (FSC).",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Job posting revealing plans for a new local database region in Japan."
+  },
+  {
+    "id": "border_079",
+    "text": "We are looking for a Customer Success Coordinator to help manage new client onboardings. Strong presentation skills and experience with CRM software required.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard job posting listing general communication and onboarding requirements."
+  },
+  {
+    "id": "border_080",
+    "text": "Job Opening: Principal Systems Engineer. Experience designing firmware for custom IoT hardware devices. You will own the architecture of our upcoming smart sensor device.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Job posting revealing unannounced plans for custom hardware device development."
+  },
+  {
+    "id": "border_081",
+    "text": "Join our team as an Office Manager. Responsibilities include managing supplies, coordinating office event logistics, and welcoming visitors to our SF headquarters.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "General recruiting listing for an office manager position."
+  },
+  {
+    "id": "border_082",
+    "text": "We are hiring a Machine Learning Engineer. Core task: Integrate OpenAI API models into our analytics dashboard to generate automated summary reports for enterprise users.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Job description revealing plans to integrate OpenAI APIs for custom dashboards."
+  },
+  {
+    "id": "border_083",
+    "text": "We are seeking a Graphic Designer to create social media illustrations and marketing layouts. Please submit a link to your online portfolio.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard job posting for a graphic designer showing creative portfolio focus."
+  },
+  {
+    "id": "border_084",
+    "text": "Recruiting: General Manager (Dublin). You will build out our new European sales headquarters, recruiting local sales representatives to target the UK and EU markets.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Job posting detailing setup of a new European sales headquarters in Dublin."
+  },
+  {
+    "id": "border_085",
+    "text": "We are hiring a Technical Writer to create API documentation and setup guides. Must have experience translating complex processes into clear, simple text.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic career listing for a technical writer."
+  },
+  {
+    "id": "border_086",
+    "text": "We are seeking a Senior Backend Engineer. You will lead the development of our upcoming proprietary payment processing ledger to replace our third-party billing gateway.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Job description revealing plans to build custom credit card processing ledger."
+  },
+  {
+    "id": "border_087",
+    "text": "Software Engineering Intern (Summer 2026): Assist the core backend team in writing unit tests and optimizing API endpoints. Must have basic knowledge of Python.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard internship recruitment post for backend developers."
+  },
+  {
+    "id": "border_088",
+    "text": "Hiring: Security Compliance Manager. You will lead our readiness prep for our first formal SOC 2 Type II audit scheduled for late Q4 2026.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Job posting revealing plans for a new SOC 2 Type II audit target timeline."
+  },
+  {
+    "id": "border_089",
+    "text": "Customer Support Agent: Answer client tickets, troubleshoot account login issues, and escalate bugs. Experience with Zendesk preferred. Full-time remote.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard support team recruitment listing."
+  },
+  {
+    "id": "border_090",
+    "text": "We are recruiting an Integration Specialist. You will design and deploy our upcoming Salesforce sync module to enable real-time contact updates across platforms.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Job posting revealing unannounced plans to launch database synchronization tools."
+  },
+  {
+    "id": "border_091",
+    "text": "Hi Team, we have finalized the list of roles that will be affected by the upcoming reorganization. Notifications will be sent out next Wednesday morning, followed by HR check-in sessions. Access termination will be handled concurrently.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Vague email discussing pending layoff notifications schedule."
+  },
+  {
+    "id": "border_092",
+    "text": "Hi all, please make sure your self-assessment forms are submitted in the HR portal by Friday. This will allow managers enough time to write their reviews before the deadline.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic email discussing performance review self-assessment dates."
+  },
+  {
+    "id": "border_093",
+    "text": "Dear Board, we have received their counterproposal regarding the transaction price. They are holding firm at their valuation multiple, so we need to decide if we want to increase our bid or walk away from the deal.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses negotiations regarding our competitor acquisition price in vague terms."
+  },
+  {
+    "id": "border_094",
+    "text": "Hi team, I am organizing a dinner for our team offsite next week. Please vote on your preferred restaurant option in the Slack poll today.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic email planning a team dinner venue."
+  },
+  {
+    "id": "border_095",
+    "text": "Hello, we need to address the satisfaction level of our key account. They have raised concerns about system downtime and are asking for contract credits under their service SLA.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses a major client's contract renewal risk without details."
+  },
+  {
+    "id": "border_096",
+    "text": "Hi everyone, I want to welcome our new contractor who will be helping us with the landing page translation project. Please add them to the relevant Slack channels.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic email welcoming a new contractor to the project team."
+  },
+  {
+    "id": "border_097",
+    "text": "Hi Robert, our bank balance update shows that our cash reserves are falling faster than projected. We must implement some cost-saving actions immediately to ensure we maintain sufficient runway until the round closes.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses a critical cash reserve shortage ahead of the next funding round."
+  },
+  {
+    "id": "border_098",
+    "text": "Hi team, we are upgrading our project management software version next Tuesday. The platform will be read-only for about 30 minutes during the database migration.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic update about upgrading tool versions."
+  },
+  {
+    "id": "border_099",
+    "text": "Confidential: The preliminary security audit flagged a major compliance gap in our database access logging. We need to remediate this immediately to avoid failing our formal certification next month.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses a security compliance failure detected during the SOC 2 check."
+  },
+  {
+    "id": "border_100",
+    "text": "Hi all, here is an interesting public article on database scaling trends. It discusses the pros and cons of usage-based pricing models in SaaS.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic email sharing a link to a public industry research paper."
+  },
+  {
+    "id": "border_101",
+    "text": "Dear Compensation Committee, we have updated the proposed equity structures for the incoming executives to include performance-based vesting multipliers. Please review the draft terms before the meeting.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses changes to executive equity allocation structures in vague terms."
+  },
+  {
+    "id": "border_102",
+    "text": "Hello, please note that the office will be closed for the upcoming national holiday. Support coverage will be handled on a voluntary holiday rate schedule.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic email coordinating a holiday schedule update."
+  },
+  {
+    "id": "border_103",
+    "text": "Hi sales team, we are planning a pricing restructure for all subscription plans starting next quarter. The pricing adjustment will increase the seat cost for new signups. Grandfathering rules for existing accounts are under review.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses planned software pricing increases in vague terms."
+  },
+  {
+    "id": "border_104",
+    "text": "Hi, does anyone know how to write a SQL query to extract the number of unique active users per day from our log database? Any example would be helpful.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic email asking for help with a database query syntax."
+  },
+  {
+    "id": "border_105",
+    "text": "Hi HR, we need to initiate the formal process for the support engineer we discussed. Their performance has not improved despite the warning, so we should prepare the PIP document and schedule the notification meeting.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Discusses an employee's performance warning and PIP timeline in vague terms."
+  },
+  {
+    "id": "border_106",
+    "text": "def calculate_x(a, b, c):\n    val = a * b\n    if b > 5000:\n        val = val * c * 0.85\n    elif b > 1000:\n        val = val * c * 0.92\n    return val",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes proprietary pricing multiplier tiers using generic variable names."
+  },
+  {
+    "id": "border_107",
+    "text": "function getPage(arr, size, index) {\n    const start = index * size;\n    return arr.slice(start, start + size);\n}",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard helper for array paging using generic index mathematics."
+  },
+  {
+    "id": "border_108",
+    "text": "const selectShard = (key) => {\n  const val = key % 100;\n  return val < 15 ? 'shard_1' : 'shard_2';\n};",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Proprietary database routing algorithm using generic key hashing."
+  },
+  {
+    "id": "border_109",
+    "text": "def check_format(val):\n    import re\n    pattern = r'^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$'\n    return bool(re.match(pattern, val))",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic function to determine if a string is a valid email format."
+  },
+  {
+    "id": "border_110",
+    "text": "def get_factor(val_1, val_2, match):\n    res = val_1 * 0.4\n    if val_2 > 10:\n        res += 30\n    if not match:\n        res += 20\n    return res > 75",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Custom fraud analysis risk calculation using generic weights."
+  },
+  {
+    "id": "border_111",
+    "text": "const sortList = (list) => {\n  return list.sort((a, b) => a.value - b.value);\n};",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard sorting utility with no specific business parameters."
+  },
+  {
+    "id": "border_112",
+    "text": "const evaluate = (days, count) => {\n  const score = days * 1.5 + count * 10.0;\n  return score > 50;\n};",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Proprietary user churn risk calculation using generic intervals."
+  },
+  {
+    "id": "border_113",
+    "text": "bool compareStrings(std::string s1, std::string s2) {\n    return s1.length() == s2.length() && s1 == s2;\n}",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard C++ string comparison logic."
+  },
+  {
+    "id": "border_114",
+    "text": "def calculate_refund(downtime_minutes):\n    val = max(0, downtime_minutes - 15)\n    return min(100, (val // 30) * 5)",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Proprietary SLA reimbursement threshold formula with generic variable labels."
+  },
+  {
+    "id": "border_115",
+    "text": "double getMagnitude(double x, double y) {\n    return sqrt(x * x + y * y);\n}",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard mathematical utility for vector length extraction."
+  },
+  {
+    "id": "border_116",
+    "text": "def compute_hash(user_id):\n    val = hash(user_id) % 8\n    return f'node_{val}'",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Exposes proprietary database data distribution key algorithms."
+  },
+  {
+    "id": "border_117",
+    "text": "def validate_file(name):\n    allowed = ['txt', 'pdf', 'csv']\n    return name.split('.')[-1].lower() in allowed",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard implementation of file extension check logic."
+  },
+  {
+    "id": "border_118",
+    "text": "const checkExpired = (t1, t2) => {\n  const diff = t2 - t1;\n  return diff > 86400000;\n};",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Custom token expiration buffer rules using generic timestamps."
+  },
+  {
+    "id": "border_119",
+    "text": "function cleanList(raw) {\n    return raw.map(item => ({\n        name: item.name || '',\n        status: parseInt(item.status) || 0\n    }));\n}",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard mapping function to parse JSON lists."
+  },
+  {
+    "id": "border_120",
+    "text": "def predict(x1, x2, x3):\n    y = x1 * 0.65 + x2 * 0.25 - x3 * 0.1\n    return y > 0.5",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Custom ML predictive scoring weights using generic inputs."
+  },
+  {
+    "id": "border_121",
+    "text": "Microsoft stock is trading at $425 today, up 1.5% after their cloud earnings announcement. This trend mirrors our own Enterprise segment, which closed Q2 up 14% year-over-year.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Quotes public stock values alongside private details regarding our revenue trends."
+  },
+  {
+    "id": "border_122",
+    "text": "Apple is down 2% after their supply chain report. It's interesting to see how sensitive hardware stocks are to shipping disruptions in APAC.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Discusses public stock fluctuations of a competitor with only generic commentary."
+  },
+  {
+    "id": "border_123",
+    "text": "Datadog is currently valued at a 12x revenue multiple on the public market. This public benchmark suggests that our internal buyout offer of 5.8x multiple is highly conservative.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Quotes public competitor valuations alongside private acquisition deal limits."
+  },
+  {
+    "id": "border_124",
+    "text": "The Nasdaq composite rose 120 points today, driven by strong earnings from semiconductor giants. Tech stocks continue to lead the market recovery.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Public market updates regarding the technology index."
+  },
+  {
+    "id": "border_125",
+    "text": "The Federal Reserve kept interest rates flat at 5.25%. This is helpful for our pending SVB credit line extension, as it stabilizes our debt cost forecast.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Quotes public interest rates alongside private notes on credit line renegotiation."
+  },
+  {
+    "id": "border_126",
+    "text": "Tesla's public impact report outlines goals to source 100% renewable energy by 2030. It's a strong trend that more companies are listing public compliance metrics.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Quotes public news about corporate sustainability goals."
+  },
+  {
+    "id": "border_127",
+    "text": "Salesforce shares are trading at $260. For comparison, the strike price for our employees' outstanding stock options is set at $5.12, representing a major discount.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Quotes public stock values alongside internal options exercise values."
+  },
+  {
+    "id": "border_128",
+    "text": "With the annual inflation index hitting 4.2%, standard cost-of-living adjustments across the tech industry are expected to hover around 4% this year.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Quotes general inflation index alongside general public salary adjustments."
+  },
+  {
+    "id": "border_129",
+    "text": "Stripe Connect processed $43M for us in H1. Since Stripe is privately valued at around $60B, their transaction processing stability is a major benefit for our merchant tools.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Quotes public partner stocks alongside private revenue transaction volumes."
+  },
+  {
+    "id": "border_130",
+    "text": "Netflix stock rose 8% yesterday due to subscriber additions. It proves that original content remains the main driver of subscriber retention.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Quotes public stock changes of streaming companies with generic analysis."
+  },
+  {
+    "id": "border_131",
+    "text": "Public SaaS valuation multiples have compressed to 8.5x ARR. This means we must adjust our Series C pitch target post-money valuation to $100M to remain realistic.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Quotes public market multiple trends alongside private Series B pricing targets."
+  },
+  {
+    "id": "border_132",
+    "text": "Zoom shares have stabilized around $65 after dropping from pandemic highs. The market has adjusted its valuations of remote collaboration software.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Quotes public stock market data regarding remote workspace companies."
+  },
+  {
+    "id": "border_133",
+    "text": "Amazon AWS stock trends are rising. However, our internal cloud server bill rose to $52,000, exceeding our hosting budget by $10k due to index query replication errors.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Quotes public stock performance alongside internal headcount budget variance levels."
+  },
+  {
+    "id": "border_134",
+    "text": "NVIDIA announced a 10-for-1 stock split to make ownership more accessible to retail investors, effective at the close of trading on Friday.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Quotes public stock split announcements of major tech players."
+  },
+  {
+    "id": "border_135",
+    "text": "The Portuguese government is ending tax exemptions for foreign residents. This will impact our Lisbon office hub, where we just spent $84k on employee relocation costs.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Quotes public tax changes alongside private employee relocation cost totals."
+  },
+  {
+    "id": "border_136",
+    "text": "Here is how you connect to a PostgreSQL database using the command line:\npsql -h 10.150.2.14 -U db_runner -d user_db\nEnter your password when prompted to establish a secure database session.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Mixes generic SQL database tutorial with our production database host IP address."
+  },
+  {
+    "id": "border_137",
+    "text": "To connect to your local MySQL database, use the following bash command:\nmysql -h 127.0.0.1 -P 3306 -u root -p\nEnsure that the server is running locally on port 3306 before execution.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard tutorial on database connection parameters using localhost loopback IP."
+  },
+  {
+    "id": "border_138",
+    "text": "To post alerts to a channel, send an HTTP POST request to our webhook url:\nhttps://hooks.slack.com/services/FAKE/WEBHOOK/NOTAREALURL123456789ABCDEFGHIJKL\nPass the message payload as a JSON string with the key 'text'.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Mixes standard API documentation with our internal slack webhook endpoint URL."
+  },
+  {
+    "id": "border_139",
+    "text": "To set up a webhook, register your target endpoint in the developer portal:\nPOST https://api.example.com/v1/webhooks\nPayload: { \"url\": \"https://your-domain.com/webhook-receiver\" }",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard API guide showing a generic placeholder URL format."
+  },
+  {
+    "id": "border_140",
+    "text": "To download the application, pull the container from our private registry:\ndocker pull registry.prod.nexatech.internal:5000/main-app:v2.0\nEnsure you have run docker login before attempting to fetch the image.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Mixes public Docker commands with our internal docker registry repository name."
+  },
+  {
+    "id": "border_141",
+    "text": "To run a containerized web server, execute the following command:\ndocker run -d -p 80:80 nginx:latest\nThis will pull the official nginx image from the public Docker Hub registry.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard Docker documentation command using public Docker Hub image."
+  },
+  {
+    "id": "border_142",
+    "text": "# Script to send onboarding SMS notifications via Twilio client\ntwilio_client.messages.create(\n    to=\"+34617555019\",\n    body=\"Welcome to the team! Your onboarding session starts at 10 AM.\"\n)",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Mixes standard Python code with a candidate's personal phone number."
+  },
+  {
+    "id": "border_143",
+    "text": "# Test script for verifying Twilio SMS integration setup\nclient.messages.create(\n    to=\"+15005550006\",  # Twilio test number\n    from_=\"+15005550006\",\n    body=\"Test message\"\n)",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard code snippet using Twilio's official test phone number."
+  },
+  {
+    "id": "border_144",
+    "text": "To configure git on your machine, run these configurations in bash:\ngit config --global user.name \"Sarah Jenkins\"\ngit config --global user.email \"s.jenkins@nexatech.io\"\nThis ensures commits are attributed correctly.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Mixes generic git commands with the founder's personal email address."
+  },
+  {
+    "id": "border_145",
+    "text": "To set up your identity in git, run the following command line prompts:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@example.com\"\nVerify settings using git config --list.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Standard git config setup commands using generic placeholders."
+  },
+  {
+    "id": "border_146",
+    "text": "# Django configuration file settings snippet\nDEBUG = False\nSECRET_KEY = '00fac000ef00ac0efa0cef00ac00e000000f000a00c000ef0a00c00000e00f00'\nALLOWED_HOSTS = ['*']",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Mixes generic Django settings instructions with our internal JWT secret key."
+  },
+  {
+    "id": "border_147",
+    "text": "# Best practice: Load secret key from environment variables\nimport os\nSECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'fallback-key-for-local-dev')\nDEBUG = True",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Django setup tutorial showing how to load the secret key from environment."
+  },
+  {
+    "id": "border_148",
+    "text": "To deploy updates, connect to the server via SSH protocol:\nssh -i ~/.ssh/id_rsa deployer@deploy.prod.alphabits.internal\nOnce connected, run git pull and reload the application manager.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Mixes standard SSH command documentation with our internal production domain name."
+  },
+  {
+    "id": "border_149",
+    "text": "To access your remote hosting environment, use the standard ssh command:\nssh username@your-server-ip-address\nEnsure port 22 is open on your firewall configuration.",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_safe",
+    "ambiguity_reason": "Generic SSH command instructions using standard tutorial hostname."
+  },
+  {
+    "id": "border_150",
+    "text": "-- Database migration query to update executive pay structure\nUPDATE employee_compensation \nSET base_salary = 280000 \nWHERE role_id = 'CFO';",
+    "category": "borderline",
+    "subcategory": "ambiguous",
+    "true_label": "leans_sensitive",
+    "ambiguity_reason": "Mixes basic SQL statements with the CFO's target salary figure."
+  }
+]

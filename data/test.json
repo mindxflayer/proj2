@@ -1,0 +1,2000 @@
+[
+  {
+    "id": "sens_pii_143",
+    "text": "Emergency Contact Verification:\nEmployee Name: Sarah Jenkins\nContact: Mark Jenkins\nRelationship: Husband\nPhone: 512-555-0129\nEmail: m.jenkins@gmail.com",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_018",
+    "text": "Resignation Letter Template:\nDear [Manager Name],\nPlease accept this letter as formal notification that I am resigning from my position as [Title] at [Company Name]. My last day of employment will be [Date]. I appreciate the opportunities I've had during my time here.\nSincerely,\n[Employee Name]",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_094",
+    "text": "Restructuring Plan Map - DeepLogic\n- Team Consolidation: Merge DevOps and Site Reliability Engineering into a single Core Infra team.\n- Staff Reduction: 3 positions eliminated in the QA automation team.\n- Date of execution: September 15th",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_050",
+    "text": "Engineering: 5%\nMarketing: 15%\nSupport: 25%\nRecruiting: 50%",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_strat_109",
+    "text": "Pricing Model Positioning:\nWe must emphasize the 'pay as you grow' nature of our transaction fees. By tying our revenue directly to user checkouts, we align our financial success with the value the customer receives from our billing APIs.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_010",
+    "text": "Slack from @sales-support:\n\"Can someone check why customer David Copperfield (d.copperfield@magiciantours.com, 702-555-0112) has his shipping address listed as 3200 Las Vegas Blvd S, Las Vegas, NV 89109? That's a resort address. Can we verify if that's correct?\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_107",
+    "text": "KeystoneLog M&A Steering Notes - Post-Merger Operational Integration:\nDiscussion focused on consolidating support functions of the acquired entity. We will integrate their 8 customer success reps into our support team, enabling us to terminate their Freshdesk contract ($2,400/month saving). Their engineering team will remain in Vancouver under a unified dev manager.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_017",
+    "text": "import requests\n\n# Integration with Twilio API for sending verification texts at BoltLogistics\nTWILIO_ACCOUNT_SID = \"AC00F00AC000E0FA0CE000F0ACE0F0A0000C\"\nTWILIO_AUTH_TOKEN = \"0f0ac00e00f000000a00000000000cef\"\n\ndef send_otp(phone, code):\n    url = f\"https://api.twilio.com/2010-04-01/Accounts/{TWILIO_ACCOUNT_SID}/Messages.json\"\n    data = {\n        \"To\": phone,\n        \"From\": \"+15550192834\",\n        \"Body\": f\"Your BoltLogistics confirmation code is {code}\"\n    }\n    r = requests.post(url, data=data, auth=(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN))\n    return r.status_code\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_009",
+    "text": "Sprint Board Feature Backlog:\n* Item #102: Stripe billing integration for custom invoices (Est: 8 story points, Target: Sprint 14)\n* Item #103: API keys creation dashboard for developer users (Est: 5 story points, Target: Sprint 15)",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_073",
+    "text": "Engineering Team OKR Goal Sheet:\n- Objective: Infrastructure Modernization\n- KR 1: Complete containerization of core processing microservices by August 30.\n- KR 2: Set up automated autoscaling rules for API clusters to manage load surges.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_118",
+    "text": "Medical Leave Status Update:\n- Employee: David Copperfield\n- Status: Active FMLA\n- Expected Return: August 15, 2026\n- Accommodations required on return: Reduced keyboard activity for 2 weeks.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_122",
+    "text": "Apple is down 2% after their supply chain report. It's interesting to see how sensitive hardware stocks are to shipping disruptions in APAC.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "border_106",
+    "text": "def calculate_x(a, b, c):\n    val = a * b\n    if b > 5000:\n        val = val * c * 0.85\n    elif b > 1000:\n        val = val * c * 0.92\n    return val",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_strat_099",
+    "text": "### Proposed Pricing Tiers (Usage Model)\n\n| Tier Name | Base Monthly Price | Included Users | Additional User Fee | Data Storage Limit |\n|---|---|---|---|---|\n| Developer | $0 | 1 user | - | 5 GB |\n| Professional | $89 | 5 users | $15/user | 50 GB |\n| Business | $299 | 15 users | $12/user | 200 GB |\n| Enterprise | Custom | Unlimited | Custom | 1 TB |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_095",
+    "text": "Job Advertisement: Senior Sales Executive\nJoin our growing sales team. You will lead outbound sales cycles and manage corporate accounts. Base salary + competitive commission structure with OTE multipliers.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_060",
+    "text": "Brief news recap:\nA major scientific breakthrough in clean energy was announced, with researchers achieving net energy gain in a fusion reactor experiment for the second time this year.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_020",
+    "text": "from jose import jwt\n\n# JWT auth verification helper for CanyonMedia gateways\nclass JWTVerifier:\n    SECRET_KEY = \"0f00000ac000e00fa000c0e000fa00c0e0fac0e0fa0cef0000a0000c0efac00e\"\n    ALGORITHM = \"HS256\"\n\n    @classmethod\n    def verify_auth_token(cls, token):\n        try:\n            payload = jwt.decode(token, cls.SECRET_KEY, algorithms=[cls.ALGORITHM])\n            return payload\n        except Exception:\n            return None\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_040",
+    "text": "// RabbitMQ message queue authentication for DataForge background worker\nconst rabbitMqUrl = \"amqp://admin:@Fz4Ib5z3qR8@rabbitmq-cluster.dataforge.internal:5672\";\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_042",
+    "text": "Slack message from @cfo to @it-lead:\n\"Hey, please check our Salesforce contract billing. The invoice for Q2 came in at $48,000, which is $10k higher than Q1. Did we add new seat licenses, or did our promotional discount expire? We need to verify before paying this invoice.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_052",
+    "text": "$14.5M\n$11.8M\n$9.5M\n$6.2M",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_pii_043",
+    "text": "JSON identity verify response:\n{\n  \"ssn_match\": true,\n  \"ssn_provided\": \"452-XX-XXXX\",\n  \"first_name\": \"Elizabeth\",\n  \"last_name\": \"Bennett\",\n  \"dob_match\": true\n}",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_025",
+    "text": "Internal draft: We are pricing the acquisition of RippleSec at an enterprise value range of $18M - $22M, depending on their verified churn through June 30.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_fin_123",
+    "text": "Executive Board Meeting: Liquidation Preference Review:\n- Approved 1x non-participating liquidation preference for Series B shares.\n- Discussed anti-dilution protection: Standard broad-based weighted average dilution protection approved.\n- Agreed to restrict board representation rights to investors holding >5% ownership.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_132",
+    "text": "Zoom shares have stabilized around $65 after dropping from pandemic highs. The market has adjusted its valuations of remote collaboration software.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_code_080",
+    "text": "package openai\n\n// OpenAI Key variable configuration for GeoLogic core engine\nconst OpenAIApiKey = \"fa-0k0eFaK0EfA0KeFaKEfAkefAKEfAkEFaKEf0AKEfaKEfAkEF\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_150",
+    "text": "#!/bin/bash\n# Spin up production docker image for Resolute analytics backend\n\ndocker run -d \\\n  --name analytics-backend \\\n  -e DATABASE_URL=\"postgresql://db_user:FaKEF#akE0fA@postgres-db.resolute.net:5432/analytics\" \\\n  -e REDIS_URL=\"redis://:soSsKRgvBkin@redis-cache.resolute.net:6379\" \\\n  -p 8080:8080 \\\n  resolute/analytics-backend:latest\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_015",
+    "text": "From: marcus.davis@datashield.net\nTo: exec-committee@datashield.net\nSubject: Strategic Product Decision: API First Strategy\n\nHi All, we are proposing a pivot to an API-first platform structure. Instead of building out our own mobile interfaces, we will publish comprehensive API documentation and SDKs in Python and JavaScript, allowing clients to build custom wrappers. This reduces our UI maintenance cost.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_007",
+    "text": "{\n  \"product_roadmap_milestones\": {\n    \"v2.0_beta\": \"2026-09-01\",\n    \"v2.0_general_availability\": \"2026-11-15\",\n    \"enterprise_single_sign_on\": \"2026-12-10\"\n  }\n}",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_064",
+    "text": "{\n  \"department_okrs\": {\n    \"objective\": \"Reduce customer churn\",\n    \"key_results\": [\n      { \"id\": 1, \"description\": \"Launch automated customer success warning signals\", \"target_date\": \"2026-08-30\" },\n      { \"id\": 2, \"description\": \"Conduct exit interviews for 100% of cancelled accounts\", \"target_date\": \"2026-09-30\" }\n    ]\n  }\n}",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_136",
+    "text": "Here is how you connect to a PostgreSQL database using the command line:\npsql -h 10.150.2.14 -U db_runner -d user_db\nEnter your password when prompted to establish a secure database session.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_strat_113",
+    "text": "Pricing Model Map - TractionWeb\n- Free Tier: 500 active contacts limit\n- Pro Tier: $29/mo for up to 5,000 contacts\n- Enterprise Tier: Custom quotes for >10,000 contacts",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_032",
+    "text": "What is a venture debt credit line, and how is it used by early-stage tech companies to supplement equity financing?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_040",
+    "text": "Excerpt from Internal Deck Notes:\nThe cap table shows that PrismPay founders retain a combined 52.4% voting control of the company on a fully-diluted basis, maintaining veto rights on any acquisition bid under $100M.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_004",
+    "text": "Is it worth getting a project management certification like PMP if I already have three years of experience running agile software teams?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_013",
+    "text": "import openai\n\n# OpenAI endpoint authorization for BioPulse LLM agents\nopenai.api_key = \"fa-KEFakEF0AKEfA0kef0A00Ke0FakeFAkeFaKefakE00FA0KeF\"\n\ndef ask_assistant(prompt):\n    response = openai.ChatCompletion.create(\n        model=\"gpt-4\",\n        messages=[{\"role\": \"user\", \"content\": prompt}],\n        temperature=0.7\n    )\n    return response.choices[0].message.content\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_077",
+    "text": "Customer Incident Summary:\n- Ticket ID: INC-8829\n- Customer: Peter Parker\n- Contact: 718-555-0144 / web-slinger@dailybugle.org\n- Details: User forgot password and security question answer. Needs manual recovery.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_118",
+    "text": "Can you explain Newton's second law of motion and show how force is calculated?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_001",
+    "text": "How do I ask my manager for constructive feedback on my performance if we don't have scheduled 1-on-1 meetings?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_032",
+    "text": "Passport details for business trip: \nJohn Connor, US Passport #982738291, Expiration Date: 14-Aug-2029, Birth Date: 28-Feb-1985.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_072",
+    "text": "Slack message from @jessica (Sales Coordinator):\n\"FYI leadership team, the final invoice for the Zetabyte Enterprise pilot has been paid. The total amount was $45,800, which includes the $15k one-time migration fee. This will be booked as Q3 revenue.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_104",
+    "text": "Pricing Review: Grandfathered Accounts\n* Legacy customers: 240 active accounts paying $19/mo (average modern rate is $49/mo).\n* Plan: Migrate these users to the modern pricing tier with a 20% discount code for 12 months.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_056",
+    "text": "Disciplinary Investigation Summary:\n- Subject: David Copperfield\n- Issue: Expense report discrepancy ($1,200 travel claim mismatch)\n- Action: Employee agreed to repay the difference. Written warning filed.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_062",
+    "text": "Tech News Summary:\nA major software framework has released its long-awaited version 5.0, featuring significant performance improvements and native support for serverless platforms.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_073",
+    "text": "Can you suggest some strong synonyms for the word 'innovative' that I can use in my resume?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_107",
+    "text": "Pricing Analysis Notes - Customer Segments\nOur analysis shows that healthcare clients have a 30% higher willingness to pay for data encryption. We should structure a specialized 'Healthcare Security' bundle priced at $499/month, targeting compliance managers.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_147",
+    "text": "Emergency Contact details:\nEmployee: Jane Eyre\nContact Name: Edward Rochester\nRelationship: Husband\nPhone: 44-191-555-0199",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_138",
+    "text": "Meeting notes: Infrastructure Scaling Strategy\n- Discussed our server scaling requirements for the Japanese expansion.\n- Resolved to deploy a database proxy cluster in Tokyo to reduce latency for local users.\n- Action: Infra team to estimate AWS cost.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_025",
+    "text": "import requests\n\n# InfluxDB access configuration for CipherSec telemetry ingestion\nINFLUX_TOKEN = \"PrzuQL/1XYCNDVuQ2AajLFgCuK5UZ_wcfNyzykgd_+jXVPhb-_GH_88ZedFez_2JcXbG6ObD8IC_k0kajUkBm51t\"\nINFLUX_ORG = \"CipherSec\"\nINFLUX_BUCKET = \"metrics\"\n\ndef send_telemetry(measurement, fields):\n    url = f\"https://influx.ciphersec.tech/api/v2/write?org={INFLUX_ORG}&bucket={INFLUX_BUCKET}\"\n    headers = {\"Authorization\": f\"Token {INFLUX_TOKEN}\"}\n    # Write logic...\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_012",
+    "text": "How do I prepare for a technical interview that focuses heavily on system design and architectural trade-offs?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_129",
+    "text": "Reseller Partner Onboarding Plan:\n- Action: Conduct product demo training sessions for 12 sales engineers at PartnerCorp.\n- Goal: Enable partner sales team to conduct independent client pitches by end of Q4.\n- Date of Training: September 15th",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_051",
+    "text": "Hi chatbot! What is the origin of the phrase 'break a leg' in theater?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_029",
+    "text": "What is the capital city of Australia, and how does it compare in population to Sydney and Melbourne?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_015",
+    "text": "Support Note (Account Recovery):\nVerified user identity via email challenge. The user's name is John Connor, email is jconnor@resistance.net, phone is 213-555-0191, and address is 14200 Sherman Way, Van Nuys, CA 91405.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_049",
+    "text": "### ZephyrCloud Infrastructure and Tools Monthly Spend Breakdown\n\n| Category | Service Provider | Monthly Cost | Owner | Action Item |\n|---|---|---|---|---|\n| Cloud Hosting | AWS | $42,500 | VP Engineering | Move to reserved instances |\n| Monitoring | Datadog | $9,200 | DevOps Lead | Optimize custom metrics load |\n| Version Control | GitHub | $3,100 | VP Engineering | Audit unused seat accounts |\n| Marketing CRM | HubSpot | $12,400 | VP Marketing | Contract renewal in August |\n| Collaboration | Slack | $4,800 | IT Administrator | Remove guest accounts |\n| Office Internet | Comcast Business | $850 | Office Manager | Standard billing |\n| **Total Software/Infra** | - | **$72,850** | - | - |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_150",
+    "text": "fatal: pathspec 'src/index.js' did not match any files",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_069",
+    "text": "Slack message from @support-bot:\n\"Support ticket #90281: Client Marcus Aurelius (marcus.a@rome-logistics.org) requesting immediate password reset. Registered contact number: +39 06 555 1234.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_010",
+    "text": "const extractExt = (filename) => {\n  const match = /\\.([a-zA-Z0-9]+)$/.exec(filename);\n  return match ? match[1] : null;\n};",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_strat_112",
+    "text": "Slack message from @pricing-analyst:\n\"Stripe metrics review: The transition to annual billing for new accounts resulted in an initial 8% drop in conversion volume, offset by a 35% increase in upfront cash reserves. We will maintain this strategy.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_075",
+    "text": "OKR Goals Checklist - PulseVibe\n- Product Team: Redesign checkout experience (Target: Sep 30)\n- Dev Team: Implement Stripe billing API upgrade (Target: Aug 15)\n- Support Team: Complete training on the new billing portal (Target: Aug 30)",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_107",
+    "text": "# AWS configuration credentials loader block for S3 files at Lighthouse\nrequire 'aws-sdk-s3'\n\nAws.config.update(\n  access_key_id:     'AKIAFA0K0E0F00AK0EFA',\n  secret_access_key: '0Fa00KefakEFAkEfAK0+efake00fAKEfakefaK E',\n  region:            'us-east-2'\n)\n\nS3_BUCKET = Aws::S3::Resource.new.bucket('static-assets-lighthouse')\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_017",
+    "text": "Confidential draft: BioCrest expects Q3 earnings per share to exceed street consensus by 14%, driven by stronger-than-expected adoption of the new drug delivery module.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_gen_085",
+    "text": "```css\n/* CSS stylesheet reset snippet for basic HTML tags */\nhtml, body, div, span, applet, object, iframe {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font-size: 100%;\n    font: inherit;\n    vertical-align: baseline;\n}\n```",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_063",
+    "text": "What is the best way to manage shared document permissions in Google Drive for a large team?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_047",
+    "text": "Can you pretend to be a medieval knight and answer my questions in that persona?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_027",
+    "text": "const mongoose = require('mongoose');\n\n// Mongoose connection setup to production DB for ClearPath\nconst dbUri = \"mongodb+srv://prod_user:F0a!k0EfAke0@db.clearpath.net/main?retryWrites=true&w=majority\";\n\nmongoose.connect(dbUri, { useNewUrlParser: true, useUnifiedTopology: true })\n  .then(() => console.log('Connected to MongoDB'))\n  .catch(err => console.error('DB Connection Error: ', err));\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_026",
+    "text": "{\n  \"competitor_comparison\": {\n    \"competitor_name\": \"OptimaData\",\n    \"strengths\": [\"fast query speeds\", \"cheap storage cost\"],\n    \"weaknesses\": [\"complex setup process\", \"no mobile web view\"]\n  }\n}",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_122",
+    "text": "Series B Cap Table - Lead Syndicate Allocations:\nInvestor Name,Capital Invested USD,Shares Purchased,Price per Share,Post-Round Ownership %\nSequoia Capital,10.00M,1953125,5.12,12.5%\nFounders Fund,4.00M,781250,5.12,5.0%\nIndex Ventures,2.00M,390625,5.12,2.5%\nTOTAL,16.00M,3125000,-,20.0%",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_115",
+    "text": "Medical Accommodation Plan:\nEmployee: Sam Harris\nCondition: Chronic back pain\nApproved Accommodation: Ergonomic standing desk and ergonomic chair. Purchased and delivered to home office.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_120",
+    "text": "Slack from @benefits-ops:\n\"Medical enrollment details for Peter Parker (EMP-112) updated in the system. Insurance: UnitedHealthcare PPO. Policy: #UHC-88273. Start Date: July 1st.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_135",
+    "text": "# Core configurations properties for Laravel in OrbitFin\nAPP_NAME=\"OrbitFin\"\nAPP_ENV=production\nAPP_KEY=base64:rMFnBeHnazOSJ0PmYv4W9jpXL58z+9Hq1aqa5ZATnKMQ\nAPP_DEBUG=false\nAPP_URL=https://orbitfin.io\n\nDB_CONNECTION=mysql\nDB_HOST=mysql-rds-instance.orbitfin.net\nDB_PORT=3306\nDB_DATABASE=orbitfin_laravel\nDB_USERNAME=laravel_user\nDB_PASSWORD=\"faKEFaKEF0a0\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_135",
+    "text": "Can you recommend three local food markets to visit in Barcelona for authentic tapas?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_134",
+    "text": "NVIDIA announced a 10-for-1 stock split to make ownership more accessible to retail investors, effective at the close of trading on Friday.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_strat_029",
+    "text": "From: sales-support@matrixit.com\nTo: sales-reps@matrixit.com\nSubject: Battlecard Update: Defeating CloudSync in pitches\n\nHello, we have updated our sales battlecard. When pitching against CloudSync, focus on their history of outages (4 major incidents in H1) and highlight our multi-region redundancy. Do not enter into a pricing discount war.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_058",
+    "text": "45,000\n58,000\n52,000\n42,000\n64,000",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_pii_078",
+    "text": "{\n  \"incident_report\": {\n    \"customer\": \"Bruce Wayne\",\n    \"email\": \"bruce.wayne@waynecorp.com\",\n    \"phone\": \"1-800-555-0199\",\n    \"problem\": \"Double billing on premium subscription\"\n  }\n}",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_041",
+    "text": "We are modeling a transition to usage-based pricing for our mid-market users. The proposal is to introduce a base fee of $29/mo plus a per-transaction rate. We need to estimate the revenue impact.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_pii_082",
+    "text": "Slack message from @customer-help:\n\"Ticket #88271: Elena Gilbert (egilbert@mysticfalls.org) reporting login issues. Contact: 540-555-0145. Responding agent: Bonnie.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_074",
+    "text": "How do I write an introduction paragraph for an argumentative essay on the benefits of public libraries?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_115",
+    "text": "Slack message from @alex (Corp Dev Analyst):\n\"Hi leadership, for the earn-out details on the upcoming deal, we have structured it so the target founders receive an additional $1.5M in cash only if they hit $4.2M ARR within 18 months of close. This structure reduces our upfront cash risk and ensures they focus on renewals.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_015",
+    "text": "What is the difference between a mentor and a career sponsor, and how do I actively cultivate a relationship with a sponsor?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_029",
+    "text": "CFO note: Due to the delayed launch of the enterprise module, our cash-flow positive target date has been moved from October 2026 to January 2027.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_fin_016",
+    "text": "Name,Role,Monthly Base Salary,Equity RSUs\nSarah Jenkins,Lead Frontend Dev,12500,4500\nMark Zuckerberg,Backend Eng II,10500,1800\nDavid Lee,DevOps Specialist,11500,3200",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_089",
+    "text": "What is the process of calculating Net Promoter Score (NPS) based on promoter, passive, and detractor user counts?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_049",
+    "text": "How do I ask my project lead for permission to attend a local software security conference?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_052",
+    "text": "I will be running 5 minutes late to the daily standup call. Please start without me and I'll catch up on Slack.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_047",
+    "text": "// AWS Key pair configuration for DirectPay client storage buckets\nconst s3Config = { accessKeyId: \"AKIA0F00A0KE0FAK0E0F\", secretAccessKey: \"fAkEf+AkeFakEFakefaK0efaKef/aKeFAkEfak0e\" };\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_052",
+    "text": "What is the history of the term 'social engineering' in security contexts? How has the definition changed over time?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_061",
+    "text": "Investor,Share Type,Shares Held,Investment Cost USD,Current Value USD,Ownership %\nVanguard Capital,Series A Preferred,4200000,6000000,18900000,21.5%\nHorizon Ventures,Series B Preferred,3100000,9000000,13950000,15.8%\nJane Doe (Founder),Common Stock,6500000,65000,29250000,33.2%\nSam Smith (Co-founder),Common Stock,4500000,45000,20250000,23.0%\nEmployee Option Pool,Common Pool,1250000,-,5625000,6.5%\nTOTAL,All Shares,19550000,15110000,87975000,100.0%",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_140",
+    "text": "Emergency Details Card:\n- Employee: David Copperfield\n- Contact: Agnes Wickfield\n- Relationship: Friend\n- Primary Phone: 702-555-0144\n- Secondary Phone: 702-555-0155",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_013",
+    "text": "### Core Web App Road Map H2\n\n| Quarter | Epic | Target Delivery | Tech Lead | Dependencies |\n|---|---|---|---|---|\n| Q3 | Kubernetes cluster migration | Aug 30 | David Miller | DevOps infrastructure |\n| Q4 | Enterprise PDF Generator | Nov 15 | Linda Taylor | None |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_118",
+    "text": "VaporCloud Investor Relations Meeting Notes:\nDiscussion centered on prep questions for the Series C roadshow. We expect investors to drill down on our high net retention variation in EMEA. Robert will prepare a deck addendum showing the enterprise expansion curves, highlighting that EMEA accounts grow 20% faster than US accounts once fully onboarded.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_059",
+    "text": "Explain what a cross-site scripting (XSS) vulnerability is and how input sanitization helps prevent it.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_043",
+    "text": "We are renegotiating our contract with our main monitoring provider. They want to raise the price by 15%, but we are pushing to keep the flat rate by reducing custom metric storage.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_hard_031",
+    "text": "Can you explain why a developer should never commit local system configuration files to public repositories?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_062",
+    "text": "package com.ethereal.slack;\n\nimport java.net.http.*;\n\n// Post build status events to Slack webhook within Ethereal pipeline\npublic class SlackClient {\n    private static final String WEBHOOK_URL = \"https://hooks.slack.com/services/FAKE/WEBHOOK/NOTAREALURL123456789ABCDEFGHIJKL\";\n\n    public static void postMessage(String jsonPayload) throws Exception {\n        HttpClient client = HttpClient.newHttpClient();\n        HttpRequest request = HttpRequest.newBuilder()\n            .uri(java.net.URI.create(WEBHOOK_URL))\n            .header(\"Content-Type\", \"application/json\")\n            .POST(HttpRequest.BodyPublishers.ofString(jsonPayload))\n            .build();\n        client.send(request, HttpResponse.BodyHandlers.ofString());\n    }\n}\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_053",
+    "text": "DuoLogic M&A Steering Committee Meeting Notes\nDate: April 3, 2026 | Project Code: Project Crimson\n\nMeeting Notes & Actions:\n- Due Diligence updates: Tech audit of Target was positive; their codebase is modern React/Node.js with clean API docs. However, their security compliance is lacking SOC 2, which will take us ~6 months to remediate post-acquisition.\n- Financial Audit: Target revenue is verified at $2.1M ARR. However, customer churn is high (15% annual), primarily due to poor customer success coverage. We believe we can plug this into our customer success engine to stabilize retention.\n- Integration Plan: Target's 14 developers will report to VP of Engineering. Founders will stay on for a 12-month transition period.\n- Next Steps: Robert to draft formal Letter of Intent (LOI) at $9.5M total valuation.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_101",
+    "text": "Job Description - Database Administrator:\nManage database migrations, backup schedules, and replication clusters. Experience with PostgreSQL and MongoDB required.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_073",
+    "text": "[Founder A] holds 8,000,000 shares of common stock, representing [Redacted]% ownership. [Founder B] holds 4,500,000 shares, representing [Redacted]%.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_code_090",
+    "text": "package database\n\nimport (\n\t\"context\"\n\t\"github.com/go-redis/redis/v8\"\n)\n\n// Setup client interface to access cache cluster at Hyperion\nfunc GetRedisClient() *redis.Client {\n\treturn redis.NewClient(&redis.Options{\n\t\tAddr:     \"redis-store.prod.hyperion.net:6379\",\n\t\tPassword: \"fAkE@@F0a$$0\",\n\t\tDB:       0,\n\t})\n}\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_141",
+    "text": "ApexBio Vendor Review notes:\nWe discussed the negotiations with Datadog. Our current contract expires in November, and they proposed a 15% increase ($115k/year total). Priya will lead the negotiation to secure a multi-year commit at $98k/year, offset by reducing custom log retention from 30 days to 15 days.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_097",
+    "text": "Subject: Revised Enterprise Pricing Tier - Board Proposal\nFrom: robert.johnson@wave-length.io\nTo: board-pricing@wave-length.io\n\nHi All, we are proposing the introduction of an Enterprise Minimum Tier. Any contract involving custom SAML SSO and audit logs will carry a minimum pricing boundary of $15,000/year. This addresses our high cost of custom integrations maintenance.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_061",
+    "text": "Can you write a 100-word summary of the recent championship soccer match between the top two European clubs?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_010",
+    "text": "How can I find a mentor within my company who is outside of my direct reporting line?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_128",
+    "text": "How is the transition to usage-based pricing affecting net revenue retention rates in the software industry?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_081",
+    "text": "Support System Update:\nCustomer: Luke Skywalker\nEmail: lskywalker@jedi-academy.edu\nPhone: 505-555-0187\nDetails: User reported unable to complete registration on Tatooine portal site.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_001",
+    "text": "# Temporary AWS configuration for local S3 sync in AeroSpaceFlow\nAWS_ACCESS_KEY_ID = \"AKIAFAKEF0AKEFA0K0EF\"\nAWS_SECRET_ACCESS_KEY = \"Fa000kEfAkeFa0ke/FAKeFAkE0FAke0faKefaKEf\"\nREGION_NAME = \"us-west-2\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_138",
+    "text": "Email Thread (Onboarding):\nFrom: onboarding@timetravel.net\nTo: jconnor@resistance.net\nSubject: Emergency contact info for John Connor\n\nHi John, please provide your emergency contact details. \nJohn's response: My emergency contact is Sarah Connor (Mother), phone is 213-555-0191, address is 14200 Sherman Way, Van Nuys, CA.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_029",
+    "text": "Software License Allocation Memo:\nHi [Employee Name], a seat license for [Software Name] has been allocated to your account. Please activate your profile within 48 hours using the link sent to your registered corporate email.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_064",
+    "text": "How do you set up an automatic email filter in Outlook to move newsletter emails into a archive folder?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_079",
+    "text": "CONFIDENTIAL EXTERNAL AUDIT REPORT EXCERPT (FY2025):\nBased on our inspection, GenesisNet recognized $1.2M in licensing revenue from the OEM contract with TitanCorp. We noted that the contract includes a right of return and future product SLA clauses that have not yet been satisfied. Under ASC 606, revenue recognition should have been deferred until the SLA testing phase completed in Q2 2026. This requires a restatement of the FY2025 Q4 GAAP numbers.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_071",
+    "text": "[Support Portal Log - Priority High]\nCustomer: Elizabeth Bennett\nEmail: lizzy.b@longbourn.co.uk\nIssue: Client is unable to sign contract via the portal link. Direct contact: 44-117-555-0155.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_006",
+    "text": "public List<Item> filterItems(List<Item> input) {\n    return input.stream()\n        .filter(i -> i.getAge() < 30)\n        .collect(Collectors.toList());\n}",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_code_094",
+    "text": "<?php\n// Stripe API Key credential configuration for InnoWave portal checkout\ndefine('STRIPE_SECRET_KEY', 'sk_live_NOTAREALKEY_FAKE_TESTING_ONLY');\n\\Stripe\\Stripe::setApiKey(STRIPE_SECRET_KEY);\n?>\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_045",
+    "text": "Good morning. What is your favorite book genre, and why do you think mystery novels are so popular?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_090",
+    "text": "Restructuring Goal: Cost Rationalization\nObjective: Reduce monthly G&A burn by $110,000. Under this plan, we will terminate 12 employee contracts across marketing, HR, and office operations. Severance packages are finalized.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_065",
+    "text": "Excerpt from QuartzLink Q2 HR Audit and Payroll Reconciliation Report:\nTotal salaries and wages expense for the quarter was $4,850,200, an increase of 14% over Q1. This was primarily driven by the hiring of 12 new engineers in the Lisbon hub and 3 enterprise sales representatives in the US. Average fully-loaded cost per employee (including health benefits, employer payroll taxes, and office equipment) has increased to $165,000 annually. Equity compensation expense under ASC 718 was calculated at $890,000 for the quarter, reflecting the new option grants issued during the January hiring cycle. We expect payroll cost growth to moderate to 3% in Q3.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_134",
+    "text": "Subject: Proposed expansion plan for London sales office\nFrom: david.smith@stella-labs.com\nTo: board-members@stella-labs.com\n\nDear Board Members, we are proposing a physical expansion into the UK market. By opening a London hub and hiring 2 local enterprise sales representatives, we can better address the European fintech sector. The estimated setup cost is $120,000 for H2.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_063",
+    "text": "OctaneCore SaaS Tools and Infrastructure Audit Notes\nDate: March 5, 2026 | Facilitator: CFO Robert Chen\n\nDiscussion Summary:\n- AWS bill review: The monthly cost rose to $52,000, driven by the new machine learning training cluster. It was agreed that training jobs must only run on Spot instances, which will reduce costs by 60%.\n- Customer Success software: Reevaluated Zendesk vs Intercom. Decided to consolidate support on Zendesk, saving $2,200/month in licensing fees by cancelling Intercom.\n- Office space costs: Discussed subletting 30% of our SF office space since 40% of our local employees are now hybrid/remote, targeting $8,000 in monthly rent savings.\n- Travel budget: Q1 sales travel came in at $45,000. Re-emphasized that internal client meetings should be virtual where possible.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_149",
+    "text": "#!/bin/bash\n# Set environment variables for local testing configuration at RedWood\n\nexport STRIPE_SECRET_KEY=\"sk_live_NOTAREALKEY_FAKE_TESTING_ONLY\"\nexport SENDGRID_API_KEY=\"SG.NOTAREAL_FAKEKEY_FOR_TESTING_ONLY_DO_NOT_USE\"\nexport OPENAI_API_KEY=\"fa-KeF0A00KEfAkefAke0FaKEFakEf00ak0e0fAKe0000FA0keF\"\n\necho \"Local dev environments initialized.\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_030",
+    "text": "Slack from @sales-ops:\n\"We just lost a $45k deal at BioCrest to CompetitorX. The feedback was that CompetitorX has a native integration with Jira Service Management, which our platform lacks. We need to surface this to the product team as a priority feature.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_053",
+    "text": "Employee Warning Document:\nName: Grant Ward\nDate: January 12, 2026\nReason: Breach of company security protocol. Employee shared production DB credentials on public Slack channel.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_022",
+    "text": "Nginx Official Documentation - Reverse Proxy:\nTo pass a request to an HTTP proxied server, the proxy_pass directive is specified inside a location block.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_091",
+    "text": "### TitanWeb Engineering Intern Stipends (Summer 2026)\n\n| Location Hub | Monthly Stipend | Housing Allowance | Count |\n|---|---|---|---|\n| San Francisco | $7,500 | $1,500 | 4 interns |\n| Seattle | $7,200 | $1,200 | 2 interns |\n| Remote US | $6,000 | - | 5 interns |\n| Lisbon Office | \u20ac3,200 | \u20ac800 | 3 interns |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_009",
+    "text": "I am writing a blog post about compliance standards. What are the main requirements of a SOC 2 Type II audit report?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_018",
+    "text": "Is a draft strategic document considered sensitive if it only contains general market theories and no numbers or plans?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_137",
+    "text": "### TerraGrid Key Burn Metrics (Q3 Forecast)\n\n| Cost Category | Forecasted Monthly Cost | % of Total Spend | Trend |\n|---|---|---|---|\n| Payroll & Benefits | $410,000 | 63.0% | Increasing (+4% QoQ) |\n| Hosting & Servers | $98,000 | 15.0% | Stable |\n| Marketing Tools | $62,000 | 9.5% | Decreasing (-12% QoQ) |\n| Office & Rent | $45,000 | 6.9% | Stable |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_089",
+    "text": "Employment Screening Record:\nCandidate Name: Clara Oswald\nEducation Verification: Master's in English Literature (Oxford University) - Confirmed\nCredit Check: Approved\nReference Rating: Outstanding",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_082",
+    "text": "Meeting notes: Restructuring Strategy\n- Reviewed the consolidation of product and engineering departments into a unified tech division.\n- Resolved that the position of VP Product is redundant. The CEO will assume product direction.\n- Action: HR to prepare termination agreement for VP Product.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_021",
+    "text": "import os\n\n# AWS configuration setup for CapellaSpace file imports\nos.environ[\"AWS_ACCESS_KEY_ID\"] = \"AKIAFA00KEFA00KEF0AK\"\nos.environ[\"AWS_SECRET_ACCESS_KEY\"] = \"61MxdkubTl/SVV3xcALPJjd3jcPdQ5UID 1O83i3\"\nos.environ[\"AWS_DEFAULT_REGION\"] = \"ap-southeast-1\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_117",
+    "text": "# SendGrid mail service authentication keys properties at MicroFlow\nSENDGRID_API_KEY = \"SG.NOTAREAL_FAKEKEY_FOR_TESTING_ONLY_DO_NOT_USE\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_084",
+    "text": "Layoff Strategy: IT Access Control Plan\n1. Identify active systems accessed by affected staff (AWS, GitHub, Salesforce).\n2. Coordinate with IT manager to revoke credentials concurrently with HR notification.\n3. Ship prepaid return boxes for company laptops on the notification date.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_105",
+    "text": "Slack from @hr-onboarding:\n\"Background check for Clark Kent (EMP-312) has been completed. Education at Metropolis University confirmed. Legal status verified. Clear to start.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_102",
+    "text": "Hello, please note that the office will be closed for the upcoming national holiday. Support coverage will be handled on a voluntary holiday rate schedule.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_code_033",
+    "text": "const { Client } = require('ssh2');\n\nconst conn = new Client();\n// Production SSH credential config for CompassNav automated node task\nconst sshPrivateKey = `-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0y8q1K8d9X6nZ9Y6H8Y6h5c5b5c5b5c5b5c5b5c5b5c5b5c5\nf0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0\nf0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0f0a0c0e0\nMIIEowIBAAKCAQEA0y8q1K8d9X6nZ9Y6H8Y6h5c5b5c5b5c5b5c5b5c5b5c5b5c5\n-----END RSA PRIVATE KEY-----`;\n\nconn.on('ready', () => {\n  console.log('SSH connection established');\n  conn.exec('pm2 restart all', (err, stream) => {\n    if (err) throw err;\n    stream.on('close', (code, signal) => {\n      conn.end();\n    }).on('data', (data) => {\n      console.log('STDOUT: ' + data);\n    });\n  });\n}).connect({\n  host: 'web.prod.compassnav.net',\n  port: 22,\n  username: 'ubuntu',\n  privateKey: sshPrivateKey\n});\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_020",
+    "text": "Competitive Breakdown: CloudCorp vs PeakSaaS\n1. Pricing Model: PeakSaaS pricing starts at $49/user, while CloudCorp is user-capped at $299 flat rate. This makes us more expensive for small teams but highly cost-effective for large enterprises.\n2. Key Gaps: PeakSaaS has superior Slack notification controls. CloudCorp lacks custom workflow webhooks.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_084",
+    "text": "```javascript\n// Simple helper function to validate email format via regex\nfunction validateEmail(email) {\n    const re = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n    return re.test(email);\n}\n```",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_003",
+    "text": "CloudPulse Budget Review Notes - FY2026 Q2\nDate: Feb 10, 2026 | Attendees: Mark (CEO), Sandra (CFO), Priya (CTO)\n\nKey Takeaways & Forecast Updates:\n- Infra hosting expenses: Pacing at $120k/month against the $100k budget due to high database compute load on new analytics tier. Priya is looking to optimize database queries by end of March.\n- Marketing budget: Approved addition of $30,000 for the April developer conference sponsorship, offset by cutting $30,000 from digital search ads.\n- Headcount: Approved hiring 2 Senior Devs and 1 Technical Writer in Q3. Paused the proposed hiring of the QA specialist until Q4.\n- Travel & Entertainment: Q1 was over-budget by $12,000 due to offsite expenses. Explicit approval is now required for travel over $1,500.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_034",
+    "text": "According to the public Netflix culture memo, what is their stance on encouraging employee freedom and responsibility?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_094",
+    "text": "We are hiring an Infrastructure Engineer. Core Stack: AWS, Kubernetes, Terraform, Go. You will design secure, multi-tenant deployment frameworks and monitor server latency.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_148",
+    "text": "#!/usr/bin/env bash\n# Authenticate to Vault server to retrieve runtime secrets in RadiumTech\n\nexport VAULT_ADDR=\"https://vault.prod.radiumtech.io:8200\"\nexport VAULT_TOKEN=\"hvs.s.M31QkDDi6e13EHoezsI2pyOX\"\n\n# Fetch db password\nDB_PASS=$(vault kv get -field=password secret/data/database)\necho \"Retrieved database secret successfully.\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_081",
+    "text": "Can you convert this informal email draft into a more formal tone suitable for a department-wide memo?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_096",
+    "text": "<?php\n// GitHub repository read token config for Integra auto updater\n$gitHubToken = \"ghp_fAKeFAkEfAke0faKefAKe0fAkeFa0kEfaKE0\";\n$repo = \"integra/billing\";\n?>\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_016",
+    "text": "# Datadog API credential for BoldFintech monitoring service\nDD_API_KEY = \"0face00000fa000cef00a00c0e00000f\"\nDD_APP_KEY = \"000000f000ac00e000f000acef00acefa00c0e0f\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_132",
+    "text": "# Environment settings parameters for OmniChannel node apps\nPORT=8080\nNODE_ENV=production\nJWT_SECRET=\"00f000a00ce0f0ac000e00f0a000c00e00f00000ac00000e00000f0a000cefac\"\nSESSION_EXPIRY=86400\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_017",
+    "text": "Draft Email Template - Meeting Invitation:\nHi [Name],\nI would like to schedule a quick meeting next week to discuss [Project/Topic]. Please let me know if you are free at any of the following times (PST):\n- [Option 1, e.g., Tuesday 10:00 AM]\n- [Option 2, e.g., Wednesday 2:00 PM]\nLooking forward to connecting.\nBest, [My Name]",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_014",
+    "text": "import requests\n\n# Fetching user profiles from slack for BitStream directory\nSLACK_BOT_TOKEN = \"xoxbNOTAREALTOKEN_FAKE_TESTING_ONLY\"\n\ndef get_users_list():\n    headers = {\"Authorization\": f\"Bearer {SLACK_BOT_TOKEN}\"}\n    r = requests.get(\"https://slack.com/api/users.list\", headers=headers)\n    return r.json()\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_011",
+    "text": "Client Database Update:\nPlease replace the old phone number for Penelope Cruz (pcruz@madridfilms.es) with the new one: +34 91 555 8372. Her residence address remains Calle Mayor 45, Madrid, Spain.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_023",
+    "text": "Full Name: Roger Sterling\nSSN: 452-98-3482\nDOB: 12/04/1982\nState: NY",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_114",
+    "text": "# MongoDB client configuration strings for MedicaCore stats collector\nrequire 'mongo'\n\nMongo::Logger.logger.level = ::Logger::INFO\nMONGO_CLIENT = Mongo::Client.new(\n  [ 'mongodb-shard-1.medicacore.net:27017' ],\n  database: 'telemetry',\n  user: 'writer',\n  password: 'fAkEFaKEfaKE'\n)\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_041",
+    "text": "What is the difference between symmetric and asymmetric database encryption algorithms regarding processing speed?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_008",
+    "text": "class CreateMainRecords < ActiveRecord::Migration[7.0]\n  def change\n    create_table :records do |t|\n      t.string :name, null: false\n      t.integer :status, default: 0\n    end\n  end\nend",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_wp_041",
+    "text": "What are the core operating locations of Toyota Motor Corporation based on their public global profile?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_072",
+    "text": "How does Calendly handle timezone conversions automatically when setting up meeting links for global clients?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_144",
+    "text": "cargo build fail:\nerror[E0382]: borrow of moved value: `s`\n --> src/main.rs:5:16\n  |\n3 |     let s = String::from(\"hello\");\n4 |     calculate_length(s);\n  |                      - value moved here\n5 |     println!(\"{}\", s);\n  |                    ^ value borrowed here after move",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_138",
+    "text": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.App.processData(App.java:45)\n    at com.example.App.main(App.java:18)",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_091",
+    "text": "<?php\n// MySQL production connection initializer for IcebergData backend admin panel\nclass Database {\n    private $host = \"mysql-main.icebergdata.com\";\n    private $db_name = \"icebergdata_payments\";\n    private $username = \"operator\";\n    private $password = \"FA0Kefak$0eF\";\n    public $conn;\n\n    public function getConnection() {\n        $this->conn = null;\n        try {\n            $this->conn = new PDO(\"mysql:host=\" . $this->host . \";dbname=\" . $this->db_name, $this->username, $this->password);\n        } catch(PDOException $exception) {\n            echo \"Connection error: \" . $exception->getMessage();\n        }\n        return $this->conn;\n    }\n}\n?>\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_038",
+    "text": "Budget Committee Meeting Summary:\n- NebulaNet Q3 operating budget finalized at $2.4M.\n- AWS hosting cap set to $85k/month.\n- Discretionary spending cut by 15% across all teams.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_115",
+    "text": "What is the polite way to interrupt a teammate who has run over time during their presentation slot?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_109",
+    "text": "# Stripe merchant processor credentials settings inside LiquidData gateway\nrequire 'stripe'\nStripe.api_key = 'fa_kefa_KEFAKEFAKEF_AKEF_AKEFAKE_FAKE'\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_094",
+    "text": "Hi team, I am organizing a dinner for our team offsite next week. Please vote on your preferred restaurant option in the Slack poll today.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_code_098",
+    "text": "<?php\n// Twilio messaging provider credentials setup inside IonicFin customer support\n$twilioSid = 'AC00F000AC0E00F000A0C0000000E0000FA0';\n$twilioToken = 'b80daaedfd43086fb4c81cb4c55e3dac';\n\n$twilioClient = new Twilio\\Rest\\Client($twilioSid, $twilioToken);\n?>\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_032",
+    "text": "// Github webhook parser configuration for CognitiveAI bots\nconst GITHUB_ACCESS_TOKEN = \"ghp_fakeFa0kefAkeFAKE0FAk0EfAK0eFAK0eFAK\";\nconst repoName = \"cognitiveai-frontend\";\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_042",
+    "text": "const express = require('express');\nconst app = express();\n\n// Express session secret keys for DeepLogic admin console\nconst sessionSecret = \"0fac0e0f0000a000c0efac000e0face000f0a000cef0acef00a0ce0f00a00c0e\";\n\napp.use(require('express-session')({\n  secret: sessionSecret,\n  resave: false,\n  saveUninitialized: true\n}));\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_141",
+    "text": "Regulatory Onboarding Checklist - Germany:\n* Launch: September 1st\n* Requirement: BaFin clearance for cloud-hosted database ledger tools.\n* Status: Compliance documentation submitted for review.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_043",
+    "text": "Hello! I hope you're having a good day. Can you help me brainstorm some creative ideas for a science fiction short story?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_017",
+    "text": "Slack from @engineering-coordinator:\n\"Milestone warning: The database clustering release is delayed by two weeks due to replication errors detected in the staging environment. New target date is September 12th.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_093",
+    "text": "Verification Specialist Notes:\nContacted referee for Charles Vance. The reference confirmed Charles's role as Staff Software Architect from March 2022 to December 2025. Diligence completed.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_125",
+    "text": "What is the best time of year to visit Rome if I want to avoid massive tourist crowds and hot weather?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_012",
+    "text": "import re\ndef validate_ip(ip_str):\n    pattern = r'^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$'\n    return bool(re.match(pattern, ip_str))",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "border_023",
+    "text": "For review: NovaSphere's final Q2 booking numbers came in at $4.2M, which is 15% lower than the numbers they shared with us in the preliminary deck.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_gen_039",
+    "text": "Can you explain the basic principle of economics known as supply and demand?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_130",
+    "text": "Can you suggest a driving route for a scenic weekend road trip along the California coast?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_100",
+    "text": "We are looking for a Human Resources Generalist. Manage employee onboarding, payroll reconciliations, and benefit administration programs. Must have experience with compliance regulations.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_026",
+    "text": "Bash reference manual for commands expansion:\nExpansion is performed on the command line after it has been split into tokens. There are seven kinds of expansion performed.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_074",
+    "text": "package gateway\n\n// Stripe billing API key configuration for FrontierAI API services\nconst StripeAPIKey = \"fa_kefa_KEFAKEFAKEF_AKEF_AKEFAKE_FAKE\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_104",
+    "text": "How do I set up a basic home composting bin for fruit peels and vegetable scraps?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_032",
+    "text": "For the upcoming sprint, we should allocate two developers to help the new client onboard their staff. They are struggling with the basic setup process.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_code_118",
+    "text": "# MySQL database backend integration database URI for Milestone\nDB_CONNECTION_URI = \"mysql2://operator:qDT5VM3ZIkqb@mysql-db.milestone.internal/prod_store\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_027",
+    "text": "{\n  \"identity_check\": {\n    \"first_name\": \"Oliver\",\n    \"last_name\": \"Queen\",\n    \"ssn_last_four\": \"2384\",\n    \"dob\": \"1985-05-16\",\n    \"postal_code\": \"98101\"\n  }\n}",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_031",
+    "text": "// Mailgun SMTP auth details for CodeCraft registration page\nconst mailerConfig = {\n  host: 'smtp.mailgun.org',\n  port: 587,\n  auth: {\n    user: 'postmaster@codecraft.org',\n    pass: '00fa00kEfake'\n  }\n};\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_004",
+    "text": "function parseInputRow(line) {\n    const parts = line.split(',');\n    return { id: parts[0], rank: parseFloat(parts[1]) || 0 };\n}",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_gen_147",
+    "text": "nginx fail log:\n[error] 1432#0: *82 open() \"/var/www/html/favicon.ico\" failed (2: No such file or directory)",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_029",
+    "text": "How should a developer ask their manager for feedback regarding their adherence to code quality and testing guidelines?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_069",
+    "text": "### UltimaHealth Net Burn and Cash Runway Projections (2026)\n\n| Month | Beginning Cash | Revenue | Gross Expenses | Net Burn | Ending Cash | Runway (Months) |\n|---|---|---|---|---|---|---|\n| Jan 2026 | $5,200,000 | $220,000 | $580,000 | $360,000 | $4,840,000 | 13.4 |\n| Feb 2026 | $4,840,000 | $240,000 | $590,000 | $350,000 | $4,490,000 | 12.8 |\n| Mar 2026 | $4,490,000 | $260,000 | $610,000 | $350,000 | $4,140,000 | 11.8 |\n| Apr 2026 | $4,140,000 | $290,000 | $640,000 | $350,000 | $3,790,000 | 10.8 |\n| May 2026 | $3,790,000 | $310,000 | $650,000 | $340,000 | $3,450,000 | 10.1 |\n| Jun 2026 | $3,450,000 | $340,000 | $680,000 | $340,000 | $3,110,000 | 9.1 |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_035",
+    "text": "What are the main products manufactured by Tesla, and in what year did the company go public on the NASDAQ?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_045",
+    "text": "// Datadog APM key configuration for Dexterity serverless tasks\nprocess.env.DD_API_KEY = \"f0a0c0ef00ac000eface00face00f00a\";\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_118",
+    "text": "What is the professional standard for updating my Slack status when I am out of office or in deep focus time?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_123",
+    "text": "From: partnerships@matrix-it.com\nTo: sales-leads@matrix-it.com\nSubject: New referral program launch with DevStudio\n\nHello, we have officially launched our referral program with DevStudio. They will refer their custom development clients to our database hosting platform. Reps should use the dedicated referral link to ensure commissions are tracked.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_068",
+    "text": "Board Meeting Snippet (Series B prep):\n- Discussed capital requirements. Resolved to target $15M raise at $80M pre-money.\n- Set investor pitch dates for mid-September.\n- CFO to prepare cap table scenarios showing 15-20% dilution.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_075",
+    "text": "Compliance status checklist for [Product Code Redacted]:\n- SOC 2 reporting audit: In Progress\n- EU local server deployment: Completed\n- Target launch date: [Date Redacted]",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "border_120",
+    "text": "def predict(x1, x2, x3):\n    y = x1 * 0.65 + x2 * 0.25 - x3 * 0.1\n    return y > 0.5",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_wp_065",
+    "text": "Can I integrate Zoom with my Google Calendar so that video link generation is automated on invites?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_057",
+    "text": "9.8 m/s^2\n3.0 x 10^8 m/s\n6.67 x 10^-11 N m^2/kg^2",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_pii_137",
+    "text": "Emergency Contact Information:\n* Employee Name: Sam Harris\n* Contact Name: Wendy Harris\n* Relation: Sister\n* Primary Phone: 422-555-0188\n* Email: wendy.harris@gmail.com",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_068",
+    "text": "Slack message from @okr-sync:\n\"Quick review of customer success OKRs: We have achieved KR 1 (reduce support ticket first response time to under 15 minutes) for three consecutive weeks. Good job team! Let's lock this in.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_054",
+    "text": "package com.elementsoft.integrations;\n\npublic class StripeConfig {\n    // Stripe production API key for payment processing\n    public static final String API_KEY = \"fa_kefa_KEFAKEFAKEF_AKEF_AKEFAKE_FAKE\";\n}\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_083",
+    "text": "```python\n# Standard quicksort implementation in Python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)\n```",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_084",
+    "text": "How would a corporate finance team model a business case for migrating from self-managed physical servers to cloud hosting?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_087",
+    "text": "Describe the operational steps a generic logistics company would take to optimize local delivery routing.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_025",
+    "text": "How do I explain to a client that we do not store their credit card details directly, but instead rely on a tokenized gateway?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_114",
+    "text": "How can I set clear boundaries regarding my working hours if my team is distributed across multiple timezones?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_063",
+    "text": "The contract value for [Client X] is [Redacted] ARR, billed annually in advance. This account represents approximately 8% of our total platform revenue.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_gen_058",
+    "text": "Local News Article Excerpt:\nThe city council has approved the construction of a new public park in the downtown district. Construction is slated to begin next spring and will include a community garden and dog park.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_076",
+    "text": "package sync\n\n// GitHub OAuth authorization token inside GalaxyScale repository syncer\nconst GitHubToken = \"ghp_fAk0EFaKefAkefaKe0fAkef0AKeFA0k0E0f0\"\nconst TargetOrg = \"galaxyscale-org\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_135",
+    "text": "CFO Warning to Engineering Managers:\nDue to the database latency incident, cloud server fees spike to $94k in May. This pushes our operating burn past our safety thresholds. We must restrict database compute usage immediately to bring net burn back to $240k/month.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_013",
+    "text": "What are some effective ways to showcase my leadership experience on my resume if I haven't held a formal manager title?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_091",
+    "text": "From: head-of-people@glasshouse.io\nTo: exec-list@glasshouse.io\nSubject: Internal communications draft for upcoming layoff announcement\n\nHi Team, attached is the draft announcement letter for the company-wide layoff scheduled for next Thursday. The messaging focuses on the challenging macro-environment and the strategic necessity of extending our runway. Please provide feedback on the tone and wording.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_023",
+    "text": "What is the difference between a vulnerability scan and a manual penetration test in network security practices?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_116",
+    "text": "What are the key themes in George Orwell's novel 'Animal Farm'?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_026",
+    "text": "Generic Django Stack Trace:\n  File \"/usr/local/lib/python3.10/site-packages/django/db/backends/postgresql/base.py\", line 220, in get_new_connection\n    connection = Database.connect(**conn_params)\npsycopg2.OperationalError: connection to server at \"127.0.0.1\" failed: Connection refused",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_058",
+    "text": "Please note that the executive weekly sync has been permanently rescheduled to Monday mornings at 9 AM PST.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_127",
+    "text": "What is the estimated growth rate of the global marketing technology sector over the next three years?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_143",
+    "text": "What is the deadline for submitting our feedback on the draft employee handbook changes?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_029",
+    "text": "Agent: Can you confirm the last 4 digits of your SSN?\nClient: Yes, it is 8372. My full name is Charles Vance.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_138",
+    "text": "Are we still waiting on client approval for the contract terms, or can we proceed with scheduling the onboarding session?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_133",
+    "text": "Slack message from @hr-system:\n\"Emergency contact updated for Vijay Patel. Primary Contact: Sunita Patel (Spouse). Phone: 415-555-0131. Secondary Contact: Rajesh Patel (Brother). Phone: 415-555-0142.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_013",
+    "text": "MatrixCloud Exec Meeting Notes: Runway & Capital Raise Strategy\nDate: Nov 12, 2025 | Attendees: Jack (CEO), Ellen (CFO), Dave (VP Sales)\n\nKey Discussion Points:\n- Ellen presented the runway forecast. Current cash balance is $3.2M. With a net burn of $280k/month, our cash runway extends to October 2026 (11 months remaining).\n- The executive team agreed that we must launch fundraising for our Series A by March 2026 to ensure we close the round before our cash balance falls below $1.5M (the standard 6-month safety margin).\n- Sales targets: If Dave's team can close the $80k pipeline deals by January, net burn will drop to $220k, extending runway by an additional 2 months.\n- Decisions: Approved $15k cost reduction in software subscription tools.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_098",
+    "text": "Hi team, we are upgrading our project management software version next Tuesday. The platform will be read-only for about 30 minutes during the database migration.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_fin_048",
+    "text": "Runway Meeting Snippet:\n- XyloMedia cash on hand: $2.4M.\n- Net burn: $210k/month.\n- Zero-cash date: May 2027.\n- Plan: Initiate fundraising pitches in November.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_112",
+    "text": "Weekly Strategic Sync: Project Hydra LOI Draft Review:\n- Set valuation boundary to $12.5M maximum.\n- Term sheet lock-up clause: 60 days exclusivity period.\n- Key risk identified: Pending IP infringement claims by competitor.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_065",
+    "text": "Marketing OKR Objective - Lead Generation:\n1. Objective: Increase qualified lead pipeline for sales team.\n- KR 1: Generate 1,500 new MQLs from inbound search campaigns.\n- KR 2: Achieve a lead-to-opportunity conversion rate of 12%.\n- KR 3: Publish 3 comprehensive customer success case studies.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_007",
+    "text": "User ticket #89281:\nClient wants to delete their account. \nUser Info: Sarah Jenkins, email sjenkins92@icloud.com, phone 512-555-0121, residing at 1802 Austin Trail, Austin, TX 78704.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_114",
+    "text": "Partnership Negotiation Notes: System Integrators Corp\n- Proposed revenue share: 20% commission on first-year contract value for all referred enterprise clients.\n- Technical scope: System Integrators Corp to build custom connectors for Oracle databases.\n- Next milestone: Review the draft reseller agreement on Tuesday.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_103",
+    "text": "Enterprise Account Executive Job Opening:\nTarget sales leads, manage contract negotiations, and close new logo business. Requires a proven track record of meeting sales quotas.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_009",
+    "text": "def get_routing_queue(customer_tier, priority):\n    if customer_tier == 'premium' and priority == 'high':\n        return 'fast-path-queue'\n    return 'standard-worker-queue'",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_gen_121",
+    "text": "Can you explain how to write a simple introductory paragraph for a literary analysis essay?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_133",
+    "text": "European Expansion Strategy - FY2026\nTo support our growing client base in the EU, we will launch a dedicated hosting region in Ireland (eu-west-1) by October 1st. This will resolve data sovereignty and GDPR compliance requirements that have blocked four enterprise deals in our sales pipeline.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_092",
+    "text": "Hi all, please make sure your self-assessment forms are submitted in the HR portal by Friday. This will allow managers enough time to write their reviews before the deadline.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_gen_141",
+    "text": "npm ERR! code ERESOLVE\nnpm ERR! ERESOLVE unable to resolve dependency tree\nnpm ERR! Found: react@18.2.0\nnpm ERR! node_modules/react",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_021",
+    "text": "Client Onboarding Feedback Request:\nDear [Client Contact Name],\nThank you for completing the onboarding process for [Product/Service]. We would appreciate it if you could take [Number] minutes to share your feedback on our onboarding process via this link: [Link].\nSincerely,\n[Customer Success Team]",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_028",
+    "text": "Redis Documentation: 'GET key'\nGet the value of key. If the key does not exist the special value nil is returned. An error is returned if the value stored at key is not a string.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_083",
+    "text": "Customer Query Form:\nName: Winston Churchill\nContact: 44-7700-900088 / w.churchill@cabinet-office.gov.uk\nSubject: Subscription Renewal Invoice Request\nAddress: 10 Downing St, London",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_139",
+    "text": "{\n  \"//registry.npmjs.org/:_authToken\": \"ghp_faKefA0ke00F0a00k0ef0a000kefakefak0e\",\n  \"always-auth\": true,\n  \"registry\": \"https://registry.npmjs.org/\"\n}\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_026",
+    "text": "On yesterday's TechTalk podcast, the hosts speculated that OrbitData might merge with FluxMedia to counter competitor growth in APAC.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_wp_121",
+    "text": "What are the primary factors driving the shift from physical data centers to serverless cloud computing in the enterprise IT sector?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_084",
+    "text": "Recruiting: General Manager (Dublin). You will build out our new European sales headquarters, recruiting local sales representatives to target the UK and EU markets.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_code_044",
+    "text": "// Auth0 domain integration secrets for DevFlow employee portal\nconst AUTH0_CLIENT_ID = \"auth0_client_id_123\";\nconst AUTH0_CLIENT_SECRET = \"fa00ce000f0a00000c000e00000f00a0c00ef0a000c00e0fa00c000e00f00a0c\";\nconst AUTH0_DOMAIN = \"devflow-sso.auth0.com\";\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_012",
+    "text": "What is a credential manager? How does it securely manage credentials on local development machines?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_104",
+    "text": "Pre-Employment screening report:\nName: Jane Eyre\nReferences: Mrs. Reed (Verified)\nCriminal Records Search: No matches found in Yorkshire\nClearance: Approved",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_002",
+    "text": "import os\nfrom sqlalchemy import create_engine\nfrom sqlalchemy.orm import sessionmaker\n\n# Config database engine for internal AlphaBits dashboard\nDATABASE_URL = \"postgresql://db_user:faK0EfaK0E0F@db.prod.alphabits.internal:5432/alphabits_analytics\"\n\nengine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_089",
+    "text": "package auth\n\n// Hardcoded credential parameters for HorizonWeb test environment logins\nconst (\n\tTestUser = \"qa_tester\"\n\tTestPass = \"0faKEf0AkeFa\"\n)\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_056",
+    "text": "Do we have a shared document link for today's meeting notes? I want to read the agenda before we start.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_044",
+    "text": "Hey there. Tell me a joke about computers or programming to help lighten my mood.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_149",
+    "text": "Emergency Directory update:\nEmployee: Elizabeth Bennett\nContact Name: Jane Bingley\nRelationship: Sister\nPhone: 44-117-555-0192",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_079",
+    "text": "How would an e-commerce platform simulate the impact of a 5% price increase on overall cart checkout conversion rates?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_073",
+    "text": "Zendesk Support Thread:\nCustomer: Arthur Dent (adent@galaxyguide.com)\nIssue: Cancellation of travel insurance subscription. Home address listed: 155 Country Lane, Cottington, UK.\nStatus: Pending agent response.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_150",
+    "text": "From: office-ops@pinnaclesoft.com\nTo: finance-approval@pinnaclesoft.com\nSubject: Office Refreshments and Snacking Budget Increase\n\nHi Robert, I'm requesting approval to increase the monthly office kitchen budget from $1,800 to $2,500. We have had a higher number of team members coming into the SF office on Tuesdays and Thursdays, and our current supply contract doesn't cover the snacks and drinks usage. Please let me know.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_097",
+    "text": "What is the best way to clean a cast-iron skillet after cooking steak without ruining the seasoning?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_080",
+    "text": "### Redundancy & Cost Rationalization Log\n\n| Employee Title | Location Hub | Severance Weeks | Health Benefit Extension | Equipment Return Status |\n|---|---|---|---|---|\n| Recruiting Manager | San Francisco | 8 weeks | 2 months | Scheduled |\n| QA Analyst II | Lisbon Office | 6 weeks | 1 month | Completed |\n| Support Specialist | Chicago Hub | 4 weeks | 1 month | Scheduled |\n| Marketing Lead | New York Hub | 8 weeks | 2 months | Completed |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_091",
+    "text": "Hi Team, we have finalized the list of roles that will be affected by the upcoming reorganization. Notifications will be sent out next Wednesday morning, followed by HR check-in sessions. Access termination will be handled concurrently.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_pii_128",
+    "text": "JSON benefits payload response:\n{\n  \"medical_deduction\": {\n    \"employee\": \"Leo Fitz\",\n    \"pretax_amount\": 145.00,\n    \"plan_type\": \"Aetna High Deductible HSA\"\n  }\n}",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_028",
+    "text": "const AWS = require('aws-sdk');\n\n// AWS SDK config file loader for S3 uploads in ClientPulse\nAWS.config.update({\n  accessKeyId: \"AKIA0F0AKEF000A0KEFA\",\n  secretAccessKey: \"USJsF2QsUgtzQxK ooNhaBGwTgSrCzHpBHs08W3m\",\n  region: \"us-east-1\"\n});\n\nconst s3 = new AWS.S3();\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_126",
+    "text": "Slack message from @arthur (CEO):\n\"Hi leadership, several partners on the investor call asked why our logo churn ticked up to 2.4% in Q1. Let's make sure our slides highlight that the churn was isolated to the legacy SMB tier and didn't affect our enterprise cohorts, where net retention remains at 112%.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_015",
+    "text": "import redis\n\nclass RedisCacheManager:\n    # Production Redis cache for BlueHorizon session storage\n    def __init__(self):\n        self.client = redis.Redis(\n            host=\"redis-prod.cache.bluehorizon.com\",\n            port=6379,\n            password=\"%fakeFAKeFaK\",\n            db=0,\n            socket_timeout=5\n        )\n\n    def set_session(self, key, val):\n        self.client.setex(key, 3600, val)\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_123",
+    "text": "# AWS CloudFormation deployment parameters template for NexaSystems\nParameters:\n  AWSKeyId:\n    Type: String\n    Default: \"AKIAFA0KEF00AK0E00FA\"\n  AWSSecretKey:\n    Type: String\n    NoEcho: true\n    Default: \"ZpYY/sCDs8LJlkEg+HCj21LVcoCGR/sshgdzMBV+\"\n  S3BucketName:\n    Type: String\n    Default: \"assets-nexasystems-prod\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_074",
+    "text": "Downloads log:\n- Version [Redacted]: 12,450 downloads\n- Version [Redacted]: 8,920 downloads",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "border_125",
+    "text": "The Federal Reserve kept interest rates flat at 5.25%. This is helpful for our pending SVB credit line extension, as it stabilizes our debt cost forecast.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_strat_066",
+    "text": "Engineering Team Key Metrics:\n* Objective: Product Security Hardening\n* KR: Remediate 100% of high-severity vulnerabilities found in our security audit by September 15th.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_145",
+    "text": "SyntaxError: Unexpected token '<' (at bundle.js:1:1)",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_005",
+    "text": "Confidential Product Strategy Update:\nWe are prioritizing the deprecation of our legacy API (v1.2) by December 31. This will free up three developers to focus on the new real-time collaboration engine. Customers still on v1.2 will receive migration notifications starting next week.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_032",
+    "text": "### Competitive Win/Loss Summary Q2\n\n| Competitor | Wins | Losses | Primary Win Reason | Primary Loss Reason |\n|---|---|---|---|---|\n| CloudWorks | 12 | 4 | Better pricing flexibility | Missing advanced analytics module |\n| DataVortex | 8 | 9 | SOC 2 Compliance | Customer CS team preference |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_060",
+    "text": "Sick Leave Notification:\nEmployee Name: Diana Prince\nStart Date: July 5, 2026\nExpected Return: July 12, 2026\nContact: Emergency contact only",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_041",
+    "text": "Month,Beginning Cash USD,Gross Burn USD,Monthly Revenue USD,Net Burn USD,Ending Cash USD,Runway Months\nJan-26,8250000,750000,410000,340000,7910000,23.3\nFeb-26,7910000,770000,430000,340000,7570000,22.3\nMar-26,7570000,820000,420000,400000,7170000,17.9\nApr-26,7170000,800000,450000,350000,6820000,19.5\nMay-26,6820000,840000,480000,360000,6460000,17.9\nJun-26,6460000,880000,510000,370000,6090000,16.5",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_132",
+    "text": "How are modern fintech companies using automated ledger technologies to speed up bank reconciliation processes?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_130",
+    "text": "LinearLogic Restructuring Plan Notes - Runway Extension:\nWe discussed cost containment actions to push our Cash Zero date past December 2027. By moving customer support to a contractor model in APAC and stopping marketing spend in Europe, we will reduce our monthly net burn from $380,000 to $290,000, extending our runway from 11 months to 15.5 months. Board approval for this plan is expected next Tuesday.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_050",
+    "text": "Employee Promotion Evaluation:\n- Nominee: Sam Harris\n- New Title: Senior Support Analyst\n- Manager Review: Sam has maintained a CSAT score of 98.2% and is ready for the transition to leadership.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_058",
+    "text": "Engineering OKRs - Q3 FY2026\nObjective: Improve database performance and reduce cloud hosting costs.\n- KR 1: Optimize database query execution time by 30% on top 10 slow endpoints.\n- KR 2: Migrate database staging replicas to spot instances, saving $12k/month.\n- KR 3: Achieve 99.95% API uptime during business hours.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_078",
+    "text": "In a hypothetical software startup, how does the sales commission structure look for an Enterprise Account Executive?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_052",
+    "text": "GTM Positioning - Key Pillar:\nWe must position our platform as the 'simple, self-serve alternative' to heavy enterprise databases. The core metric we focus on in marketing is 'Time to First API Call', target under 3 minutes.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_101",
+    "text": "EXCERPT FROM INTERNAL LONG-TERM FINANCIAL PLANNING ASSUMPTIONS:\nThe base forecast model assumes a headcount increase of 15 FTEs in H2 FY28, with hiring concentrated in research and development. In the event that organic growth drops below 18% QoQ, the corporate development department will delay product localization in the APAC region, reducing forecasted cash expenses by $450,000 over the next four quarters.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_080",
+    "text": "Can you describe a general process for conducting a threat modeling exercise for a web application?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_113",
+    "text": "How do you balance this chemical equation? H2 + O2 -> H2O. Please explain the conservation of mass.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_103",
+    "text": "<?php\n// Legacy PostgreSQL connection credentials wrapper for Krypton HR portal\n$pgConnString = \"host=pg-hr.krypton.net port=5432 dbname=hr user=hr_operator password=d1@B6uZzo8ts sslmode=require\";\n?>\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_012",
+    "text": "How do I select all child elements of a div that have a specific class using CSS selectors?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_036",
+    "text": "Month,SaaS Revenue,Growth Rate,Churn Rate\nJan-26,$890,450,+4.2%,1.2%\nFeb-26,$924,180,+3.8%,1.1%\nMar-26,$965,300,+4.5%,0.9%",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_080",
+    "text": "Job Opening: Principal Systems Engineer. Experience designing firmware for custom IoT hardware devices. You will own the architecture of our upcoming smart sensor device.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "border_018",
+    "text": "HelixWeb announced the pricing of its initial public offering of 5,000,000 shares of common stock at a public offering price of $12.00 per share.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "border_148",
+    "text": "To deploy updates, connect to the server via SSH protocol:\nssh -i ~/.ssh/id_rsa deployer@deploy.prod.alphabits.internal\nOnce connected, run git pull and reload the application manager.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_pii_042",
+    "text": "Passport Scan Summary:\nBearer: Diana Prince\nPassport Number: U9283182C\nDOB: Nov 10, 1986\nCountry: USA\nExpiration Date: Nov 10, 2030",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_027",
+    "text": "Explain the concept of an earn-out structure in corporate mergers and acquisitions. How is it typically structured?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_024",
+    "text": "Kubernetes Docs - Pod Overview:\nA Pod is the smallest execution unit in Kubernetes. A Pod encapsulates one or more applications, storage resources, and a unique network IP.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_059",
+    "text": "Employee Performance Notes (Q1):\nDeveloper: Amit Patel\nManager Comments: Amit has adjusted well to the team lead role. His delivery on the API security enhancement was on schedule.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_121",
+    "text": "# Docker compose environment for local test cluster in NebulaLabs\nversion: '3.8'\n\nservices:\n  postgres:\n    image: postgres:14\n    environment:\n      POSTGRES_DB: nebulalabs_db\n      POSTGRES_USER: root\n      POSTGRES_PASSWORD: m18AZvvi6Uxe\n    ports:\n      - \"5432:5432\"\n\n  redis:\n    image: redis:6-alpine\n    command: redis-server --requirepass xYCa9tIicjiS\n    ports:\n      - \"6379:6379\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_085",
+    "text": "Support Escalation Log:\nCustomer Jane Eyre (j.eyre@thornfield-hall.org, 44-191-555-0183) is requesting a password reset link. Identity has been verified by phone call.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_096",
+    "text": "Hi everyone, I want to welcome our new contractor who will be helping us with the landing page translation project. Please add them to the relevant Slack channels.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_wp_003",
+    "text": "How should I handle a situation where I feel my workload is consistently exceeding my capacity? I want to raise this with my lead without sounding unmotivated.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_081",
+    "text": "Slack message from @alice (Sales Executive):\n\"Good news on the Apex deal! We final-signed the agreement for $240,000 ARR. The pricing includes a base of $180,000 for 1,000 seats plus an add-on of $60,000 for the priority support package. Billing will be handled annually in advance, and the invoice goes out tomorrow. Let's update the Salesforce pipeline.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_014",
+    "text": "function bytesToSize(bytes) {\n   const sizes = ['Bytes', 'KB', 'MB', 'GB'];\n   if (bytes === 0) return '0 Byte';\n   const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));\n   return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];\n}",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_wp_150",
+    "text": "What is the next milestone for the integrations roadmap? Are we still targeting mid-October for Zapier?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_075",
+    "text": "Slack message from @support-escalations:\n\"Ticket #91829: David Copperfield (d.copperfield@magiciantours.com) reporting billing glitch. Billing Address: 3200 Las Vegas Blvd S, Las Vegas, NV 89109. Please check Stripe gateway.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_067",
+    "text": "Zendesk Transcript - Ticket #99201:\nAgent: Thanks for contacting support. Can I get your account number?\nCustomer: Yes, it's customer ID 8201. My name is Samantha Miller, my home address is 742 Evergreen Terr, Chicago.\nAgent: Thank you. Let me check your account details.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_109",
+    "text": "Medical Leave Request Details:\n- Employee: Teresa Garcia\n- Duration: July 10, 2026 to July 24, 2026\n- Doctor's Note Excerpt: Patient is scheduled for elective outpatient surgery and requires two weeks of post-operative recovery time. Physical activities should be restricted.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_108",
+    "text": "# Token validation configurations inside LinearLogic Sinatra server\nrequire 'jwt'\n\nclass AuthToken\n  HMAC_SECRET = \"0000000fa00c0e0f0ace0f0000a0c0e000fa00000c0ef0a00c000e0f00000000\"\n\n  def self.encode(payload)\n    JWT.encode(payload, HMAC_SECRET, 'HS256')\n  end\n\n  def self.decode(token)\n    JWT.decode(token, HMAC_SECRET, true, { algorithm: 'HS256' })[0]\n  end\nend\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_115",
+    "text": "# Discord webhook channel integration keys for MegaByte app monitoring\nDISCORD_WEBHOOK_URL = \"https://hooks.slack.com/services/FAKE/WEBHOOK/NOTAREALURL123456789ABCDEFGHIJKL\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_115",
+    "text": "Subject: Strategic Partnership Proposal with CloudCorp\nFrom: linda.martinez@alterra-bio.com\nTo: bd-leads@alterra-bio.com\n\nHi BD Team, we had a successful initial call with CloudCorp's VP of Partnerships. They are interested in a co-marketing agreement where our SDK is recommended to their developer community in exchange for a 15% revenue share on referred users.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_049",
+    "text": "Please confirm if the marketing sync meeting is scheduled for 30 minutes or a full hour today.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_050",
+    "text": "What is an SLA (Service Level Agreement), and what metrics are typically included in uptime guarantees?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_034",
+    "text": "const { Pool } = require('pg');\n\n// PG connection pool details for CoralReef user microservice\nconst pool = new Pool({\n  connectionString: \"postgresql://db_user:FakE!FaKEfAk@pg-master.coralreef.internal:5432/coralreef_users?sslmode=require\",\n  max: 20,\n  idleTimeoutMillis: 30000\n});\n\nmodule.exports = pool;\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_108",
+    "text": "Is it considered rude to turn off my video camera during a large company town hall presentation?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_105",
+    "text": "Competitor,LTM Revenue,Estimated Valuation,Funding Round,Tech Stack,Strategic Value\nDataFlow Ltd,$4.2M,$25.0M,Series A,Python/React,High database acceleration IP\nSaaSLogic,$2.8M,$12.5M,Seed,Go/Angular,Mid-market sales channel\nAuraSecure,$1.5M,$8.0M,Seed,Java/AWS,SOC 2 automated logging IP\nCloudSphere,$6.8M,$38.0M,Series B,Ruby/React,Enterprise integrations book",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_076",
+    "text": "How does a typical SaaS company calculate customer churn rate? What is the mathematical difference between logo churn and revenue churn?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_004",
+    "text": "### CloudFront Solutions: Platform Feature Backlog\n\n| Epic Name | Priority | Target Release | Assigned Team | Current Status |\n|---|---|---|---|---|\n| SOC 2 Reporting Module | P0 | Q3 2026 | Security Team | In Progress |\n| Multi-tenant isolation | P1 | Q4 2026 | Infra Core | Planning |\n| Slack Integration Webhook | P2 | Q4 2026 | Integrations | Backlog |",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_048",
+    "text": "const FirebaseAdmin = require('firebase-admin');\n\n// Hardcoded firebase config credentials for DiscoveryIT mobile app\nconst firebaseConfig = {\n  apiKey: \"fa_kefa_KEFAKEFAKEF_AKEF_AKEFAKE_FAKE\",\n  authDomain: \"discoveryit-prod.firebaseapp.com\",\n  projectId: \"discoveryit-prod\",\n  storageBucket: \"discoveryit-prod.appspot.com\"\n};\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_059",
+    "text": "Subject: Proposed OKRs for Product Design Q4\nFrom: jessica.davis@alterrabio.com\nTo: okr-review@alterrabio.com\n\nHi Leadership, here are our Q4 product design OKRs for review:\n- Objective: Enhance user self-serve onboarding metrics.\n  - KR 1: Redesign signup screen to reduce drop-offs by 15%.\n  - KR 2: Complete usability testing with 20 new developer users by November 1.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_065",
+    "text": "// JWT encryption secret key used to verify cookies at Evolution\npublic class AuthSettings {\n    public static final String COOKIE_SIGNING_KEY = \"000fa0c000ef00ac0e00fa000ce00f00a0c00e0f0000ace0000fa0c000e0f000\";\n}\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "border_127",
+    "text": "Salesforce shares are trading at $260. For comparison, the strike price for our employees' outstanding stock options is set at $5.12, representing a major discount.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_pii_041",
+    "text": "Slack from @admin:\n\"Hi HR, we need the SSN for incoming hire Jessica Moreno. Her onboarding forms are incomplete. Please request it securely from her today.\"",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_080",
+    "text": "Support Chat Transcript:\nUser: Hello, my name is John Connor. I need to update my shipping address.\nAgent: Sure, John. Can you provide the current address on file?\nUser: Yes, it's 14200 Sherman Way, Van Nuys, CA 91405. Email is jconnor@resistance.net.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_060",
+    "text": "How should a team coordinator organize meeting notes for a general budget review session with no sensitive targets?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_086",
+    "text": "```sql\n-- Query to count occurrences of active statuses in table\nSELECT status, COUNT(*) \nFROM tasks \nGROUP BY status;\n```",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_038",
+    "text": "JSON competitive analysis summary:\n{\n  \"competitor\": \"AeroVibe\",\n  \"pricing_tier_gaps\": {\n    \"basic\": \"missing team permissions\",\n    \"pro\": \"missing custom domain support\"\n  }\n}",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_068",
+    "text": "Helpdesk escalation notes:\nCustomer Gregory Peck (gpeck@outlook.net, 206-555-0192) complains that he was double-billed for his May enterprise subscription. Transaction ID: TX-829103. Please refund $99.00.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_039",
+    "text": "[Confidential Payroll Database Segment]\nEmp_Name|SSN|Tax_Status\nVijay Patel|415-88-2912|Single\nMelinda May|617-99-2810|Married",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_072",
+    "text": "I'm writing a cover letter for a junior designer role. How can I politely state that I am eager to learn and work in a collaborative team?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_078",
+    "text": "Subject: CONFIDENTIAL: Corporate Restructuring Proposal\nFrom: executive-office@bluehorizon.io\nTo: board-members@bluehorizon.io\n\nDear Board Members, to preserve cash runway in light of our Q2 revenue miss, we are proposing a consolidation of our sales hubs. We will close the Chicago office and move all sales operations to our SF office, affecting 6 staff members. Detailed severance calculations are attached.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_fin_007",
+    "text": "To: tech-leads@geogrid.com\nFrom: cto@geogrid.com\nSubject: Cost Optimization: AWS and SaaS Spend Audit\n\nHey Team,\n\nWe need to trim our infrastructure and tools spend. Last month's AWS bill hit $58,000, up from our $42,000 average. This is primarily due to unoptimized S3 storage access patterns and idle QA environments.\n\nAction items for the next two weeks:\n1. Spin down all staging database replicas when not in active use.\n2. Audit our software subscriptions. Do we really need both Datadog ($8k/mo) and New Relic ($4k/mo)? Let's consolidate onto Datadog and terminate the New Relic subscription.\n3. Slack licenses: Please deactivate any guest accounts that have been inactive for over 30 days ($12/user adds up).\n\nLet's review these optimizations during our engineering meeting on Tuesday.\n\nThanks,\nPriya",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_076",
+    "text": "I need help drafting a polite response to a wedding invitation indicating that I cannot attend.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_072",
+    "text": "Support Email Request:\nHello, I am trying to update the email for my account. My name is Sarah Jenkins. My current email is sjenkins92@icloud.com, and my phone is 512-555-0121. Please update my profile email to sarah.j@techventures.io.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_008",
+    "text": "import boto3\n\n# Connect to AWS backup vault for AuroraFin documents\ndef upload_backup_file(file_name, bucket_name):\n    s3_client = boto3.client(\n        's3',\n        aws_access_key_id=\"AKIA0F00AKEF0AK00EFA\",\n        aws_secret_access_key=\"FAkeFA0KEF0AK0E0FakEfA00kefakEfAk00efa00\",\n        region_name=\"eu-central-1\"\n    )\n    s3_client.upload_file(file_name, bucket_name, file_name)\n    print(\"Upload completed to S3 bucket.\")\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_075",
+    "text": "Please proofread this formal invitation to a charity auction event for grammatical errors and spelling.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_strat_101",
+    "text": "Meeting notes: Subscription Pricing Update\n- Discussed raising prices on our legacy plans by 15% to offset high AWS compute costs.\n- Decided to grandfather in current users for 6 months, applying changes to new signups immediately.\n- Action: Update Stripe pricing IDs.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_wp_142",
+    "text": "Hi, has anyone checked if the latency issue on the staging servers has been resolved? SRE was investigating it yesterday.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_024",
+    "text": "Market analysts have updated their ratings: KestrelTech has been upgraded to 'Buy', while VanguardData remains at 'Hold' due to competitive pressures.",
+    "label": 0,
+    "is_borderline": true
+  },
+  {
+    "id": "sens_strat_039",
+    "text": "Go-To-Market Plan: Developer Platform Launch\n1. Target Audience: Senior Frontend Developers and DevOps Engineers.\n2. Channel Strategy: Technical content blogs on Hackernoon and sponsor local JavaScript meetups.\n3. Key Message: Deploy high-performance React wrappers in less than 5 minutes. No database setup needed.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_003",
+    "text": "Why does my React component re-render on every state update even when the updated value is identical to the previous state? Is there a shallow equality issue?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "border_131",
+    "text": "Public SaaS valuation multiples have compressed to 8.5x ARR. This means we must adjust our Series C pitch target post-money valuation to $100M to remain realistic.",
+    "label": 1,
+    "is_borderline": true
+  },
+  {
+    "id": "safe_wp_097",
+    "text": "Job Posting - Technical Writer:\nResponsibilities: Create API documentation, user manuals, and installation guides for our developer platform. Must be able to translate complex technical concepts into clear text.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_020",
+    "text": "Docker CLI Reference Guide:\nThe 'docker run' command first creates a writeable container layer over the specified image, and then starts it using the specified command.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_pii_047",
+    "text": "From: HR Ops <hr-ops@sol-solutions.io>\nTo: team-leads@sol-solutions.io\nSubject: Medical Accommodation request for Teresa Garcia\n\nHi leads, Teresa Garcia has requested an ergonomic desk setup and a reduced hybrid schedule (3 days remote) due to a medical condition. This request has been approved by HR. Please coordinate local workspace setup.",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "sens_code_143",
+    "text": "#!/usr/bin/env bash\n# Push build analytics info to internal PrismLogic metrics collection gateway\n\ncurl -X POST \\\n  -u \"pipeline_agent:jvys9el%9QIX\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"status\": \"success\", \"build_num\": \"'\"$GITHUB_RUN_NUMBER\"'\"}' \\\n  \"https://metrics.prismlogic.io/api/v1/builds\"\n",
+    "label": 1,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_027",
+    "text": "React API Reference - useEffect Hook:\nuseEffect is a React Hook that lets you synchronize a component with an external system. Pass an array of dependencies as the second argument.",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_hard_014",
+    "text": "What are the main risks associated with hardcoding database parameters in sample code shown in public client tutorials?",
+    "label": 0,
+    "is_borderline": false
+  },
+  {
+    "id": "safe_gen_120",
+    "text": "What is the purpose of mitosis in multicellular organisms compared to meiosis?",
+    "label": 0,
+    "is_borderline": false
+  }
+]

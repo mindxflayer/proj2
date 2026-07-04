@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "sens_pii_001",
+    "text": "Name: Gregory Peck\nAddress: 1204 Pine St, Seattle, WA 98101\nPhone: (206) 555-0192\nEmail: gpeck@outlook.net",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_002",
+    "text": "CSV Export - Active Client Directory\nClient_ID,Full_Name,Primary_Email,Mobile,Street_Addr,City,State,Zip\nCL-8201,Samantha Miller,sam.miller@gmail.com,312-555-0143,742 Evergreen Terr,Chicago,IL,60605\nCL-8202,Hiroshi Tanaka,htanaka@yahoo.co.jp,415-555-0182,120 Post St,San Francisco,CA,94108",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_003",
+    "text": "Email Thread:\nFrom: billing@webhostcorp.net\nTo: support@webhostcorp.net\nSubject: Update billing address for user account #82931\n\nCustomer Cynthia Reynolds called in. Her new address is 893 Walnut Ave, Apt 4C, Boston, MA 02116. Her contact phone is 617-555-0199. Please update her database record.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_004",
+    "text": "Slack message from @helpdesk-bot:\n\"New registration alert: User Marcus Aurelius (marcus.a@rome-logistics.org) registered. Phone: +39 06 555 1234. Address: Via della Scrofa 12, Rome, Italy.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_005",
+    "text": "[CRM Screenshot Description]\nCustomer Details Card:\n- Owner Name: Elizabeth Bennett\n- Email: lizzy.b@longbourn.co.uk\n- Phone: 44-117-555-0155\n- Secondary Contact: Fitzwilliam Darcy (fdarcy@pemberley.com)\n- Delivery Notes: Leave at front gate house.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_006",
+    "text": "{\n  \"customer_account\": {\n    \"id\": \"usr_88291\",\n    \"profile\": {\n      \"first_name\": \"Laila\",\n      \"last_name\": \"Ali\",\n      \"phone\": \"310-555-0177\",\n      \"billing_address\": {\n        \"street\": \"452 Olympic Blvd\",\n        \"city\": \"Los Angeles\",\n        \"state\": \"CA\",\n        \"zip\": \"90015\"\n      }\n    }\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_007",
+    "text": "User ticket #89281:\nClient wants to delete their account. \nUser Info: Sarah Jenkins, email sjenkins92@icloud.com, phone 512-555-0121, residing at 1802 Austin Trail, Austin, TX 78704.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_008",
+    "text": "Customer Directory List:\n* Arthur Dent - adent@galaxyguide.com - 07700 900077 - 155 Country Lane, Cottington, UK\n* Ford Prefect - prefect.f@betelgeuse.net - 07700 900122 - Out of Orbit Office",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_009",
+    "text": "Customer lead details copied from web form:\nName: Teresa Garcia\nCompany: Sol Solutions\nWork Email: tgarcia@sol-solutions.io\nDirect Line: 602-555-0188\nShipping Address: 902 S 7th St, Phoenix, AZ 85004",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_010",
+    "text": "Slack from @sales-support:\n\"Can someone check why customer David Copperfield (d.copperfield@magiciantours.com, 702-555-0112) has his shipping address listed as 3200 Las Vegas Blvd S, Las Vegas, NV 89109? That's a resort address. Can we verify if that's correct?\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_011",
+    "text": "Client Database Update:\nPlease replace the old phone number for Penelope Cruz (pcruz@madridfilms.es) with the new one: +34 91 555 8372. Her residence address remains Calle Mayor 45, Madrid, Spain.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_012",
+    "text": "Account Details (Internal Salesforce Export):\nName: Peter Parker\nAddress: 20 Ingram St, Forest Hills, NY 11375\nCell: 718-555-0144\nEmail: web-slinger@dailybugle.org\nAccount Status: Active",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_013",
+    "text": "JSON user profile dump:\n{\n  \"id\": \"cust_9921\",\n  \"email\": \"bruce.wayne@waynecorp.com\",\n  \"contact\": {\n    \"phone_home\": \"1-800-555-0199\",\n    \"address_line_1\": \"1007 Mountain Drive\",\n    \"city\": \"Gotham City\",\n    \"state\": \"NJ\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_014",
+    "text": "Client onboarding request:\nName: Clara Oswald\nCompany: TimeTravel Corp\nBilling Email: coswald@timetravel.net\nContact: 44-20-7946-0192\nOffice Location: 221B Baker St, London, NW1 6XE",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_015",
+    "text": "Support Note (Account Recovery):\nVerified user identity via email challenge. The user's name is John Connor, email is jconnor@resistance.net, phone is 213-555-0191, and address is 14200 Sherman Way, Van Nuys, CA 91405.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_016",
+    "text": "Address Verification Request:\nCustomer: Luke Skywalker\nStreet: 100 Moisture Farm Way\nCity: Anchorhead\nState: Tatooine\nZip: 99901\nPhone: 505-555-0187\nEmail: lskywalker@jedi-academy.edu",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_017",
+    "text": "Slack message from @support-lead:\n\"Hey guys, customer Elena Gilbert (egilbert@mysticfalls.org, phone 540-555-0145) is asking to transfer her account to Damon Salvatore (dsalvatore@mysticfalls.org). Please coordinate the transfer.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_018",
+    "text": "User Registry Update:\nFirst Name: Winston\nLast Name: Churchill\nPrimary Contact: 44-7700-900088\nDelivery Address: 10 Downing St, London, SW1A 2AA\nEmail: w.churchill@cabinet-office.gov.uk",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_019",
+    "text": "CSV Client List (Short):\nId|Name|Mail|Tel|Addr\n12|Harry Potter|hpotter@hogwarts.ac.uk|44-1632-960012|Cupboard under the Stairs, Little Whinging",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_020",
+    "text": "Email from Customer Support:\nHello Team, customer Jane Eyre requested a change to her registered details. Her new email is j.eyre@thornfield-hall.org and her contact phone number is 44-191-555-0183.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_021",
+    "text": "[CRM System Data Export]\nClient: Clark Kent\nDirect: 312-555-0166\nOffice: 344 Clinton St, Apt 3B, Metropolis, NY 10001\nEmail: ckent@dailyplanet.com\nStatus: Verified",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_022",
+    "text": "JSON registration payload:\n{\n  \"user_profile\": {\n    \"full_name\": \"Katniss Everdeen\",\n    \"contact_number\": \"304-555-0199\",\n    \"email\": \"keverdeen@district12.gov\",\n    \"shipping_address\": {\n      \"street_address\": \"12 Seam Way\",\n      \"city\": \"Appalachia\",\n      \"state\": \"WV\"\n    }\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "customer_pii"
+  },
+  {
+    "id": "sens_pii_023",
+    "text": "Full Name: Roger Sterling\nSSN: 452-98-3482\nDOB: 12/04/1982\nState: NY",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_024",
+    "text": "ID Verification Form Data:\n- Candidate: Teresa Garcia\n- DL Number: S83726482 (CA)\n- Expiry: 08/2028\n- DOB: July 14, 1991",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_025",
+    "text": "Employee Passport Details for Travel Booking:\nName: Clara Oswald\nPassport Number: Z7263821\nCountry of Issue: United Kingdom\nExpiration Date: 12-Mar-2031\nDOB: 23-Nov-1996",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_026",
+    "text": "Slack message from @it-onboarding:\n\"Can someone verify the tax ID for incoming engineer Vijay Patel? The SSN listed on his I-9 form is 000-12-3456 (temp placeholder) but we need his actual number to proceed with E-Verify. Let's reach out to him.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_027",
+    "text": "{\n  \"identity_check\": {\n    \"first_name\": \"Oliver\",\n    \"last_name\": \"Queen\",\n    \"ssn_last_four\": \"2384\",\n    \"dob\": \"1985-05-16\",\n    \"postal_code\": \"98101\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_028",
+    "text": "[I-9 Document Metadata]\nEmployee Name: Samantha Miller\nDocument Type: US Passport\nDocument Number: U8291038A\nExpiration: 15-Jun-2030\nSSN: 312-00-5829",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_029",
+    "text": "Agent: Can you confirm the last 4 digits of your SSN?\nClient: Yes, it is 8372. My full name is Charles Vance.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_030",
+    "text": "Candidate Tax Identification Record:\n* Name: Gregory Peck\n* Tax Type: SSN\n* Number: 452-98-3482\n* Birthplace: La Jolla, CA",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_031",
+    "text": "Email Thread (Onboarding):\nFrom: hr@greenclean.net\nTo: accounting@greenclean.net\nSubject: Tax ID for new contractor Sam Harris\n\nHi Accounting, Sam Harris has provided his SSN for the 1099 form: 422-98-1029. Please update his payroll profile.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_032",
+    "text": "Passport details for business trip: \nJohn Connor, US Passport #982738291, Expiration Date: 14-Aug-2029, Birth Date: 28-Feb-1985.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_033",
+    "text": "Government ID Verification:\n- Name: Elena Gilbert\n- ID Type: Driver's License\n- License Number: V8291820 (VA)\n- DOB: 22-Jun-1994\n- Expiration: 22-Jun-2028",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_034",
+    "text": "From: candidate-check@hirecheck.com\nSubject: Missing SSN for Background Check - David Copperfield\n\nDear HR, the background check for David Copperfield cannot proceed without a valid SSN. He listed 000-88-2918 on his portal, which failed our format check. Please have him supply his correct SSN.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_035",
+    "text": "Slack from @hr-ops:\n\"Can someone verify the passport number for CEO Arthur Pendragon? We have passport #GBR-9283921 in the database, but his visa application says passport #GBR-9283920. Need to double check the photocopy.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_036",
+    "text": "Client Verification Log:\nFull Name: Bruce Wayne\nTax ID (SSN): 100-07-1939\nDate of Birth: April 17, 1980\nVerified by: Agent Gordon",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_037",
+    "text": "{\n  \"verification\": {\n    \"first_name\": \"Peter\",\n    \"last_name\": \"Parker\",\n    \"national_id_type\": \"SSN\",\n    \"national_id\": \"718-08-1962\",\n    \"status\": \"Passed\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_038",
+    "text": "I-9 Form Verification Snippet:\nEmployee Name: Sarah Jenkins\nSSN: 512-88-9281\nDriver's License (TX): #TX-98273821 (Exp: 11/12/2027)\nDOB: 12-Feb-1992",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_039",
+    "text": "[Confidential Payroll Database Segment]\nEmp_Name|SSN|Tax_Status\nVijay Patel|415-88-2912|Single\nMelinda May|617-99-2810|Married",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_040",
+    "text": "Driver's license update request:\nName: Sam Wilson\nLicense: #DL-8827382 (MD)\nDOB: 09/23/1988\nExpiry: 12/2029",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_041",
+    "text": "Slack from @admin:\n\"Hi HR, we need the SSN for incoming hire Jessica Moreno. Her onboarding forms are incomplete. Please request it securely from her today.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_042",
+    "text": "Passport Scan Summary:\nBearer: Diana Prince\nPassport Number: U9283182C\nDOB: Nov 10, 1986\nCountry: USA\nExpiration Date: Nov 10, 2030",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_043",
+    "text": "JSON identity verify response:\n{\n  \"ssn_match\": true,\n  \"ssn_provided\": \"452-XX-XXXX\",\n  \"first_name\": \"Elizabeth\",\n  \"last_name\": \"Bennett\",\n  \"dob_match\": true\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "government_id"
+  },
+  {
+    "id": "sens_pii_044",
+    "text": "Employee performance review summary:\nName: Vijay Patel\nTitle: Staff Software Engineer\nManager Notes: Vijay exceeded expectations on the database refactoring project. However, his communication with junior engineers during stressful outages was noted as a development area.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_045",
+    "text": "Disciplinary Action Notification:\n- Employee: Mark Davis\n- Manager: Sarah Connor\n- Reason: Unexcused absences on June 14th, 15th, and 18th. This is the second warning. Failure to comply with scheduling policies will result in termination.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_046",
+    "text": "Leave of Absence Approval:\nName: Clara Oswald\nReason: Family Medical Leave (FMLA)\nStart Date: June 15, 2026\nEnd Date: August 1, 2026\nNotes: Medical certification received and approved by HR operations.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_047",
+    "text": "From: HR Ops <hr-ops@sol-solutions.io>\nTo: team-leads@sol-solutions.io\nSubject: Medical Accommodation request for Teresa Garcia\n\nHi leads, Teresa Garcia has requested an ergonomic desk setup and a reduced hybrid schedule (3 days remote) due to a medical condition. This request has been approved by HR. Please coordinate local workspace setup.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_048",
+    "text": "Slack message from @vp-eng to @ceo:\n\"Hey, I need to talk about John Connor. He's been missing deadlines and his team is complaining about his erratic behavior. We might need to put him on a Performance Improvement Plan (PIP) starting next week.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_049",
+    "text": "[Employee File Excerpt - Confidential]\nName: Rachel Adams\nTermination Details:\n- Date: April 30, 2026\n- Type: Involuntary (Severance offered: 4 weeks)\n- Reason: Restructuring of the QA department.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_050",
+    "text": "Employee Promotion Evaluation:\n- Nominee: Sam Harris\n- New Title: Senior Support Analyst\n- Manager Review: Sam has maintained a CSAT score of 98.2% and is ready for the transition to leadership.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_051",
+    "text": "Performance Review Feedback:\n* Employee: Samantha Miller\n* Title: Account Executive\n* Feedback: Samantha closed $420k in bookings. Outstanding sales focus. Needs to improve Salesforce data hygiene.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_052",
+    "text": "Slack from @hr-portal:\n\"New employee profile created: Leo Fitz (EMP-143). Role: Lead Hardware Engineer. Starting Base Salary: $165,000. Manager: Phil Coulson.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_053",
+    "text": "Employee Warning Document:\nName: Grant Ward\nDate: January 12, 2026\nReason: Breach of company security protocol. Employee shared production DB credentials on public Slack channel.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_054",
+    "text": "Medical Leave Request:\nEmployee: Jemma Simmons\nDuration: 3 weeks (maternity prep)\nStatus: Approved by HR Board\nCoordinator: Melinda May",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_055",
+    "text": "From: manager@greenclean.net\nTo: hr@greenclean.net\nSubject: Performance Review - Sam Wilson\n\nHi HR, Sam Wilson's annual review is complete. I recommend a 5% merit increase. He met all engineering objectives for the cloud migration project.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_056",
+    "text": "Disciplinary Investigation Summary:\n- Subject: David Copperfield\n- Issue: Expense report discrepancy ($1,200 travel claim mismatch)\n- Action: Employee agreed to repay the difference. Written warning filed.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_057",
+    "text": "Slack message from @cfo to @hr:\n\"Regarding the salary adjustment for Arthur Pendragon: The board approved a base increase to $245,000. Please update his payroll file for the July 1st pay run.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_058",
+    "text": "[Employee Portal Update Log]\nEmployee: Elena Gilbert\nAction: Updated direct deposit banking routing details\nBank: Wells Fargo\nAccount Type: Checking",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_059",
+    "text": "Employee Performance Notes (Q1):\nDeveloper: Amit Patel\nManager Comments: Amit has adjusted well to the team lead role. His delivery on the API security enhancement was on schedule.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_060",
+    "text": "Sick Leave Notification:\nEmployee Name: Diana Prince\nStart Date: July 5, 2026\nExpected Return: July 12, 2026\nContact: Emergency contact only",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_061",
+    "text": "{\n  \"employee_action\": {\n    \"type\": \"Promotion\",\n    \"employee\": \"Marcus Vance\",\n    \"old_title\": \"Support Specialist\",\n    \"new_title\": \"Customer Support Manager\",\n    \"salary_change\": 12000\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_062",
+    "text": "Salary Adjustment Log:\nName: Emily Wong\nTitle: Product Designer II\nNew Base Salary: $120,000\nEffective Date: June 1, 2026\nApproved by: VP Product",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_063",
+    "text": "Email Thread (Confidential HR):\nFrom: head-of-people@hirecheck.com\nSubject: Performance improvement plan - Jessica Moreno\n\nHi, we are finalizing the PIP document for Jessica Moreno. The primary criteria will be meeting her quota of 12 closed recruitments in Q3. Let's schedule the check-in call.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_064",
+    "text": "Employee Offboarding Checklist:\n- Name: Sam Harris\n- Last Day: July 15, 2026\n- Assets Returned: Laptop (MacBook Pro), Building Badge, Office Keys",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_065",
+    "text": "Performance Review Excerpt:\nEmployee: Fiona Gallagher\nRating: Exceeds Expectations\nHighlights: Fiona spearheaded the customer onboarding portal redesign, reducing setup time by 30%.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "employee_records"
+  },
+  {
+    "id": "sens_pii_066",
+    "text": "Support Ticket #82931:\n\"Hi support, my name is Cynthia Reynolds. I can't access my billing page. My registered email is cyn.reynolds@gmail.com and my phone is 617-555-0199. Can you check if my subscription is still active?\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_067",
+    "text": "Zendesk Transcript - Ticket #99201:\nAgent: Thanks for contacting support. Can I get your account number?\nCustomer: Yes, it's customer ID 8201. My name is Samantha Miller, my home address is 742 Evergreen Terr, Chicago.\nAgent: Thank you. Let me check your account details.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_068",
+    "text": "Helpdesk escalation notes:\nCustomer Gregory Peck (gpeck@outlook.net, 206-555-0192) complains that he was double-billed for his May enterprise subscription. Transaction ID: TX-829103. Please refund $99.00.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_069",
+    "text": "Slack message from @support-bot:\n\"Support ticket #90281: Client Marcus Aurelius (marcus.a@rome-logistics.org) requesting immediate password reset. Registered contact number: +39 06 555 1234.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_070",
+    "text": "{\n  \"ticket\": {\n    \"id\": 82928,\n    \"subject\": \"Missing delivery package\",\n    \"customer_name\": \"Laila Ali\",\n    \"customer_contact\": \"310-555-0177\",\n    \"address\": \"452 Olympic Blvd, Los Angeles, CA 90015\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_071",
+    "text": "[Support Portal Log - Priority High]\nCustomer: Elizabeth Bennett\nEmail: lizzy.b@longbourn.co.uk\nIssue: Client is unable to sign contract via the portal link. Direct contact: 44-117-555-0155.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_072",
+    "text": "Support Email Request:\nHello, I am trying to update the email for my account. My name is Sarah Jenkins. My current email is sjenkins92@icloud.com, and my phone is 512-555-0121. Please update my profile email to sarah.j@techventures.io.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_073",
+    "text": "Zendesk Support Thread:\nCustomer: Arthur Dent (adent@galaxyguide.com)\nIssue: Cancellation of travel insurance subscription. Home address listed: 155 Country Lane, Cottington, UK.\nStatus: Pending agent response.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_074",
+    "text": "Customer Support Call Transcript:\nCustomer: Hi, I'm calling to verify my account. My name is Teresa Garcia.\nAgent: Can you provide your shipping address and contact number?\nCustomer: Yes, it's 902 S 7th St, Phoenix, AZ 85004, and my number is 602-555-0188.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_075",
+    "text": "Slack message from @support-escalations:\n\"Ticket #91829: David Copperfield (d.copperfield@magiciantours.com) reporting billing glitch. Billing Address: 3200 Las Vegas Blvd S, Las Vegas, NV 89109. Please check Stripe gateway.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_076",
+    "text": "Support Ticket Update:\nCustomer Penelope Cruz (+34 91 555 8372) requested account deletion. Registered email: pcruz@madridfilms.es. Processed deletion and sent confirmation email.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_077",
+    "text": "Customer Incident Summary:\n- Ticket ID: INC-8829\n- Customer: Peter Parker\n- Contact: 718-555-0144 / web-slinger@dailybugle.org\n- Details: User forgot password and security question answer. Needs manual recovery.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_078",
+    "text": "{\n  \"incident_report\": {\n    \"customer\": \"Bruce Wayne\",\n    \"email\": \"bruce.wayne@waynecorp.com\",\n    \"phone\": \"1-800-555-0199\",\n    \"problem\": \"Double billing on premium subscription\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_079",
+    "text": "Onboarding Support Incident:\nClient Clara Oswald (coswald@timetravel.net, 44-20-7946-0192) having issues accessing the portal. Assigned to support agent Bill.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_080",
+    "text": "Support Chat Transcript:\nUser: Hello, my name is John Connor. I need to update my shipping address.\nAgent: Sure, John. Can you provide the current address on file?\nUser: Yes, it's 14200 Sherman Way, Van Nuys, CA 91405. Email is jconnor@resistance.net.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_081",
+    "text": "Support System Update:\nCustomer: Luke Skywalker\nEmail: lskywalker@jedi-academy.edu\nPhone: 505-555-0187\nDetails: User reported unable to complete registration on Tatooine portal site.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_082",
+    "text": "Slack message from @customer-help:\n\"Ticket #88271: Elena Gilbert (egilbert@mysticfalls.org) reporting login issues. Contact: 540-555-0145. Responding agent: Bonnie.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_083",
+    "text": "Customer Query Form:\nName: Winston Churchill\nContact: 44-7700-900088 / w.churchill@cabinet-office.gov.uk\nSubject: Subscription Renewal Invoice Request\nAddress: 10 Downing St, London",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_084",
+    "text": "Zendesk ticket snippet:\nUser: Harry Potter (hpotter@hogwarts.ac.uk)\nMessage: The library delivery package has not arrived. Delivery address: Cupboard under the Stairs.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_085",
+    "text": "Support Escalation Log:\nCustomer Jane Eyre (j.eyre@thornfield-hall.org, 44-191-555-0183) is requesting a password reset link. Identity has been verified by phone call.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_086",
+    "text": "[Salesforce Ticket Detail]\nCustomer: Clark Kent (ckent@dailyplanet.com)\nPhone: 312-555-0166\nIssue: Daily Planet subscription delivery delay. Shipping address: 344 Clinton St, Metropolis.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "support_ticket"
+  },
+  {
+    "id": "sens_pii_087",
+    "text": "Background Screening Report:\nCandidate: Gregory Peck\nReference Number: BG-45281\nIdentity Check: Verified (SSN ending in 3482)\nCriminal History: No records found\nEmployment Verification: Passed",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_088",
+    "text": "Background Check Result (Pending HR Review):\n- Candidate: Teresa Garcia\n- Status: Flagged\n- Detail: Discrepancy in previous employment dates at Sol Solutions (reported 4 years, verified 2 years). Please coordinate with the candidate.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_089",
+    "text": "Employment Screening Record:\nCandidate Name: Clara Oswald\nEducation Verification: Master's in English Literature (Oxford University) - Confirmed\nCredit Check: Approved\nReference Rating: Outstanding",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_090",
+    "text": "Slack message from @bg-screening:\n\"Background check completed for Vijay Patel (Reference #BG-928103). All checks passed (criminal, credit, reference). We can proceed with the formal contract offer.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_091",
+    "text": "{\n  \"screening_status\": {\n    \"candidate\": \"Oliver Queen\",\n    \"reference_id\": \"9283-BG\",\n    \"criminal_check\": \"Clear\",\n    \"education_verified\": true,\n    \"completion_date\": \"2026-06-15\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_092",
+    "text": "[HireCheck Candidate Profile]\nCandidate: Samantha Miller\nSSN Match: Pass\nCriminal Records Search: No matches found in Cook County, IL\nEmployment: Verified (Sales Director, AlphaBits)",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_093",
+    "text": "Verification Specialist Notes:\nContacted referee for Charles Vance. The reference confirmed Charles's role as Staff Software Architect from March 2022 to December 2025. Diligence completed.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_094",
+    "text": "Background Check Clearance Letter:\nThis is to certify that Sam Harris (SSN: 422-98-1029) has passed our standard pre-employment background screening. The candidate is cleared for onboarding.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_095",
+    "text": "Email Thread (Screening):\nFrom: support@backgroundscreening.com\nTo: hr@timetravel.net\nSubject: Screening update - John Connor\n\nDear HR, the background screening for John Connor is complete. A minor credit discrepancy was noted. Please review the attached PDF report.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_096",
+    "text": "Candidate Onboarding Screening Summary:\nEmployee: Elena Gilbert\nDriver's License Check (VA): Verified\nEducation Verification: BS in Psychology (Virginia Tech) - Verified\nEmployment History: Pass",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_097",
+    "text": "Background Verification Detail:\n- Name: David Copperfield\n- SSN Check: Validated\n- Previous Employer: Magic Enterprises Inc (Verified)\n- Criminal Record Search: Clear",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_098",
+    "text": "From: recruiting@waynecorp.com\nSubject: Background check completed - Bruce Wayne\n\nThe background screening for Bruce Wayne is now complete and marked as 'Pass'. All corporate officer checks have been validated.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_099",
+    "text": "Slack from @screening-ops:\n\"Background screening for Peter Parker (EMP-112) is complete. Education check at Empire State University confirmed. Criminal check clear. Ready to sign off.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_100",
+    "text": "Candidate Screening Log:\nFull Name: Sarah Jenkins\nReference Number: BG-9928\nEmployment verification: Passed (Lead Designer at DeltaWave)\nOverall Status: Clear",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_101",
+    "text": "{\n  \"candidate_check\": {\n    \"name\": \"Katniss Everdeen\",\n    \"ssn_match\": true,\n    \"criminal_records\": \"Clear\",\n    \"status\": \"Passed\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_102",
+    "text": "Screening Results (Onboarding Platform):\nEmployee: Winston Churchill\nPassport ID: Verified\nEmployment History: Prime Minister (Verified)\nStatus: Clear",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_103",
+    "text": "[Employee Background Archive]\nCandidate: Harry Potter\nStatus: Approved\nEducation: Hogwarts School of Witchcraft (Verified)\nDiligence Date: August 1, 2025",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_104",
+    "text": "Pre-Employment screening report:\nName: Jane Eyre\nReferences: Mrs. Reed (Verified)\nCriminal Records Search: No matches found in Yorkshire\nClearance: Approved",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_105",
+    "text": "Slack from @hr-onboarding:\n\"Background check for Clark Kent (EMP-312) has been completed. Education at Metropolis University confirmed. Legal status verified. Clear to start.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_106",
+    "text": "Background screening details:\nBearer: Elizabeth Bennett\nDiligence Status: Clear\nEmployment History: Verified (Longbourn School)\nDiligence completed by: Agent Wickham",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_107",
+    "text": "JSON screening payload response:\n{\n  \"background_check\": {\n    \"name\": \"Leo Fitz\",\n    \"status\": \"Pass\",\n    \"criminal_check\": \"Clear\",\n    \"reference_checks\": \"Complete\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "background_check"
+  },
+  {
+    "id": "sens_pii_108",
+    "text": "Health Insurance Enrollment Form:\nPrimary Insured: Gregory Peck\nGroup Number: HL-928391\nPlan Type: HMO Gold\nDependents: None\nMedical History Note: History of high blood pressure (managed)",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_109",
+    "text": "Medical Leave Request Details:\n- Employee: Teresa Garcia\n- Duration: July 10, 2026 to July 24, 2026\n- Doctor's Note Excerpt: Patient is scheduled for elective outpatient surgery and requires two weeks of post-operative recovery time. Physical activities should be restricted.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_110",
+    "text": "Benefits Enrollment Database:\nEmployee Name: Clara Oswald\nInsurance Carrier: Blue Shield CA\nPolicy ID: #BS-837264\nEnrollment Date: January 1, 2026\nCoverage Tier: Employee + Spouse",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_111",
+    "text": "Slack message from @benefits-coordinator:\n\"We received the health insurance enrollment form for new hire Vijay Patel. His policy number is Aetna-92839-A and his coverage starts on August 1st. Please add this to his HR benefits profile.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_112",
+    "text": "{\n  \"health_plan\": {\n    \"insured_name\": \"Oliver Queen\",\n    \"policy_id\": \"OQ-8293\",\n    \"carrier\": \"Cigna\",\n    \"medical_restrictions\": \"Allergies to penicillin and bee stings\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_113",
+    "text": "[Employee Medical File Summary]\nName: Samantha Miller\nRecent Absences: June 5 - June 8, 2026\nReason: Severe migraine episodes. Doctor's note from Dr. Abraham has been filed in HR cabinet.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_114",
+    "text": "HR Benefits Sync Notes:\nCharles Vance has opted out of the corporate medical plan (under spouse's coverage). We need to process his monthly health insurance waiver credit of $150 starting next paycheck.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_115",
+    "text": "Medical Accommodation Plan:\nEmployee: Sam Harris\nCondition: Chronic back pain\nApproved Accommodation: Ergonomic standing desk and ergonomic chair. Purchased and delivered to home office.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_116",
+    "text": "Email Thread (Health Insurance):\nFrom: benefits@timetravel.net\nTo: accounting@timetravel.net\nSubject: Health plan deduction for John Connor\n\nHi, please set John Connor's monthly health insurance deduction to $185.00 for the PPO Family Plan. His dependents are Sarah Connor and Thomas Connor.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_117",
+    "text": "Benefits Administration Record:\nEmployee: Elena Gilbert\nCarrier: Kaiser Permanente\nGroup ID: #KP-829103\nEffective Date: August 1, 2026\nPrimary Care Physician: Dr. Stefan Salvatore",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_118",
+    "text": "Medical Leave Status Update:\n- Employee: David Copperfield\n- Status: Active FMLA\n- Expected Return: August 15, 2026\n- Accommodations required on return: Reduced keyboard activity for 2 weeks.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_119",
+    "text": "From: wellness@waynecorp.com\nSubject: Health check results - Bruce Wayne\n\nDear HR, the executive health screening report for Bruce Wayne has been received. He is cleared for active duty with no cardiovascular restrictions. File stored in secure locker.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_120",
+    "text": "Slack from @benefits-ops:\n\"Medical enrollment details for Peter Parker (EMP-112) updated in the system. Insurance: UnitedHealthcare PPO. Policy: #UHC-88273. Start Date: July 1st.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_121",
+    "text": "Health Screening Logs:\nFull Name: Sarah Jenkins\nHSA Account Status: Active\nAnnual Employer Contribution: $1,200\nDeduction per pay run: $150",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_122",
+    "text": "{\n  \"medical_profile\": {\n    \"name\": \"Katniss Everdeen\",\n    \"blood_type\": \"O negative\",\n    \"emergency_medical_note\": \"History of smoke inhalation treatment\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_123",
+    "text": "FMLA Notification Summary:\nEmployee Name: Winston Churchill\nFMLA Category: Serious health condition\nApproved Period: 4 weeks (medical leave)\nStatus: Certified by Dr. Moran",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_124",
+    "text": "[Employee Benefits Record]\nName: Harry Potter\nDental Plan: Delta Dental PPO\nVision Plan: VSP Premium\nMedical Plan: Cigna PPO Plus",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_125",
+    "text": "Health Insurance adjustment request:\nEmployee: Jane Eyre\nAction: Add newborn dependent to health insurance plan\nDate of Event: May 12, 2026\nStatus: Approved",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_126",
+    "text": "Slack from @hr-benefits:\n\"Can someone update Clark Kent's health insurance file? His policy number is #MET-9928A and his primary clinic has been changed to Metropolis General.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_127",
+    "text": "Health Plan Audit details:\nEmployee: Elizabeth Bennett\nCoverage: Employee Only\nMonthly Premium: $450\nEmployer Contribution: $400",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_128",
+    "text": "JSON benefits payload response:\n{\n  \"medical_deduction\": {\n    \"employee\": \"Leo Fitz\",\n    \"pretax_amount\": 145.00,\n    \"plan_type\": \"Aetna High Deductible HSA\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_129",
+    "text": "Medical Leave Excerpt:\nEmployee: Fiona Gallagher\nApproved Period: 2 weeks (stress management leave)\nEffective Date: July 1, 2026\nMedical contact info is filed in HR locker.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "health_data"
+  },
+  {
+    "id": "sens_pii_130",
+    "text": "Emergency Contact Card:\nEmployee: Gregory Peck\nContact Name: Veronique Peck\nRelationship: Spouse\nPhone: 206-555-0199\nAddress: 1204 Pine St, Seattle, WA 98101",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_131",
+    "text": "HR Portal Onboarding - Emergency Contact Info:\n- Employee: Teresa Garcia\n- Primary Contact: Ramon Garcia\n- Relationship: Brother\n- Phone: 602-555-0144\n- Email: ramon.g@garciabuilders.com",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_132",
+    "text": "Employee Emergency Directory:\nName: Clara Oswald\nEmergency Contact: Danny Pink\nRelation: Fianc\u00e9\nPhone: 44-7700-900145\nAlternate Phone: 44-20-7946-0155",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_133",
+    "text": "Slack message from @hr-system:\n\"Emergency contact updated for Vijay Patel. Primary Contact: Sunita Patel (Spouse). Phone: 415-555-0131. Secondary Contact: Rajesh Patel (Brother). Phone: 415-555-0142.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_134",
+    "text": "{\n  \"emergency_contact\": {\n    \"employee_name\": \"Oliver Queen\",\n    \"contacts\": [\n      {\n        \"name\": \"Felicity Smoak\",\n        \"relationship\": \"Spouse\",\n        \"phone\": \"310-555-0182\"\n      }\n    ]\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_135",
+    "text": "[Employee Profile Card - Emergency Contacts]\nEmployee: Samantha Miller\nContact 1: David Miller (Spouse)\nPhone: 312-555-0184\nContact 2: Robert Miller (Father)\nPhone: 312-555-0195",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_136",
+    "text": "HR Record Update (Emergency Contact):\nEmployee: Charles Vance\nEmergency Contact Name: Linda Vance\nRelationship: Mother\nPhone: 415-555-0177\nHome Address: 902 Marina Blvd, San Francisco, CA 94123",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_137",
+    "text": "Emergency Contact Information:\n* Employee Name: Sam Harris\n* Contact Name: Wendy Harris\n* Relation: Sister\n* Primary Phone: 422-555-0188\n* Email: wendy.harris@gmail.com",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_138",
+    "text": "Email Thread (Onboarding):\nFrom: onboarding@timetravel.net\nTo: jconnor@resistance.net\nSubject: Emergency contact info for John Connor\n\nHi John, please provide your emergency contact details. \nJohn's response: My emergency contact is Sarah Connor (Mother), phone is 213-555-0191, address is 14200 Sherman Way, Van Nuys, CA.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_139",
+    "text": "Employee Directory (Emergency Contacts):\nName: Elena Gilbert\nPrimary Contact: Jeremy Gilbert\nRelationship: Brother\nPhone: 540-555-0172\nAlternate: Alaric Saltzman (Guardian) - 540-555-0183",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_140",
+    "text": "Emergency Details Card:\n- Employee: David Copperfield\n- Contact: Agnes Wickfield\n- Relationship: Friend\n- Primary Phone: 702-555-0144\n- Secondary Phone: 702-555-0155",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_141",
+    "text": "From: payroll@waynecorp.com\nSubject: Emergency Contact update - Bruce Wayne\n\nDear HR, please update Bruce Wayne's emergency contact to Alfred Pennyworth (Butler/Guardian). Phone: 1-800-555-0111. Address: 1007 Mountain Drive, Gotham City.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_142",
+    "text": "Slack from @admin-ops:\n\"Emergency contact for Peter Parker (EMP-112) updated to May Parker (Aunt). Phone: 718-555-0188. Address: 20 Ingram St, Forest Hills, NY.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_143",
+    "text": "Emergency Contact Verification:\nEmployee Name: Sarah Jenkins\nContact: Mark Jenkins\nRelationship: Husband\nPhone: 512-555-0129\nEmail: m.jenkins@gmail.com",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_144",
+    "text": "{\n  \"emergency_record\": {\n    \"employee\": \"Katniss Everdeen\",\n    \"contact_person\": \"Primrose Everdeen\",\n    \"relationship\": \"Sister\",\n    \"contact_number\": \"304-555-0121\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_145",
+    "text": "Emergency Notification Info:\nEmployee Name: Winston Churchill\nContact Name: Clementine Churchill\nRelation: Spouse\nPhone: 44-7700-900188\nAddress: 10 Downing St, London",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_146",
+    "text": "[Employee Record - Security Card]\nName: Harry Potter\nEmergency Contact: Sirius Black\nRelation: Godfather\nContact details are restricted.",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_147",
+    "text": "Emergency Contact details:\nEmployee: Jane Eyre\nContact Name: Edward Rochester\nRelationship: Husband\nPhone: 44-191-555-0199",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_148",
+    "text": "Slack from @hr-system-bot:\n\"Emergency contact for Clark Kent (EMP-312) has been updated: Lois Lane (Spouse). Phone: 312-555-0155. Office: Daily Planet Building.\"",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_149",
+    "text": "Emergency Directory update:\nEmployee: Elizabeth Bennett\nContact Name: Jane Bingley\nRelationship: Sister\nPhone: 44-117-555-0192",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  },
+  {
+    "id": "sens_pii_150",
+    "text": "JSON emergency payload:\n{\n  \"emergency_info\": {\n    \"employee_name\": \"Leo Fitz\",\n    \"contact_name\": \"Jemma Simmons\",\n    \"relation\": \"Spouse\",\n    \"phone\": \"310-555-0122\"\n  }\n}",
+    "category": "clearly_sensitive",
+    "subcategory": "pii_hr_data",
+    "data_type": "emergency_contact"
+  }
+]

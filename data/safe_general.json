@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "safe_gen_001",
+    "text": "How do I implement a binary search algorithm in Python? Please provide a recursive example.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_002",
+    "text": "What is the difference between map() and flatMap() in JavaScript? I'm trying to understand when to use map vs flatMap for parsing arrays of nested objects.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_003",
+    "text": "Why does my React component re-render on every state update even when the updated value is identical to the previous state? Is there a shallow equality issue?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_004",
+    "text": "How can I resolve a CORS error when making a fetch request from a local React development server to a local Express API? Both are running on different ports.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_005",
+    "text": "What is the most efficient way to merge two sorted linked lists in C++? I want an in-place solution to minimize memory usage.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_006",
+    "text": "Can someone explain SQL JOINs? Specifically, what is the practical difference between a LEFT JOIN and an INNER JOIN with respect to null values?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_007",
+    "text": "How do you handle error states inside a custom React hook? Should I return the error object or throw it?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_008",
+    "text": "What is the decorator pattern in Python? Can you show me how to write a simple decorator that logs the execution time of a function?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_009",
+    "text": "How do I read a local text file line-by-line using Java's BufferedReader? Please include a try-with-resources block.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_010",
+    "text": "What does the 'defer' keyword do in Go? When is it executed relative to return statements in a function?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_011",
+    "text": "How can I convert a string representation of JSON back into a dictionary in Python? What exceptions should I catch?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_012",
+    "text": "How do I select all child elements of a div that have a specific class using CSS selectors?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_013",
+    "text": "What is the purpose of the 'git rebase' command compared to 'git merge'? When is it safe to use rebase on a shared public branch?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_014",
+    "text": "How do you implement a simple debounce function in pure JavaScript? I want to limit the frequency of window resize event triggers.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "coding_question"
+  },
+  {
+    "id": "safe_gen_015",
+    "text": "Python 3.10 documentation snippet:\n\"The math.isclose() function returns True if the values a and b are close to each other and False otherwise. The determination of whether two values are considered close is based on absolute and relative tolerances.\"",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_016",
+    "text": "MDN Web Docs - Array.prototype.reduce():\nThe reduce() method executes a user-supplied 'reducer' callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_017",
+    "text": "Git Doc: 'git checkout'\nUpdates files in the working tree to match the version in the index or the specified tree. If no paths are given, git checkout will also update HEAD to set the specified branch as the active branch.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_018",
+    "text": "Standard Library documentation for C++ vector push_back:\nAppends a new element to the end of the container. The new element is initialized as a copy of the argument. If the new size exceeds capacity, all iterators are invalidated.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_019",
+    "text": "PostgreSQL docs: CREATE TABLE syntax:\nCREATE TABLE [IF NOT EXISTS] table_name (\n    column_name data_type [column_constraint],\n    PRIMARY KEY (column_name)\n);",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_020",
+    "text": "Docker CLI Reference Guide:\nThe 'docker run' command first creates a writeable container layer over the specified image, and then starts it using the specified command.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_021",
+    "text": "Rust Book Excerpt - Ownership Rules:\n1. Each value in Rust has an owner.\n2. There can only be one owner at a time.\n3. When the owner goes out of scope, the value will be dropped.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_022",
+    "text": "Nginx Official Documentation - Reverse Proxy:\nTo pass a request to an HTTP proxied server, the proxy_pass directive is specified inside a location block.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_023",
+    "text": "HTTP/1.1 Status Code Definitions:\n404 Not Found: The server has not found anything matching the Request-URI. No indication is given of whether the condition is temporary or permanent.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_024",
+    "text": "Kubernetes Docs - Pod Overview:\nA Pod is the smallest execution unit in Kubernetes. A Pod encapsulates one or more applications, storage resources, and a unique network IP.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_025",
+    "text": "JSON Schema Specification Summary:\nJSON Schema is a vocabulary that allows you to annotate and validate JSON documents. It defines the media type application/schema+json.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_026",
+    "text": "Bash reference manual for commands expansion:\nExpansion is performed on the command line after it has been split into tokens. There are seven kinds of expansion performed.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_027",
+    "text": "React API Reference - useEffect Hook:\nuseEffect is a React Hook that lets you synchronize a component with an external system. Pass an array of dependencies as the second argument.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_028",
+    "text": "Redis Documentation: 'GET key'\nGet the value of key. If the key does not exist the special value nil is returned. An error is returned if the value stored at key is not a string.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "public_docs"
+  },
+  {
+    "id": "safe_gen_029",
+    "text": "What is the capital city of Australia, and how does it compare in population to Sydney and Melbourne?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_030",
+    "text": "Can you explain the difference between fission and fusion nuclear reactions in terms of energy release?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_031",
+    "text": "When did the French Revolution start, and what was the main political cause that triggered the storming of the Bastille?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_032",
+    "text": "What are the three main types of rock in geology? Please describe how sedimentary rock is formed.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_033",
+    "text": "Can you list the planets in our solar system in order of their proximity to the sun, starting with Mercury?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_034",
+    "text": "Who wrote the play 'Hamlet', and in what year was it estimated to have been first performed?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_035",
+    "text": "What is the water cycle? Please explain evaporation, condensation, and precipitation.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_036",
+    "text": "How many bones are there in an adult human body, and which bone is the longest?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_037",
+    "text": "What is the primary function of the mitochondria inside a human cell?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_038",
+    "text": "What is the speed of light in a vacuum, expressed in meters per second?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_039",
+    "text": "Can you explain the basic principle of economics known as supply and demand?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_040",
+    "text": "Who was the first person to walk on the moon, and what was the name of the lunar landing mission?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_041",
+    "text": "What is the currency used in Japan, and what is its symbol?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_042",
+    "text": "Can you explain how photosynthesis works in green plants? What are the inputs and outputs?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "general_knowledge"
+  },
+  {
+    "id": "safe_gen_043",
+    "text": "Hello! I hope you're having a good day. Can you help me brainstorm some creative ideas for a science fiction short story?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_044",
+    "text": "Hey there. Tell me a joke about computers or programming to help lighten my mood.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_045",
+    "text": "Good morning. What is your favorite book genre, and why do you think mystery novels are so popular?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_046",
+    "text": "Hi, I'm feeling a bit bored. What are some fun hobbies I can start that don't cost a lot of money?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_047",
+    "text": "Can you pretend to be a medieval knight and answer my questions in that persona?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_048",
+    "text": "What are some interesting conversation starters I can use at a social dinner party with strangers?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_049",
+    "text": "Hi, I just want to chat. How do AI models learn to predict the next word in a sequence?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_050",
+    "text": "Can you write a short poem about the beauty of autumn leaves falling in the wind?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_051",
+    "text": "Hi chatbot! What is the origin of the phrase 'break a leg' in theater?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_052",
+    "text": "Hey, let's play a text-based adventure game where I am exploring an ancient castle and you are the narrator.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_053",
+    "text": "Hello, can you help me write a friendly text message to invite my neighbor over for coffee?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_054",
+    "text": "What is a good movie recommendation if I like mystery thrillers with unexpected plot twists?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_055",
+    "text": "Hi there! If you could visit any place in the universe, where would you go?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_056",
+    "text": "Can you summarize the plot of the classic novel 'Pride and Prejudice' in a casual, modern tone?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "casual_chat"
+  },
+  {
+    "id": "safe_gen_057",
+    "text": "Summary of recent space news:\nScientists have detected a new exoplanet orbit around a neighboring star system. The planet is believed to be in the habitable zone where liquid water could potentially exist.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_058",
+    "text": "Local News Article Excerpt:\nThe city council has approved the construction of a new public park in the downtown district. Construction is slated to begin next spring and will include a community garden and dog park.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_059",
+    "text": "Can you summarize the recent global climate summit agreements regarding carbon emission reductions for the next decade?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_060",
+    "text": "Brief news recap:\nA major scientific breakthrough in clean energy was announced, with researchers achieving net energy gain in a fusion reactor experiment for the second time this year.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_061",
+    "text": "Can you write a 100-word summary of the recent championship soccer match between the top two European clubs?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_062",
+    "text": "Tech News Summary:\nA major software framework has released its long-awaited version 5.0, featuring significant performance improvements and native support for serverless platforms.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_063",
+    "text": "Summary of archaeological discovery:\nArchaeologists in Egypt have uncovered a series of well-preserved tombs dating back to the New Kingdom, containing ancient artifacts and pottery.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_064",
+    "text": "What were the key takeaways from the recent international economic forum regarding interest rate adjustments?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_065",
+    "text": "Weekly Science Digest:\nResearchers have developed a new biodegradable material made from seaweed that could replace single-use plastic packaging.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_066",
+    "text": "Can you summarize the history of the Apollo space program based on public Wikipedia articles?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_067",
+    "text": "News Brief: Art Exhibition Opening:\nThe national museum is launching a new exhibition featuring the late paintings of Impressionist masters, open to the public starting Friday.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_068",
+    "text": "What is the current status of the international space station decommissioning plan as reported in the news?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_069",
+    "text": "Summary of public transportation project update:\nThe regional rail line extension has completed its testing phase and is scheduled to open to passengers next month, reducing commute times by 20%.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "news_summary"
+  },
+  {
+    "id": "safe_gen_070",
+    "text": "Please help me edit this paragraph for flow and clarity:\n\"In the modern era, technology has grown rapidly. It is used by almost everyone daily. This changes how we communicate with each other in many different ways.\"",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_071",
+    "text": "Can you help me write a professional email to my professor requesting an extension on my term paper due to illness?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_072",
+    "text": "I'm writing a cover letter for a junior designer role. How can I politely state that I am eager to learn and work in a collaborative team?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_073",
+    "text": "Can you suggest some strong synonyms for the word 'innovative' that I can use in my resume?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_074",
+    "text": "How do I write an introduction paragraph for an argumentative essay on the benefits of public libraries?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_075",
+    "text": "Please proofread this formal invitation to a charity auction event for grammatical errors and spelling.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_076",
+    "text": "I need help drafting a polite response to a wedding invitation indicating that I cannot attend.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_077",
+    "text": "What is a good way to structure a thank-you note after an informational interview with an industry professional?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_078",
+    "text": "Can you help me rewrite this sentence to be in the active voice: 'The report was submitted by the team on Tuesday morning.'",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_079",
+    "text": "I am writing a blog post about healthy eating habits. Can you suggest three catchy titles that would attract general readers?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_080",
+    "text": "Help me write a concise summary of my skills in marketing and social media coordination for my LinkedIn bio.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_081",
+    "text": "Can you convert this informal email draft into a more formal tone suitable for a department-wide memo?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_082",
+    "text": "How should I structure a review of a book I recently read for a community newsletter?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "writing_help"
+  },
+  {
+    "id": "safe_gen_083",
+    "text": "```python\n# Standard quicksort implementation in Python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_084",
+    "text": "```javascript\n// Simple helper function to validate email format via regex\nfunction validateEmail(email) {\n    const re = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n    return re.test(email);\n}\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_085",
+    "text": "```css\n/* CSS stylesheet reset snippet for basic HTML tags */\nhtml, body, div, span, applet, object, iframe {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font-size: 100%;\n    font: inherit;\n    vertical-align: baseline;\n}\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_086",
+    "text": "```sql\n-- Query to count occurrences of active statuses in table\nSELECT status, COUNT(*) \nFROM tasks \nGROUP BY status;\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_087",
+    "text": "```html\n<!-- Responsive container div markup -->\n<div class=\"container\">\n    <header class=\"main-header\">\n        <h1>Welcome to the Community Site</h1>\n    </header>\n</div>\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_088",
+    "text": "```go\npackage main\nimport \"fmt\"\n\n// Basic hello world executable structure in Go\nfunc main() {\n    fmt.Println(\"Hello, open-source world!\")\n}\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_089",
+    "text": "```rust\n// Simple struct definition and instantiating in Rust\nstruct Point {\n    x: f64,\n    y: f64,\n}\n\nfn main() {\n    let origin = Point { x: 0.0, y: 0.0 };\n}```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_090",
+    "text": "```cpp\n#include <iostream>\n// Check if a number is prime using basic iteration loop\nbool isPrime(int n) {\n    if (n <= 1) return false;\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0) return false;\n    }\n    return true;\n}\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_091",
+    "text": "```bash\n#!/bin/bash\n# Script to backup all files in current directory to tar archive\ntar -czf backup.tar.gz *.txt\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_092",
+    "text": "```json\n{\n  \"name\": \"simple-demo-app\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": {\n    \"express\": \"^4.18.2\"\n  }\n}\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_093",
+    "text": "```python\n# Reading command line arguments inside Python script\nimport sys\nif __name__ == '__main__':\n    for arg in sys.argv:\n        print(f'Argument: {arg}')\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_094",
+    "text": "```javascript\n// Fetching data from public endpoint and printing to console\nfetch('https://api.github.com/users/octocat')\n  .then(response => response.json())\n  .then(data => console.log(data));\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_095",
+    "text": "```css\n/* CSS Flexbox centering utility class */\n.flex-center {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_096",
+    "text": "```html\n<!-- Standard search input form markup -->\n<form action=\"/search\" method=\"get\">\n    <input type=\"text\" name=\"q\" placeholder=\"Search...\" />\n    <button type=\"submit\">Go</button>\n</form>\n```",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "open_source_code"
+  },
+  {
+    "id": "safe_gen_097",
+    "text": "What is the best way to clean a cast-iron skillet after cooking steak without ruining the seasoning?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_098",
+    "text": "How do you repair a leaky kitchen faucet? Please outline the tools and general steps required.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_099",
+    "text": "How do I repot a snake plant? Should I use a specific potting soil mix to ensure proper drainage?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_100",
+    "text": "What are the step-by-step instructions for changing a flat tire on a standard sedan car?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_101",
+    "text": "How can I remove coffee stains from a white cotton shirt using basic household ingredients?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_102",
+    "text": "How do you bake a simple sourdough bread loaf at home from scratch? Please include baking temperatures.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_103",
+    "text": "What is the correct way to fold a fitted bed sheet so that it stores neatly in a closet?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_104",
+    "text": "How do I set up a basic home composting bin for fruit peels and vegetable scraps?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_105",
+    "text": "How can you safely remove wall anchors without causing large holes in the drywall?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_106",
+    "text": "What are the rules for care and watering of indoor orchid flowers?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_107",
+    "text": "How do you sharpen a kitchen knife using a traditional whetstone? What angle should I hold the blade?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_108",
+    "text": "How do I clean and maintain a mechanical computer keyboard to remove dust and dirt?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_109",
+    "text": "How can I tie a half-windsor knot for a necktie? Please outline the steps.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_110",
+    "text": "How do you make a classic basil pesto sauce in a food processor? What are the key ingredients?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "how_to"
+  },
+  {
+    "id": "safe_gen_111",
+    "text": "Can you help me solve this algebra problem? I need to find the value of x: 3x + 7 = 22.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_112",
+    "text": "I'm writing a history paper about the Silk Road. What were the primary goods traded between China and Europe?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_113",
+    "text": "How do you balance this chemical equation? H2 + O2 -> H2O. Please explain the conservation of mass.",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_114",
+    "text": "What is the difference between active transport and passive transport in cell biology?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_115",
+    "text": "Can you help me find the derivative of the function f(x) = 3x^2 + 5x - 2 using the power rule?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_116",
+    "text": "What are the key themes in George Orwell's novel 'Animal Farm'?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_117",
+    "text": "How do I calculate the area of a circle with a radius of 7 centimeters?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_118",
+    "text": "Can you explain Newton's second law of motion and show how force is calculated?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_119",
+    "text": "I'm studying Spanish. What is the difference between the verbs 'ser' and 'estar' for expressing 'to be'?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_120",
+    "text": "What is the purpose of mitosis in multicellular organisms compared to meiosis?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_121",
+    "text": "Can you explain how to write a simple introductory paragraph for a literary analysis essay?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_122",
+    "text": "How do I find the median and mode of this set of numbers: 4, 8, 5, 8, 3, 9, 8, 2?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_123",
+    "text": "What is the function of red blood cells in the human circulatory system?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "homework_help"
+  },
+  {
+    "id": "safe_gen_124",
+    "text": "I am planning a 5-day trip to Tokyo. What are the top landmarks and neighborhoods I should visit?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_125",
+    "text": "What is the best time of year to visit Rome if I want to avoid massive tourist crowds and hot weather?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_126",
+    "text": "Can you help me create a packing list for a week-long hiking and camping trip in Colorado during the summer?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_127",
+    "text": "What are the visa requirements for a US citizen traveling to Brazil for a 2-week vacation?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_128",
+    "text": "How do I navigate the public transit system in London? Should I buy an Oyster card or use contactless?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_129",
+    "text": "What are some budget-friendly travel tips for exploring Iceland without renting a car?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_130",
+    "text": "Can you suggest a driving route for a scenic weekend road trip along the California coast?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_131",
+    "text": "What is the local currency in Switzerland, and can I rely mostly on credit cards or do I need cash?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_132",
+    "text": "What are the top child-friendly activities to do in Paris on a rainy afternoon?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_133",
+    "text": "How early should I arrive at the airport for an international flight from New York to London?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_134",
+    "text": "What is the safety level for solo female travelers visiting Costa Rica?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_135",
+    "text": "Can you recommend three local food markets to visit in Barcelona for authentic tapas?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_136",
+    "text": "What are some travel tips for adapting to a significant timezone change and avoiding jet lag?",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "travel_planning"
+  },
+  {
+    "id": "safe_gen_137",
+    "text": "TypeError: Cannot read properties of undefined (reading 'map')\n    at renderDashboard (Dashboard.js:24:18)\n    at Component (ReactComponent.js:84:12)",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_138",
+    "text": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.App.processData(App.java:45)\n    at com.example.App.main(App.java:18)",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_139",
+    "text": "JSONDecodeError: Expecting ',' delimiter: line 4 column 12 (char 82)",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_140",
+    "text": "OperationalError: (1045, \"Access denied for user 'root'@'localhost' (using password: NO)\")",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_141",
+    "text": "npm ERR! code ERESOLVE\nnpm ERR! ERESOLVE unable to resolve dependency tree\nnpm ERR! Found: react@18.2.0\nnpm ERR! node_modules/react",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_142",
+    "text": "Traceback (most recent call last):\n  File \"script.py\", line 12, in <module>\n    value = data['key']\nKeyError: 'key'",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_143",
+    "text": "IndexOutOfBoundsException: Index 5 out of bounds for length 5\n    at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_144",
+    "text": "cargo build fail:\nerror[E0382]: borrow of moved value: `s`\n --> src/main.rs:5:16\n  |\n3 |     let s = String::from(\"hello\");\n4 |     calculate_length(s);\n  |                      - value moved here\n5 |     println!(\"{}\", s);\n  |                    ^ value borrowed here after move",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_145",
+    "text": "SyntaxError: Unexpected token '<' (at bundle.js:1:1)",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_146",
+    "text": "django.db.utils.IntegrityError: UNIQUE constraint failed: user.username",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_147",
+    "text": "nginx fail log:\n[error] 1432#0: *82 open() \"/var/www/html/favicon.ico\" failed (2: No such file or directory)",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_148",
+    "text": "FileNotFoundError: [Errno 2] No such file or directory: 'config.json'",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_149",
+    "text": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  },
+  {
+    "id": "safe_gen_150",
+    "text": "fatal: pathspec 'src/index.js' did not match any files",
+    "category": "clearly_safe",
+    "subcategory": "general",
+    "content_type": "generic_error"
+  }
+]

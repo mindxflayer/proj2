@@ -1,0 +1,422 @@
+[
+  {
+    "id": "safe_hard_001",
+    "text": "What is the best way to explain the concept of an API key to a non-technical manager? I want to explain why we restrict access to them.",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_002",
+    "text": "How does a standard security audit process work for a cloud software company? What are the key stages of evaluation?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_003",
+    "text": "Could you provide a generic template for a policy document regarding passwords and dual-factor authorization (2FA) rules?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_004",
+    "text": "Is it safe to store public database schema designs in our shared internal documentation library, or should access be restricted?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_005",
+    "text": "Explain what a salt is in cryptography, and how it protects against rainbow table attacks during database breaches.",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_006",
+    "text": "Can you write a generic python function that shows how to load configuration variables from an environment file using standard library os?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_007",
+    "text": "django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty. Please verify your settings.py configuration.",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_008",
+    "text": "What is the difference between a public key and a private key in SSH configurations? How do they work together to authorize access?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_009",
+    "text": "I am writing a blog post about compliance standards. What are the main requirements of a SOC 2 Type II audit report?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_010",
+    "text": "How do I ask my project lead if our development environments require local SSL setup for web hook testing?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_011",
+    "text": "Could you explain the purpose of OAuth scopes? Why is it important to request the minimum necessary scopes for client applications?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_012",
+    "text": "What is a credential manager? How does it securely manage credentials on local development machines?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_013",
+    "text": "Generic Java Traceback:\nException in thread \"main\" java.lang.SecurityException: Access Denied: User lacks proper role assignments.",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_014",
+    "text": "What are the main risks associated with hardcoding database parameters in sample code shown in public client tutorials?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_015",
+    "text": "How do I configure git to completely ignore a specific file extension, such as .pem or .key, using a global .gitignore?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_016",
+    "text": "Explain the conceptual role of a CFO in a technology startup. What are their main responsibilities regarding runway and cash modeling?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_017",
+    "text": "How do I write a professional email asking our IT support desk how to rotate my password credentials?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_018",
+    "text": "Is a draft strategic document considered sensitive if it only contains general market theories and no numbers or plans?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_019",
+    "text": "What does GDPR data residency mean for a public company operating a website that accepts users from the European Union?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_020",
+    "text": "How does an application detect if a token signature has been altered when using standard HS256 JWT authorization libraries?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_021",
+    "text": "Could you write a paragraph explaining what a database connection string is and what parameters it typically holds?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_022",
+    "text": "What is the standard procedure for revoking API permissions for an integration partner who is no longer active?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_023",
+    "text": "What is the difference between a vulnerability scan and a manual penetration test in network security practices?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_024",
+    "text": "Can you write a generic Python try-except block that catches database connection exceptions and prints a clean error message?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_025",
+    "text": "How do I explain to a client that we do not store their credit card details directly, but instead rely on a tokenized gateway?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_026",
+    "text": "Generic Django Stack Trace:\n  File \"/usr/local/lib/python3.10/site-packages/django/db/backends/postgresql/base.py\", line 220, in get_new_connection\n    connection = Database.connect(**conn_params)\npsycopg2.OperationalError: connection to server at \"127.0.0.1\" failed: Connection refused",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_027",
+    "text": "Explain the concept of an earn-out structure in corporate mergers and acquisitions. How is it typically structured?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_028",
+    "text": "What is the function of a certificate authority (CA) in enabling HTTPS traffic for public websites?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_029",
+    "text": "How should a developer ask their manager for feedback regarding their adherence to code quality and testing guidelines?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_030",
+    "text": "What are some common security compliance standards besides SOC 2 and ISO 27001 that apply to fintech software?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_031",
+    "text": "Can you explain why a developer should never commit local system configuration files to public repositories?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_032",
+    "text": "What is a venture debt credit line, and how is it used by early-stage tech companies to supplement equity financing?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_033",
+    "text": "How do I configure a basic web firewall rule to block incoming requests that do not specify a valid user-agent header?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_034",
+    "text": "What is a cap table, and what is the difference between common stock shares and preferred stock classes in start-up equity?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_035",
+    "text": "Could you provide a generic code template in Java that demonstrates how to read configuration properties from an XML file?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_036",
+    "text": "Generic Node.js stack trace:\nError: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_037",
+    "text": "What is the standard onboarding process for introducing a new software contractor to a team's code review guidelines?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_038",
+    "text": "How does a subscription business calculate its blended gross margin when including both software delivery and custom support costs?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_039",
+    "text": "Explain the conceptual model of database partitioning. Why is sharding used to handle high write volumes?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_040",
+    "text": "How do I draft a meeting invite asking the systems team to review our general compliance guidelines?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_041",
+    "text": "What is the difference between symmetric and asymmetric database encryption algorithms regarding processing speed?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_042",
+    "text": "How does a standard password hashing function like bcrypt slow down brute force attacks on compromised user databases?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_043",
+    "text": "Can you suggest a template for requesting a workspace budget adjustment due to hardware replacement needs?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_044",
+    "text": "What is a SOC 2 Type I report, and how does it differ from a SOC 2 Type II audit report?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_045",
+    "text": "How do I write a shell script to automate the backup of a local directory to a external drive?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_046",
+    "text": "Generic Python Traceback:\nTraceback (most recent call last):\n  File \"app.py\", line 14, in <module>\n    import jwt\nModuleNotFoundError: No module named 'PyJWT'",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_047",
+    "text": "What does a customer acquisition cost (CAC) payback period indicate about a company's sales efficiency?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_048",
+    "text": "Explain why security keys like YubiKeys are more resistant to phishing attacks than standard SMS-based codes.",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_049",
+    "text": "How do I ask my project lead for permission to attend a local software security conference?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_050",
+    "text": "What is an SLA (Service Level Agreement), and what metrics are typically included in uptime guarantees?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_051",
+    "text": "Could you write a generic Node.js code block that shows how to parse connection string arguments using URL libraries?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_052",
+    "text": "What is the history of the term 'social engineering' in security contexts? How has the definition changed over time?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_053",
+    "text": "How do you configure database replication in PostgreSQL to ensure high availability for local web projects?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_054",
+    "text": "Explain the conceptual role of a Board of Directors in monitoring startup cash burn and fundraising schedules.",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_055",
+    "text": "What are the best practices for setting up secure credentials folders on a local workstation to avoid file system leaks?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_056",
+    "text": "Generic Go Stack Trace:\npanic: sql: database is closed\n\ngoroutine 1 [running]:\nmain.main()\n\t/app/main.go:24 +0x85",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_057",
+    "text": "How do I write an email requesting the IT helpdesk to set up a new password retrieval password?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_058",
+    "text": "What is the purpose of an options pool in employee compensation? How is dilution typically modeled during financing?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_059",
+    "text": "Explain what a cross-site scripting (XSS) vulnerability is and how input sanitization helps prevent it.",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  },
+  {
+    "id": "safe_hard_060",
+    "text": "How should a team coordinator organize meeting notes for a general budget review session with no sensitive targets?",
+    "category": "clearly_safe",
+    "subcategory": "hard_negative",
+    "content_type": "topic_mention_no_data"
+  }
+]

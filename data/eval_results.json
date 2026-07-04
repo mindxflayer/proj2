@@ -1,0 +1,31 @@
+{
+  "model_version": "v2_current",
+  "notes": "Trained with hard negatives and evaluated with Stratified 5-Fold Cross-Validation.",
+  "cross_validation": {
+    "accuracy": 0.9009015715467328,
+    "precision": 0.899278674706607,
+    "recall": 0.9452631578947368,
+    "f1_score": 0.9213122441935393
+  },
+  "overall": {
+    "accuracy": 0.918918918918919,
+    "precision": 0.919431279620853,
+    "recall": 0.9509803921568627,
+    "f1_score": 0.9349397590361446,
+    "confusion_matrix": [
+      [
+        112,
+        17
+      ],
+      [
+        10,
+        194
+      ]
+    ]
+  },
+  "borderline": {
+    "precision": 0.7391304347826086,
+    "recall": 0.7391304347826086,
+    "f1_score": 0.7391304347826086
+  }
+}
